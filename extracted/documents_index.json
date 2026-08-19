@@ -1,0 +1,223 @@
+{
+  "index_version": "1.0",
+  "generated_at": "2026-08-19T18:22:56.059511Z",
+  "source_archive": "01 BASE DE DATOS.zip",
+  "document_count": 9,
+  "years_covered": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "summary": {
+    "total_activity_records": 129401,
+    "unique_frentes": [
+      "Frente A",
+      "Frente B",
+      "Subtramo 1 y 10",
+      "Subtramo 1 y 11",
+      "Subtramo 1 y 12",
+      "Subtramo 1 y 13",
+      "Subtramo 1 y 14",
+      "Subtramo 1 y 15",
+      "Subtramo 1 y 16",
+      "Subtramo 1 y 17",
+      "Subtramo 1 y 18",
+      "Subtramo 1 y 19",
+      "Subtramo 1 y 2",
+      "Subtramo 1 y 20",
+      "Subtramo 1 y 3",
+      "Subtramo 1 y 4",
+      "Subtramo 1 y 5",
+      "Subtramo 1 y 6",
+      "Subtramo 1 y 7",
+      "Subtramo 1 y 8",
+      "Subtramo 1 y 9",
+      "Subtramo 3 y 4"
+    ],
+    "unique_rutas": [
+      "Urcos-Inambari",
+      "Urcos-nambari"
+    ],
+    "unique_servicios_secundarios_count": 138
+  },
+  "documents": [
+    {
+      "document_id": "base_datos_2018",
+      "year": 2018,
+      "source_file": "2018.xlsx",
+      "json_path": "extracted/json/base_datos_2018.json",
+      "activity_records": 12113,
+      "sheets": [
+        "Planilla",
+        "Base",
+        "Servicio Secundario",
+        "Progresivas"
+      ]
+    },
+    {
+      "document_id": "base_datos_2019",
+      "year": 2019,
+      "source_file": "2019.xlsx",
+      "json_path": "extracted/json/base_datos_2019.json",
+      "activity_records": 12305,
+      "sheets": [
+        "Planilla",
+        "Base",
+        "Servicio Secundario",
+        "Progresivas"
+      ]
+    },
+    {
+      "document_id": "base_datos_2020",
+      "year": 2020,
+      "source_file": "2020.xlsx",
+      "json_path": "extracted/json/base_datos_2020.json",
+      "activity_records": 17444,
+      "sheets": [
+        "Planilla",
+        "Base",
+        "Servicio Secundario",
+        "Progresivas"
+      ]
+    },
+    {
+      "document_id": "base_datos_2021",
+      "year": 2021,
+      "source_file": "2021.xlsx",
+      "json_path": "extracted/json/base_datos_2021.json",
+      "activity_records": 20164,
+      "sheets": [
+        "Planilla",
+        "Base",
+        "Servicio Secundario",
+        "Progresivas"
+      ]
+    },
+    {
+      "document_id": "base_datos_2022",
+      "year": 2022,
+      "source_file": "2022.xlsx",
+      "json_path": "extracted/json/base_datos_2022.json",
+      "activity_records": 19543,
+      "sheets": [
+        "Planilla",
+        "Base",
+        "Servicio Secundario",
+        "Progresivas"
+      ]
+    },
+    {
+      "document_id": "base_datos_2023",
+      "year": 2023,
+      "source_file": "2023.xlsx",
+      "json_path": "extracted/json/base_datos_2023.json",
+      "activity_records": 13300,
+      "sheets": [
+        "Planilla",
+        "Base",
+        "Servicio Secundario",
+        "Progresivas"
+      ]
+    },
+    {
+      "document_id": "base_datos_2024",
+      "year": 2024,
+      "source_file": "2024.xlsx",
+      "json_path": "extracted/json/base_datos_2024.json",
+      "activity_records": 9450,
+      "sheets": [
+        "Planilla",
+        "Base",
+        "Servicio Secundario",
+        "Progresivas"
+      ]
+    },
+    {
+      "document_id": "base_datos_2025",
+      "year": 2025,
+      "source_file": "2025.xlsx",
+      "json_path": "extracted/json/base_datos_2025.json",
+      "activity_records": 20333,
+      "sheets": [
+        "Planilla",
+        "Base",
+        "Servicio Secundario",
+        "Progresivas"
+      ]
+    },
+    {
+      "document_id": "base_datos_2026",
+      "year": 2026,
+      "source_file": "2026.xlsx",
+      "json_path": "extracted/json/base_datos_2026.json",
+      "activity_records": 4749,
+      "sheets": [
+        "Planilla",
+        "Base",
+        "Servicio Secundario",
+        "Progresivas"
+      ]
+    }
+  ],
+  "schema_reference": {
+    "Planilla": {
+      "description": "Registro de actividades ejecutadas en campo",
+      "key_fields": [
+        "Nº Tramo",
+        "Frente IIRSA Sur",
+        "Ruta",
+        "Inicio Localidad",
+        "Localidad final",
+        "Serv. Secundario",
+        "Descripcion",
+        "Unidad",
+        "UA",
+        "Fecha dd/mm/aa",
+        "INICIO (KM)",
+        "FIN (KM)",
+        "METRADO",
+        "PCI/ITM",
+        "ELEM. SUST."
+      ]
+    },
+    "Progresivas": {
+      "description": "Segmentos de ruta con progresivas kilométricas",
+      "key_fields": [
+        "Nº Tramo",
+        "Frente IIRSA Sur",
+        "Ruta",
+        "Inicio Localidad",
+        "Localidad final",
+        "Progresiva (Km.) Inicio",
+        "Progresiva (Km.) Fin",
+        "Long. (Km.)"
+      ]
+    },
+    "Base": {
+      "description": "Catálogo de servicios con código UA",
+      "key_fields": [
+        "Código",
+        "Descrição",
+        "UMed.",
+        "UA",
+        "Descripcion de la Ua",
+        "Tramo",
+        "Frente"
+      ]
+    },
+    "Servicio Secundario": {
+      "description": "Catálogo de códigos de servicio secundario",
+      "key_fields": [
+        "Código",
+        "Descrição",
+        "UMed."
+      ]
+    }
+  }
+}
