@@ -1,0 +1,205 @@
+{
+  "tramo": "km 282+630 - 282+690",
+  "periodo": "2018-2026",
+  "total_registros": 21,
+  "columnas": [
+    "Año",
+    "Descripción",
+    "Unidad",
+    "Fecha",
+    "Inicio (km)",
+    "Fin (km)",
+    "Metrado"
+  ],
+  "registros": [
+    {
+      "Año": "2018",
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2017-12-28",
+      "Inicio (km)": "215+280",
+      "Fin (km)": "2215+290",
+      "Metrado": 8
+    },
+    {
+      "Año": "2019",
+      "Descripción": "Reparación de las Estructuras de Contención (gabión) T2",
+      "Unidad": "m3",
+      "Fecha": "2019-01-19",
+      "Inicio (km)": "237+914",
+      "Fin (km)": "2379+984",
+      "Metrado": 1
+    },
+    {
+      "Año": "2019",
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-03-19",
+      "Inicio (km)": "207+390",
+      "Fin (km)": "2017+400",
+      "Metrado": 20
+    },
+    {
+      "Año": "2019",
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2019-03-19",
+      "Inicio (km)": "76+980",
+      "Fin (km)": "770+000",
+      "Metrado": 300
+    },
+    {
+      "Año": "2019",
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2019-08-22",
+      "Inicio (km)": "116+000",
+      "Fin (km)": "1116+620",
+      "Metrado": 150
+    },
+    {
+      "Año": "2019",
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2019-11-11",
+      "Inicio (km)": "212+180",
+      "Fin (km)": "2122+230",
+      "Metrado": 50
+    },
+    {
+      "Año": "2019",
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2019-11-26",
+      "Inicio (km)": "229+000",
+      "Fin (km)": "290+100",
+      "Metrado": 100
+    },
+    {
+      "Año": "2020",
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2019-12-29",
+      "Inicio (km)": "64+150",
+      "Fin (km)": "646+160",
+      "Metrado": 10
+    },
+    {
+      "Año": "2020",
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2020-01-07",
+      "Inicio (km)": "193+000",
+      "Fin (km)": "913+800",
+      "Metrado": 800
+    },
+    {
+      "Año": "2020",
+      "Descripción": "Reposición de Tachas Reflectivas T2",
+      "Unidad": "und",
+      "Fecha": "2020-01-23",
+      "Inicio (km)": "42+000",
+      "Fin (km)": "434+000",
+      "Metrado": 27
+    },
+    {
+      "Año": "2020",
+      "Descripción": "Reposición de Tachas Reflectivas T2",
+      "Unidad": "und",
+      "Fecha": "2020-01-23",
+      "Inicio (km)": "42+000",
+      "Fin (km)": "434+000",
+      "Metrado": 26
+    },
+    {
+      "Año": "2020",
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2020-09-21",
+      "Inicio (km)": "174+519",
+      "Fin (km)": "3174+561",
+      "Metrado": 42
+    },
+    {
+      "Año": "2021",
+      "Descripción": "Desbroce Manual T2",
+      "Unidad": "m2",
+      "Fecha": "2021-01-28",
+      "Inicio (km)": "204+760",
+      "Fin (km)": "2043+840",
+      "Metrado": 40
+    },
+    {
+      "Año": "2021",
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2021-01-29",
+      "Inicio (km)": "228+600",
+      "Fin (km)": "288+700",
+      "Metrado": 7
+    },
+    {
+      "Año": "2023",
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2023-01-06",
+      "Inicio (km)": "152+700",
+      "Fin (km)": "1528+000",
+      "Metrado": 100
+    },
+    {
+      "Año": "2023",
+      "Descripción": "Limpieza de Juntas en Cunetas y Bermas",
+      "Unidad": "ml",
+      "Fecha": "2023-01-06",
+      "Inicio (km)": "152+700",
+      "Fin (km)": "1528+000",
+      "Metrado": 56.666666666666664
+    },
+    {
+      "Año": "2023",
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2023-05-02",
+      "Inicio (km)": "178+500",
+      "Fin (km)": "1749+700",
+      "Metrado": 200
+    },
+    {
+      "Año": "2023",
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2023-05-03",
+      "Inicio (km)": "240+360",
+      "Fin (km)": "340+365",
+      "Metrado": 12
+    },
+    {
+      "Año": "2023",
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2023-10-26",
+      "Inicio (km)": "153+610",
+      "Fin (km)": "1536+120",
+      "Metrado": 10
+    },
+    {
+      "Año": "2023",
+      "Descripción": "Limpieza Residuos Sólidos / Basuras",
+      "Unidad": "m2",
+      "Fecha": "2023-10-31",
+      "Inicio (km)": "169+220",
+      "Fin (km)": "2169+320",
+      "Metrado": 20
+    },
+    {
+      "Año": "2024",
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2024-03-11",
+      "Inicio (km)": "94+730",
+      "Fin (km)": "947+776",
+      "Metrado": 99
+    }
+  ]
+}
