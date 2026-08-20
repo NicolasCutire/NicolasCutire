@@ -1,0 +1,672 @@
+{
+  "tramo": "km 122+750 - 123+100",
+  "filtro": "FIN completo: INICIO y FIN contenidos en tramo; FIN en blanco: INICIO dentro del tramo (tal cual Excel)",
+  "columnas_origen": "Planilla columnas O (INICIO KM) y P (FIN KM)",
+  "total_registros": 83,
+  "registros": [
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2018-03-24",
+      "INICIO (KM)": "123+048",
+      "FIN (KM)": "123+050",
+      "METRADO": 2
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2018-03-24",
+      "INICIO (KM)": "123+050",
+      "FIN (KM)": null,
+      "METRADO": 5
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2018-04-25",
+      "INICIO (KM)": "122+945",
+      "FIN (KM)": null,
+      "METRADO": 8
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2018-08-02",
+      "INICIO (KM)": "122+800",
+      "FIN (KM)": null,
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Repintado de Postes de (hitos) kilométricos T2",
+      "Unidad": "m2",
+      "Fecha": "2018-09-18",
+      "INICIO (KM)": "123+000",
+      "FIN (KM)": null,
+      "METRADO": 0.5
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2018-09-18",
+      "INICIO (KM)": "123+000",
+      "FIN (KM)": null,
+      "METRADO": 0.36
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2018-09-18",
+      "INICIO (KM)": "123+040",
+      "FIN (KM)": null,
+      "METRADO": 0.15
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2018-12-29",
+      "INICIO (KM)": "123+000",
+      "FIN (KM)": "123+100",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2019-03-06",
+      "INICIO (KM)": "122+900",
+      "FIN (KM)": null,
+      "METRADO": 5
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2019-05-28",
+      "INICIO (KM)": "123+045",
+      "FIN (KM)": null,
+      "METRADO": 9
+    },
+    {
+      "Descripción": "Reparación de Cuneta Urbana tipo 1 T2",
+      "Unidad": "ml",
+      "Fecha": "2019-05-28",
+      "INICIO (KM)": "123+053",
+      "FIN (KM)": null,
+      "METRADO": 0.5
+    },
+    {
+      "Descripción": "Reparación de Bache Superficial T2",
+      "Unidad": "m2",
+      "Fecha": "2019-06-25",
+      "INICIO (KM)": "122+799",
+      "FIN (KM)": "122+799",
+      "METRADO": 0.04000000000000001
+    },
+    {
+      "Descripción": "Reparación de Bache Superficial T2",
+      "Unidad": "m2",
+      "Fecha": "2019-06-25",
+      "INICIO (KM)": "122+837",
+      "FIN (KM)": "122+837",
+      "METRADO": 0.04000000000000001
+    },
+    {
+      "Descripción": "Reparación de Bache Superficial T2",
+      "Unidad": "m2",
+      "Fecha": "2019-06-25",
+      "INICIO (KM)": "122+857",
+      "FIN (KM)": "122+857",
+      "METRADO": 0.04000000000000001
+    },
+    {
+      "Descripción": "Reparación de Bache Superficial T2",
+      "Unidad": "m2",
+      "Fecha": "2019-06-25",
+      "INICIO (KM)": "122+920",
+      "FIN (KM)": "122+920",
+      "METRADO": 0.04000000000000001
+    },
+    {
+      "Descripción": "Reparación de Bache Superficial T2",
+      "Unidad": "m2",
+      "Fecha": "2019-06-25",
+      "INICIO (KM)": "122+924",
+      "FIN (KM)": "122+924",
+      "METRADO": 0.04000000000000001
+    },
+    {
+      "Descripción": "Reposición de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2019-07-04",
+      "INICIO (KM)": "122+906",
+      "FIN (KM)": null,
+      "METRADO": 0.5625
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-07-10",
+      "INICIO (KM)": "122+800",
+      "FIN (KM)": "122+900",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-07-10",
+      "INICIO (KM)": "122+900",
+      "FIN (KM)": "123+000",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Reposición de cunetas T2",
+      "Unidad": "ml",
+      "Fecha": "2019-07-12",
+      "INICIO (KM)": "122+915",
+      "FIN (KM)": null,
+      "METRADO": 0
+    },
+    {
+      "Descripción": "Reposición de cunetas T2",
+      "Unidad": "ml",
+      "Fecha": "2019-07-22",
+      "INICIO (KM)": "122+915",
+      "FIN (KM)": null,
+      "METRADO": 3
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2019-09-30",
+      "INICIO (KM)": "122+752",
+      "FIN (KM)": null,
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2019-09-30",
+      "INICIO (KM)": "122+875",
+      "FIN (KM)": null,
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2019-09-30",
+      "INICIO (KM)": "122+945",
+      "FIN (KM)": null,
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2019-09-30",
+      "INICIO (KM)": "122+947",
+      "FIN (KM)": null,
+      "METRADO": 6
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2019-09-30",
+      "INICIO (KM)": "122+950",
+      "FIN (KM)": null,
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2019-12-25",
+      "INICIO (KM)": "122+800",
+      "FIN (KM)": "122+806",
+      "METRADO": 6
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2020-01-18",
+      "INICIO (KM)": "122+960",
+      "FIN (KM)": null,
+      "METRADO": 11
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2020-01-18",
+      "INICIO (KM)": "123+042",
+      "FIN (KM)": null,
+      "METRADO": 13
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2020-12-29",
+      "INICIO (KM)": "122+800",
+      "FIN (KM)": null,
+      "METRADO": 5
+    },
+    {
+      "Descripción": "Limpieza de Juntas en Cunetas y Bermas",
+      "Unidad": "ml",
+      "Fecha": "2020-12-29",
+      "INICIO (KM)": "122+800",
+      "FIN (KM)": null,
+      "METRADO": 2.8333333333333335
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-05-10",
+      "INICIO (KM)": "122+890",
+      "FIN (KM)": "122+900",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2021-05-18",
+      "INICIO (KM)": "123+040",
+      "FIN (KM)": null,
+      "METRADO": 12
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-05-18",
+      "INICIO (KM)": "123+050",
+      "FIN (KM)": null,
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-06-14",
+      "INICIO (KM)": "122+800",
+      "FIN (KM)": "122+920",
+      "METRADO": 120
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-06-14",
+      "INICIO (KM)": "122+920",
+      "FIN (KM)": "123+050",
+      "METRADO": 130
+    },
+    {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2021-06-14",
+      "INICIO (KM)": "122+920",
+      "FIN (KM)": null,
+      "METRADO": 2
+    },
+    {
+      "Descripción": "Limpieza Residuos Sólidos / Basuras",
+      "Unidad": "m2",
+      "Fecha": "2021-09-16",
+      "INICIO (KM)": "122+885",
+      "FIN (KM)": "122+915",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-10-11",
+      "INICIO (KM)": "122+952",
+      "FIN (KM)": "122+995",
+      "METRADO": 43
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-10-11",
+      "INICIO (KM)": "123+025",
+      "FIN (KM)": "123+100",
+      "METRADO": 75
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-12-16",
+      "INICIO (KM)": "122+756",
+      "FIN (KM)": null,
+      "METRADO": 8
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-12-16",
+      "INICIO (KM)": "122+915",
+      "FIN (KM)": null,
+      "METRADO": 12
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2021-12-16",
+      "INICIO (KM)": "122+943",
+      "FIN (KM)": null,
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-12-20",
+      "INICIO (KM)": "122+880",
+      "FIN (KM)": "122+881",
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Reposición de Delineador T2",
+      "Unidad": "und",
+      "Fecha": "2022-01-07",
+      "INICIO (KM)": "122+779",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2022-01-07",
+      "INICIO (KM)": "122+780",
+      "FIN (KM)": "122+803",
+      "METRADO": 4
+    },
+    {
+      "Descripción": "Desbroce Manual T2",
+      "Unidad": "m2",
+      "Fecha": "2022-01-07",
+      "INICIO (KM)": "122+860",
+      "FIN (KM)": "122+880",
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2022-02-21",
+      "INICIO (KM)": "123+000",
+      "FIN (KM)": "123+100",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Repintado de Postes de (hitos) kilométricos T2",
+      "Unidad": "m2",
+      "Fecha": "2022-02-21",
+      "INICIO (KM)": "123+000",
+      "FIN (KM)": null,
+      "METRADO": 0.5
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2022-03-18",
+      "INICIO (KM)": "123+038",
+      "FIN (KM)": null,
+      "METRADO": 12
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2022-06-10",
+      "INICIO (KM)": "122+786",
+      "FIN (KM)": "122+800",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Pintura Chevron Guarda Vías T2",
+      "Unidad": "m2",
+      "Fecha": "2022-06-10",
+      "INICIO (KM)": "122+796",
+      "FIN (KM)": null,
+      "METRADO": 1.5
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2022-06-10",
+      "INICIO (KM)": "122+895",
+      "FIN (KM)": null,
+      "METRADO": 12
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2022-06-10",
+      "INICIO (KM)": "122+951",
+      "FIN (KM)": "122+985",
+      "METRADO": 34
+    },
+    {
+      "Descripción": "Pintura Chevron Guarda Vías T2",
+      "Unidad": "m2",
+      "Fecha": "2022-06-10",
+      "INICIO (KM)": "122+962",
+      "FIN (KM)": "122+985",
+      "METRADO": 3
+    },
+    {
+      "Descripción": "Pintura Chevron Guarda Vías T2",
+      "Unidad": "m2",
+      "Fecha": "2022-08-22",
+      "INICIO (KM)": "122+812",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2022-08-22",
+      "INICIO (KM)": "122+942",
+      "FIN (KM)": null,
+      "METRADO": 8
+    },
+    {
+      "Descripción": "Limpieza Residuos Sólidos / Basuras",
+      "Unidad": "m2",
+      "Fecha": "2022-09-21",
+      "INICIO (KM)": "122+780",
+      "FIN (KM)": "122+980",
+      "METRADO": 200
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2023-02-15",
+      "INICIO (KM)": "122+816",
+      "FIN (KM)": "122+830",
+      "METRADO": 41
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2023-02-15",
+      "INICIO (KM)": "122+913",
+      "FIN (KM)": "123+000",
+      "METRADO": 87
+    },
+    {
+      "Descripción": "Limpieza Residuos Sólidos / Basuras",
+      "Unidad": "m2",
+      "Fecha": "2023-05-10",
+      "INICIO (KM)": "122+930",
+      "FIN (KM)": "122+930",
+      "METRADO": 80
+    },
+    {
+      "Descripción": "Repintado de Postes de (hitos) kilométricos T2",
+      "Unidad": "m2",
+      "Fecha": "2023-05-23",
+      "INICIO (KM)": "123+000",
+      "FIN (KM)": "123+000",
+      "METRADO": 0.5
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2023-05-23",
+      "INICIO (KM)": "123+044",
+      "FIN (KM)": "123+046",
+      "METRADO": 2
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2023-09-08",
+      "INICIO (KM)": "122+766",
+      "FIN (KM)": "122+800",
+      "METRADO": 34
+    },
+    {
+      "Descripción": "Limpieza de Delineador T2",
+      "Unidad": "und",
+      "Fecha": "2023-09-08",
+      "INICIO (KM)": "122+790",
+      "FIN (KM)": "122+792",
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza de Delineador T2",
+      "Unidad": "und",
+      "Fecha": "2023-09-08",
+      "INICIO (KM)": "122+875",
+      "FIN (KM)": "122+876",
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza de Guardavías T2",
+      "Unidad": "ml",
+      "Fecha": "2023-09-08",
+      "INICIO (KM)": "122+900",
+      "FIN (KM)": "123+000",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2024-02-08",
+      "INICIO (KM)": "123+030",
+      "FIN (KM)": "123+100",
+      "METRADO": 50
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2024-02-08",
+      "INICIO (KM)": "123+044",
+      "FIN (KM)": "123+046",
+      "METRADO": 14
+    },
+    {
+      "Descripción": "Limpieza de Postes de Señalización Vertical T2",
+      "Unidad": "und",
+      "Fecha": "2024-03-30",
+      "INICIO (KM)": "122+920",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2025-02-14",
+      "INICIO (KM)": "122+750",
+      "FIN (KM)": "122+800",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2025-03-24",
+      "INICIO (KM)": "122+900",
+      "FIN (KM)": "123+000",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2025-04-03",
+      "INICIO (KM)": "122+870",
+      "FIN (KM)": "123+020",
+      "METRADO": 150
+    },
+    {
+      "Descripción": "Reparación de Bache Superficial T2",
+      "Unidad": "m2",
+      "Fecha": "2025-04-03",
+      "INICIO (KM)": "122+900",
+      "FIN (KM)": "122+935",
+      "METRADO": 4
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2025-04-22",
+      "INICIO (KM)": "122+945",
+      "FIN (KM)": null,
+      "METRADO": 3
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2025-05-21",
+      "INICIO (KM)": "123+060",
+      "FIN (KM)": "123+060",
+      "METRADO": 14
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2025-09-11",
+      "INICIO (KM)": "122+900",
+      "FIN (KM)": "123+000",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Limpieza Residuos Sólidos / Basuras",
+      "Unidad": "m2",
+      "Fecha": "2025-09-23",
+      "INICIO (KM)": "123+060",
+      "FIN (KM)": "123+085",
+      "METRADO": 25
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2026-01-23",
+      "INICIO (KM)": "122+960",
+      "FIN (KM)": "123+000",
+      "METRADO": 40
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2026-01-23",
+      "INICIO (KM)": "122+980",
+      "FIN (KM)": "123+000",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Reparación de Bache Superficial T2",
+      "Unidad": "m2",
+      "Fecha": "2026-01-28",
+      "INICIO (KM)": "122+790",
+      "FIN (KM)": "122+790",
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2026-02-12",
+      "INICIO (KM)": "122+800",
+      "FIN (KM)": "122+999",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2026-02-12",
+      "INICIO (KM)": "122+945",
+      "FIN (KM)": "122+940",
+      "METRADO": 12
+    }
+  ]
+}

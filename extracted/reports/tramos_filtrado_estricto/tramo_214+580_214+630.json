@@ -1,0 +1,1384 @@
+{
+  "tramo": "km 214+580 - 214+630",
+  "filtro": "FIN completo: INICIO y FIN contenidos en tramo; FIN en blanco: INICIO dentro del tramo (tal cual Excel)",
+  "columnas_origen": "Planilla columnas O (INICIO KM) y P (FIN KM)",
+  "total_registros": 172,
+  "registros": [
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-01-01",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2018-01-02",
+      "INICIO (KM)": "214+590",
+      "FIN (KM)": "214+600",
+      "METRADO": 45
+    },
+    {
+      "Descripción": "Limpieza Mecanizada de Cabezal de Alcantarilla",
+      "Unidad": "m3",
+      "Fecha": "2018-01-27",
+      "INICIO (KM)": "214+590",
+      "FIN (KM)": "214+600",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza Mecanizada de Cabezal de Alcantarilla",
+      "Unidad": "m3",
+      "Fecha": "2018-01-28",
+      "INICIO (KM)": "214+590",
+      "FIN (KM)": "214+600",
+      "METRADO": 75
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2018-02-05",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2018-02-06",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2018-02-07",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2018-02-14",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2018-02-15",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 45
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2018-02-16",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-03-18",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2018-03-25",
+      "INICIO (KM)": "214+590",
+      "FIN (KM)": "214+600",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2018-03-27",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 150
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2018-03-27",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 150
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2018-04-10",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2018-04-15",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-05-13",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2018-05-20",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 16
+    },
+    {
+      "Descripción": "Limpieza de juntas de cuneta de vía",
+      "Unidad": "ml",
+      "Fecha": "2018-05-20",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 9.066666666666666
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-06-02",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-06-17",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-06-23",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-06-24",
+      "INICIO (KM)": "214+620",
+      "FIN (KM)": "214+630",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-06-27",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2018-07-23",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+595",
+      "METRADO": 7.8
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-08-04",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-08-05",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2018-08-06",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 400
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2018-08-10",
+      "INICIO (KM)": "214+590",
+      "FIN (KM)": "214+600",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2018-08-18",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-08-25",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 50
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-08-26",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 80
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-08-30",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-09-16",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2018-09-16",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+610",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-09-18",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 50
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-09-29",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2018-11-15",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2018-12-28",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-02-01",
+      "INICIO (KM)": "214+620",
+      "FIN (KM)": "214+630",
+      "METRADO": 144
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-02-03",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+610",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-02-20",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2019-03-01",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 45
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2019-03-04",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 90
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2019-03-05",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 135
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-03-09",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 72
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2019-03-19",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 480
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2019-03-19",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 120
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2019-03-19",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 90
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2019-03-19",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-03-19",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 72
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-03-19",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 72
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2019-03-25",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-05-11",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 72
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2019-11-03",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2019-11-04",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+590",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2020-01-18",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+610",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2020-02-03",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+590",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2020-02-03",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+590",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Reparación Parcial de Guarda Vías T2",
+      "Unidad": "ml",
+      "Fecha": "2020-03-05",
+      "INICIO (KM)": "214+620",
+      "FIN (KM)": null,
+      "METRADO": 3
+    },
+    {
+      "Descripción": "Reposición de capta faros (ojo de gato) T2",
+      "Unidad": "ml",
+      "Fecha": "2020-03-05",
+      "INICIO (KM)": "214+620",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2020-05-13",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 72
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2020-05-16",
+      "INICIO (KM)": "214+620",
+      "FIN (KM)": "214+624",
+      "METRADO": 14.4
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2020-06-05",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 33.6
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2020-06-13",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+610",
+      "METRADO": 45
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2020-09-18",
+      "INICIO (KM)": "214+590",
+      "FIN (KM)": "214+600",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2020-11-21",
+      "INICIO (KM)": "214+590",
+      "FIN (KM)": "214+620",
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2020-11-22",
+      "INICIO (KM)": "214+590",
+      "FIN (KM)": "214+620",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2020-11-29",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de Juntas en Cunetas y Bermas",
+      "Unidad": "ml",
+      "Fecha": "2020-11-29",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 11.333333333333334
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2020-12-02",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+585",
+      "METRADO": 25
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-01-31",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 3
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2021-02-05",
+      "INICIO (KM)": "214+590",
+      "FIN (KM)": "214+590",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2021-02-20",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2021-02-20",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+605",
+      "METRADO": 12
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-02-21",
+      "INICIO (KM)": "214+610",
+      "FIN (KM)": "214+630",
+      "METRADO": 72
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-04-03",
+      "INICIO (KM)": "214+610",
+      "FIN (KM)": "214+615",
+      "METRADO": 5
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-04-24",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 50
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-05-23",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza de Juntas en Cunetas y Bermas",
+      "Unidad": "ml",
+      "Fecha": "2021-05-23",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 17
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2021-06-02",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+590",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2021-06-11",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2021-06-12",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 195
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2021-06-15",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2021-06-16",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2021-06-25",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-06-26",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2021-06-27",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2021-06-28",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 405
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-07-04",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2021-07-06",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 75
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2021-07-07",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2021-07-08",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Limpieza Residuos Solidos / Basuras",
+      "Unidad": "m2",
+      "Fecha": "2021-07-18",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2021-07-19",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": null,
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Limpieza Residuos Solidos / Basuras",
+      "Unidad": "m2",
+      "Fecha": "2021-07-28",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-08-04",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+596",
+      "METRADO": 16
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-08-08",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 72
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-08-26",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2021-09-02",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+590",
+      "METRADO": 160
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-09-05",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2021-09-16",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-09-28",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2021-10-01",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": null,
+      "METRADO": 13
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2021-10-04",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+590",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Reposición de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2021-10-14",
+      "INICIO (KM)": "214+629",
+      "FIN (KM)": null,
+      "METRADO": 0.5625
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-11-01",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2021-11-02",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+590",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-11-12",
+      "INICIO (KM)": "214+590",
+      "FIN (KM)": "214+620",
+      "METRADO": 40
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2022-01-15",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2022-02-06",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2022-02-12",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 70
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2022-05-08",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2022-05-15",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2022-07-24",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 50
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2022-07-31",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2022-08-21",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2022-09-04",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de Juntas en Cunetas y Bermas",
+      "Unidad": "ml",
+      "Fecha": "2022-09-04",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 11.333333333333334
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2022-09-05",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2022-09-17",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+584",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2022-10-15",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2022-11-25",
+      "INICIO (KM)": "214+610",
+      "FIN (KM)": null,
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2022-12-06",
+      "INICIO (KM)": "214+610",
+      "FIN (KM)": null,
+      "METRADO": 11
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2022-12-10",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2022-12-11",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2022-12-20",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2022-12-24",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+610",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2023-03-05",
+      "INICIO (KM)": "214+610",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2023-05-07",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2023-05-28",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 50
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2023-06-11",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2023-06-28",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+610",
+      "METRADO": 18
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2023-12-12",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 285
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2023-12-27",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 150
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2023-12-30",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2023-12-31",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2024-01-01",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 90
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2024-01-07",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2024-01-30",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 90
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2024-01-31",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 90
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2024-01-31",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2024-02-17",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2024-03-27",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 135
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2024-03-28",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 105
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2024-03-29",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 75
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2024-05-01",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2024-05-01",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+610",
+      "METRADO": 14
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2024-05-01",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+620",
+      "METRADO": 80
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2024-05-03",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": "214+630",
+      "METRADO": 80
+    },
+    {
+      "Descripción": "Reparación de las Estructuras de Contención (gabión) T2",
+      "Unidad": "m3",
+      "Fecha": "2024-07-19",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 0.1
+    },
+    {
+      "Descripción": "Tratamiento de Fisuras T2",
+      "Unidad": "m2",
+      "Fecha": "2024-07-19",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 8
+    },
+    {
+      "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
+      "Unidad": "ml",
+      "Fecha": "2024-07-19",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2024-07-19",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 120
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2025-02-08",
+      "INICIO (KM)": "214+590",
+      "FIN (KM)": "214+600",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2025-05-16",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+630",
+      "METRADO": 50
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2025-05-16",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+590",
+      "METRADO": 14
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-05-21",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 225
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-06-03",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 180
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2025-08-04",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+630",
+      "METRADO": 200
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2025-08-11",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+590",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2025-08-29",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+630",
+      "METRADO": 50
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2025-08-29",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+630",
+      "METRADO": 14
+    },
+    {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2025-08-29",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+630",
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza Manual / Mecanizada T2",
+      "Unidad": "ml",
+      "Fecha": "2025-08-29",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+630",
+      "METRADO": 26
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2025-09-13",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+590",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2025-10-07",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 120
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2026-01-05",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+620",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2026-01-09",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+590",
+      "METRADO": 45
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2026-02-16",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2026-03-06",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 120
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2026-03-09",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": "214+600",
+      "METRADO": 60
+    }
+  ]
+}
