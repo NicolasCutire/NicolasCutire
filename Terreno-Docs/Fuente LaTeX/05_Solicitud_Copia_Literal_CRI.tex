@@ -1,0 +1,63 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Solicitud de copia literal y Certificado Registral Inmobiliario (CRI)}{DOC-05}
+
+\noindent \textbf{SEÑOR REGISTRADOR PÚBLICO DEL REGISTRO DE PREDIOS}\\
+\textbf{OFICINA REGISTRAL DE PUERTO MALDONADO --- SUNARP}
+
+\vspace{0.3em}
+\noindent \CompradorNombreCompleto, DNI \CompradorDNI, y \VendedorNombreCompleto, DNI \VendedorDNI, domiciliados para este acto en \CompradorDomicilio\ y \VendedorDomicilio, respectivamente, nos presentamos y \textbf{decimos}:
+
+\Clausula{Petitorio}
+Solicitamos se sirva expedir, respecto de la partida del predio rústico de propiedad del señor Cutire:
+
+\begin{enumerate}[leftmargin=1.2cm]
+\item \textbf{Copia literal completa} de la partida electrónica N.º\ \PartidaMatriz, incluyendo todos los asientos de apertura, dominio, cargas, gravámenes, anotaciones y cancelaciones.
+\item \textbf{Certificado Registral Inmobiliario (CRI)} vigente, con indicación de titularidad, área, linderos si constan, gravámenes, medidas cautelares, bloqueos y demás actos vigentes.
+\item De ser posible, \textbf{certificado de búsqueda catastral} o indicación para obtenerlo ante la autoridad catastral competente.
+\end{enumerate}
+
+\Clausula{Datos del inmueble}
+\renewcommand{\arraystretch}{1.28}
+\noindent\begin{tabularx}{\textwidth}{>{\bfseries}p{5.1cm}X}
+Partida electrónica & \PartidaMatriz \\
+Titular registral & \VendedorNombreCompleto, DNI \VendedorDNI \\
+Ubicación & Distrito de \Distrito, provincia de \Provincia, \Departamento, frente a la Interoceánica Sur, al este del Puente Jayave (el puente queda al oeste del lote, sobre el río). \\
+Área matriz inscrita & \AreaMatriz \\
+Uso previsto del certificado & Independización de 10,00 ha y posterior compraventa. \\
+\end{tabularx}
+
+\Clausula{Autorización del titular}
+El titular registral autoriza al comprador y/o al notario y/o al abogado \AbogadoNombre\ a recoger la publicidad registral, presentar títulos y hacer seguimiento en SID-SUNARP, sin que ello implique aún transferencia de dominio.
+
+\Clausula{Tasas}
+Se adjunta (o se pagará en SPRL) el importe de las tasas de copia literal por asiento/página y del CRI, según tarifario vigente.
+
+\vspace{0.35em}
+\noindent POR TANTO:\\
+Pedimos se expidan los certificados solicitados.
+
+\LugarFecha
+
+\noindent
+\BloqueFirma{EL TITULAR REGISTRAL}{\VendedorNombreCompleto}{\VendedorDNI}
+\hfill
+\BloqueFirma{EL COMPRADOR / GESTOR}{\CompradorNombreCompleto}{\CompradorDNI}
+
+\vspace{1.0em}
+\noindent{\small\textit{Archivo del expediente --- pegar o engrapar aquí}}\\
+{\small\renewcommand{\arraystretch}{1.25}
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+\vspace{1.15cm} Original / impresión de \textbf{copia literal} \vspace{1.15cm} &
+\vspace{1.15cm} Original / impresión del \textbf{CRI} \vspace{1.15cm} \\
+\hline
+Fecha de emisión: \linea[3.8cm] & Fecha de emisión: \linea[3.8cm] \\
+\hline
+Gravámenes vigentes: \faltante{[ninguno / detalle]} & Bloqueo o medida cautelar: \faltante{[sí/no]} \\
+\hline
+\end{tabularx}}
+
+\end{document}

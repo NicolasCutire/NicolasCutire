@@ -1,0 +1,63 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Hoja de vértices y coordenadas de trabajo --- polígono de 10,00 ha}{DOC-08}
+
+\noindent Este documento fija los cuatro vértices usados para visualizar el recorte. \textbf{Datum de trabajo:} WGS84. \textbf{Proyección de apoyo:} UTM zona 19 Sur (EPSG:32719), calculada geodésicamente a partir de los dos puntos Google aportados por las partes. \textbf{No es plano de independización.} El profesional \IngenieroNombre, CIP \IngenieroCIP, sustituirá estas cifras por las de campo.
+
+\Clausula{Criterio geométrico}
+Se tomó como frente el segmento de cien metros entre P1 y P2, coincidente con la calzada de la \textbf{Interoceánica Sur}. Yendo Mazuco $\rightarrow$ Puerto Maldonado (rumbo aproximado este, azimut $\approx 87^\circ$), la \textbf{izquierda} es el norte. Se proyectó un rectángulo de $\FrenteM$\,m de frente por $\FondoM$\,m de fondo, equivalente a $\AreaIndependizarHa$ hectáreas.
+
+\Clausula{Cuadro de vértices}
+{\small\renewcommand{\arraystretch}{1.32}
+\noindent\begin{tabularx}{\textwidth}{>{\bfseries}c >{\raggedright\arraybackslash}p{3.3cm} c c c c}
+\toprule
+Vértice & Rol & Latitud & Longitud & Este UTM 19S & Norte UTM 19S \\
+\midrule
+P1 & Frente este (dato) & \PUnoLat & \PUnoLon & \PUnoE & \PUnoN \\
+P2 & Frente oeste (dato) & \PDosLat & \PDosLon & \PDosE & \PDosN \\
+P3 & Fondo oeste (calc.) & \PTresLat & \PTresLon & \PTresE & \PTresN \\
+P4 & Fondo este (calc.) & \PCuatroLat & \PCuatroLon & \PCuatroE & \PCuatroN \\
+\bottomrule
+\end{tabularx}}
+
+\vspace{0.45em}
+\Clausula{Medidas resultantes}
+\renewcommand{\arraystretch}{1.25}
+\noindent\begin{tabularx}{\textwidth}{>{\bfseries}p{6.2cm}X}
+P1--P2 (frente / sur) & \FrenteM\ m \\
+P2--P3 (oeste) & \FondoM\ m \\
+P3--P4 (fondo / norte) & \FrenteM\ m \\
+P4--P1 (este) & \FondoM\ m \\
+Perímetro & \PerimetroM\ m \\
+Área & \AreaIndependizarMetros\ m$^2$ \quad $=$ \quad \AreaIndependizarHa\ ha \\
+Sentido del polígono & P1 $\rightarrow$ P2 $\rightarrow$ P3 $\rightarrow$ P4 $\rightarrow$ P1 \\
+\end{tabularx}
+
+\Clausula{Linderos de trabajo (colindancias a confirmar en campo)}
+\begin{itemize}[leftmargin=1.15cm]
+\item \textbf{Por el Sur:} vía nacional Interoceánica Sur (PE-30C), frente \FrenteM\ m, entre P1 y P2. El Puente Jayave queda \textbf{al oeste de P2}, sobre el río, no bajo el predio. Faja de derecho de vía a cargo del MTC.
+\item \textbf{Por el Oeste:} línea P2--P3 de \FondoM\ m, colindante con el \textbf{remanente} del predio matriz de \VendedorNombreCompleto, u otro que el plano de verificador determine.
+\item \textbf{Por el Norte:} línea P3--P4 de \FrenteM\ m, colindante con el remanente del predio matriz.
+\item \textbf{Por el Este:} línea P4--P1 de \FondoM\ m, colindante con el remanente del predio matriz.
+\end{itemize}
+
+\Clausula{Observaciones técnicas de las partes}
+\begin{enumerate}[leftmargin=1.15cm]
+\item Si el fundo útil está al \textbf{sur} de la carretera y no al norte, este cuadro queda sin efecto y debe recalcularse.
+\item Google Maps tiene error típico de varios metros. Los hitos de campo priman sobre estas coordenadas.
+\item El profesional deberá amojonar P1 a P4 (o los vértices definitivos) con hitos de concreto u otro material duradero, y consignar el factor de escala y el origen de la red geodésica.
+\end{enumerate}
+
+\Clausula{Declaración}
+Las partes reconocen estos vértices \textbf{solo como hipótesis de trabajo} para minutas y plano esquemático, y se obligan a aceptar el área, linderos y coordenadas que resulten del levantamiento formal, siempre que se mantenga el objeto de independizar aproximadamente diez hectáreas en el frente indicado.
+
+\LugarFecha
+\TresFirmas{EL TITULAR}{\VendedorNombreCompleto\\DNI \VendedorDNI}{EL COMPRADOR}{\CompradorNombreCompleto\\DNI \CompradorDNI}{EL INTERMEDIARIO}{\IntermediarioNombre\\DNI \IntermediarioDNI}
+
+\vspace{0.7em}
+\noindent
+\BloqueFirmaSimple{PROFESIONAL QUE SUSTITUIRÁ ESTE CUADRO}{\IngenieroNombre\\CIP \IngenieroCIP}
+
+\end{document}

@@ -1,0 +1,200 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{expediente}[2026/08/20 Expediente de independizacion y compraventa]
+
+\RequirePackage[T1]{fontenc}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[spanish,es-tabla]{babel}
+\RequirePackage{lmodern}
+\RequirePackage[a4paper,top=2.35cm,bottom=2.55cm,left=2.2cm,right=2.2cm]{geometry}
+\RequirePackage{setspace}
+\RequirePackage{xcolor}
+\RequirePackage{array}
+\RequirePackage{tabularx}
+\RequirePackage{booktabs}
+\RequirePackage{longtable}
+\RequirePackage{enumitem}
+\RequirePackage{fancyhdr}
+\RequirePackage{lastpage}
+\RequirePackage{tikz}
+\usetikzlibrary{babel}
+\RequirePackage{amssymb}
+\RequirePackage{graphicx}
+\RequirePackage{calc}
+\RequirePackage{colortbl}
+\RequirePackage{hyperref}
+\RequirePackage{ragged2e}
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue!50!black,pdftitle={Expediente predio rustico Inambari}}
+
+\definecolor{tinta}{HTML}{1B2A4A}
+\definecolor{linea}{HTML}{8A734A}
+\definecolor{aviso}{HTML}{7A1F1F}
+\definecolor{fondoaviso}{HTML}{F8F1E3}
+\definecolor{faltantebg}{HTML}{FFF3A3}
+\definecolor{firmafondo}{HTML}{F7F7F4}
+\definecolor{encabezado}{HTML}{E8E2D4}
+
+\onehalfspacing
+\setlength{\parindent}{0.85cm}
+\setlength{\parskip}{0.18em}
+\frenchspacing
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.3pt}
+\fancyhead[L]{\small\color{tinta}\expedienteCorto}
+\fancyhead[R]{\small\color{tinta}\codigoDoc}
+\fancyfoot[L]{\small\color{tinta}Borrador para revisión notarial --- no es instrumento público}
+\fancyfoot[R]{\small\color{tinta}Pág.\ \thepage\ de\ \pageref{LastPage}}
+\fancypagestyle{plain}{\fancyhf{}\renewcommand{\headrulewidth}{0pt}}
+
+\newcommand{\expedienteCorto}{Exp.\ Inambari 10\,ha --- Cutire / comprador}
+\newcommand{\codigoDoc}{}
+\newcommand{\tituloDoc}{}
+
+\newcommand{\faltante}[1]{\textcolor{aviso}{\bfseries\itshape [#1]}}
+\newcommand{\linea}[1][7.2cm]{\underline{\hspace{#1}}}
+\newcommand{\lineacorta}{\underline{\hspace{3.4cm}}}
+\newcommand{\EspacioEnBlanco}[1][1.15cm]{\par\vspace{#1}}
+
+\newcommand{\AvisoLegal}{%
+\begin{center}
+\fcolorbox{linea}{fondoaviso}{%
+\begin{minipage}{0.94\textwidth}
+\raggedright\small
+\textbf{\color{aviso}Naturaleza del documento.} Este texto es un \textbf{borrador de trabajo} preparado para que las partes, el abogado y el notario visualicen el expediente. \textbf{No es escritura pública, no transfiere dominio y no se presenta a la SUNARP} hasta que un notario público lo autorice con las firmas, huellas y partes respectivos. Los recuadros amarillos deben completarse. Las coordenadas Google/WGS84 son de trabajo y \textbf{no sustituyen} el plano UTM de profesional habilitado.
+\end{minipage}}
+\end{center}
+\vspace{0.45em}
+}
+
+\newcommand{\InicioDocumento}[2]{%
+\def\tituloDoc{#1}%
+\def\codigoDoc{#2}%
+\begin{center}
+{\color{tinta}\rule{\textwidth}{1.6pt}}\\[0.25em]
+{\Large\bfseries\color{tinta}\MakeUppercase{#1}}\\[0.2em]
+{\small\color{tinta}Independización y compraventa de predio rústico --- Inambari, Madre de Dios}\\[0.15em]
+{\footnotesize Código interno: #2 \quad\textbar\quad Carpeta: Terreno Docs \quad\textbar\quad Año 2026}\\[0.25em]
+{\color{tinta}\rule{\textwidth}{0.6pt}}
+\end{center}
+\vspace{0.3em}
+\AvisoLegal
+}
+
+\newcommand{\Clausula}[1]{%
+\par\vspace{0.55em}
+\noindent\textbf{\MakeUppercase{#1}.---}\hspace{0.4em}%
+}
+
+\newcommand{\Subclausula}[1]{%
+\par\vspace{0.25em}
+\noindent\textit{#1.}%
+}
+
+\newcommand{\Huella}{%
+\begin{tikzpicture}
+\draw[thick] (0,0) rectangle (2.05,2.35);
+\node[font=\scriptsize,align=center,text=black!55] at (1.025,1.17) {HUELLA\\ÍNDICE\\DERECHO};
+\end{tikzpicture}
+}
+
+\newcommand{\BloqueFirma}[3]{%
+\begin{minipage}[t]{0.48\textwidth}
+\centering
+\vspace{1.55cm}
+{\color{tinta}\rule{0.92\textwidth}{0.45pt}}\\[0.25em]
+\textbf{\small #1}\\[0.12em]
+{\small #2}\\
+{\small DNI N.º #3}\\[0.45em]
+\Huella
+\end{minipage}%
+}
+
+\newcommand{\BloqueFirmaSimple}[2]{%
+\begin{minipage}[t]{0.48\textwidth}
+\centering
+\vspace{1.45cm}
+{\color{tinta}\rule{0.92\textwidth}{0.45pt}}\\[0.25em]
+\textbf{\small #1}\\[0.12em]
+{\small #2}\\[0.4em]
+\Huella
+\end{minipage}%
+}
+
+\newcommand{\CuatroFirmas}[8]{%
+\noindent
+\begin{minipage}[t]{0.24\textwidth}
+\centering
+\vspace{1.2cm}
+{\color{tinta}\rule{0.95\textwidth}{0.45pt}}\\[0.15em]
+\textbf{\tiny #1}\\{\tiny #2}\\[0.25em]
+\scalebox{0.72}{\Huella}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.24\textwidth}
+\centering
+\vspace{1.2cm}
+{\color{tinta}\rule{0.95\textwidth}{0.45pt}}\\[0.15em]
+\textbf{\tiny #3}\\{\tiny #4}\\[0.25em]
+\scalebox{0.72}{\Huella}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.24\textwidth}
+\centering
+\vspace{1.2cm}
+{\color{tinta}\rule{0.95\textwidth}{0.45pt}}\\[0.15em]
+\textbf{\tiny #5}\\{\tiny #6}\\[0.25em]
+\scalebox{0.72}{\Huella}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.24\textwidth}
+\centering
+\vspace{1.2cm}
+{\color{tinta}\rule{0.95\textwidth}{0.45pt}}\\[0.15em]
+\textbf{\tiny #7}\\{\tiny #8}\\[0.25em]
+\scalebox{0.72}{\Huella}
+\end{minipage}
+\par
+}
+
+\newcommand{\FirmasCompradores}{%
+\noindent
+\BloqueFirma{COMPRADOR 1}{\CompradorUnoNombre}{\CompradorUnoDNI}
+\hfill
+\BloqueFirma{COMPRADORA 2}{\CompradorDosNombre}{\CompradorDosDNI}
+\par
+}
+
+\newcommand{\TresFirmas}[6]{%
+\noindent
+\begin{minipage}[t]{0.32\textwidth}
+\centering
+\vspace{1.35cm}
+{\color{tinta}\rule{0.95\textwidth}{0.45pt}}\\[0.2em]
+\textbf{\scriptsize #1}\\{\scriptsize #2}\\[0.35em]
+\scalebox{0.82}{\Huella}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.32\textwidth}
+\centering
+\vspace{1.35cm}
+{\color{tinta}\rule{0.95\textwidth}{0.45pt}}\\[0.2em]
+\textbf{\scriptsize #3}\\{\scriptsize #4}\\[0.35em]
+\scalebox{0.82}{\Huella}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.32\textwidth}
+\centering
+\vspace{1.35cm}
+{\color{tinta}\rule{0.95\textwidth}{0.45pt}}\\[0.2em]
+\textbf{\scriptsize #5}\\{\scriptsize #6}\\[0.35em]
+\scalebox{0.82}{\Huella}
+\end{minipage}
+\par
+}
+
+\newcommand{\CierreMinuta}{%
+\par\vspace{0.7em}
+\noindent Agregue usted, señor Notario, lo que sea de ley, inserte y/o transcriba la documentación que se acompaña, curse el parte notarial por el Sistema de Intermediación Digital --- SID-SUNARP a la Oficina Registral competente, y archive la presente minuta en el kárdex respectivo.
+}
+
+\newcommand{\LugarFecha}{%
+\par\vspace{0.85em}
+\noindent \LugarOtorgamiento, a los \DiaOtorgamiento\ días del mes de \MesOtorgamiento\ de \AnioOtorgamiento.
+\par\vspace{0.4em}
+}

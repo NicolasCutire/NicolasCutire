@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>10 ha Inambari - frente Interoceanica Sur</name>
+  <Style id="poly">
+    <LineStyle><color>ff0033ff</color><width>3</width></LineStyle>
+    <PolyStyle><color>4d0033ff</color></PolyStyle>
+  </Style>
+  <Style id="pt"><IconStyle><color>ff0000ff</color><scale>1.1</scale></IconStyle></Style>
+  <Placemark>
+    <name>Poligono 10 ha (100 m x 1000 m)</name>
+    <styleUrl>#poly</styleUrl>
+    <Polygon>
+      <outerBoundaryIs><LinearRing>
+        <coordinates>
+          -70.17005800,-12.91245200,0
+          -70.17098100,-12.91249700,0
+          -70.17143838,-12.90346898,0
+          -70.17051538,-12.90342398,0
+          -70.17005800,-12.91245200,0
+        </coordinates>
+      </LinearRing></outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+  <Placemark><name>P1 Frente Este (dato Google)</name><styleUrl>#pt</styleUrl>
+    <Point><coordinates>-70.17005800,-12.91245200,0</coordinates></Point>
+  </Placemark>
+  <Placemark><name>P2 Frente Oeste (dato Google)</name><styleUrl>#pt</styleUrl>
+    <Point><coordinates>-70.17098100,-12.91249700,0</coordinates></Point>
+  </Placemark>
+  <Placemark><name>P3 Fondo Oeste (calculado)</name><styleUrl>#pt</styleUrl>
+    <Point><coordinates>-70.17143838,-12.90346898,0</coordinates></Point>
+  </Placemark>
+  <Placemark><name>P4 Fondo Este (calculado)</name><styleUrl>#pt</styleUrl>
+    <Point><coordinates>-70.17051538,-12.90342398,0</coordinates></Point>
+  </Placemark>
+</Document></kml>

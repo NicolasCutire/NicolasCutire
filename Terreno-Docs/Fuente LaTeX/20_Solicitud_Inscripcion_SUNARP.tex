@@ -1,0 +1,71 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Solicitud de inscripción en el Registro de Predios --- independización y compraventa}{DOC-20}
+
+\noindent \textbf{SEÑOR REGISTRADOR PÚBLICO DEL REGISTRO DE PREDIOS}\\
+\textbf{OFICINA REGISTRAL DE PUERTO MALDONADO --- SUNARP}\\
+\textbf{(Presentación preferente: SID-SUNARP, a cargo de la notaría)}
+
+\vspace{0.3em}
+\noindent El notario \NotarioNombre\ / el presentante \faltante{[nombre del presentante SID]}, DNI \faltante{[DNI]}, en mérito del parte notarial de la escritura pública N.º\ \linea[2.4cm]\ de fecha \linea[3.4cm], \textbf{solicita} la inscripción de los siguientes actos:
+
+\Clausula{Actos rogados}
+\begin{enumerate}[leftmargin=1.15cm]
+\item \textbf{Independización} del LOTE A de 10,00 ha del predio de la partida matriz \PartidaMatriz, con apertura de nueva partida a favor, en este mismo título, del adquirente, o a favor del titular y simultánea transferencia, según califique el asiento.
+\item \textbf{Compraventa} (transferencia de dominio) del LOTE A a favor de \CompradorNombreCompleto, DNI \CompradorDNI.
+\item Anotación del área remanente a nombre de \VendedorNombreCompleto, DNI \VendedorDNI.
+\end{enumerate}
+
+\Clausula{Datos para el asiento}
+\renewcommand{\arraystretch}{1.28}
+\noindent\begin{tabularx}{\textwidth}{>{\bfseries}p{5.3cm}X}
+Partida matriz & \PartidaMatriz \\
+Transferente & \VendedorNombreCompleto, DNI \VendedorDNI \\
+Adquirentes (copropiedad) & \CompradorUnoNombre, DNI \CompradorUnoDNI, y \CompradorDosNombre, DNI \CompradorDosDNI \\
+Área a independizar & \AreaIndependizarMetros\ m$^2$ (10,00 ha) \\
+Ubicación & \Distrito, \Provincia, \Departamento \\
+Título archivado / kárdex & Escritura N.º \linea[2cm] --- Notaría \NotarioNombre \\
+Constancia de alcabala & N.º \linea[4.5cm] \\
+\end{tabularx}
+
+\Clausula{Documentos que se presentan (checklist registral)}
+\begin{itemize}[leftmargin=1.15cm]
+\item $\square$ Parte notarial SID-SUNARP de independización y compraventa.
+\item $\square$ Plano perimétrico UTM y memoria descriptiva del área independizada y del remanente, con firma de profesional / verificador.
+\item $\square$ Certificado de información catastral \textbf{o} certificado negativo de zona catastrada.
+\item $\square$ Pago de alcabala o constancia de inafectación.
+\item $\square$ Pago de derechos registrales.
+\item $\square$ Intervención / consentimiento de conviviente, si el registrador la observa.
+\item $\square$ Otros: \linea[10.5cm]
+\end{itemize}
+
+\Clausula{Rogatoria subsidiaria}
+Si el área de catastro observare coordenadas, se pide se notifique al notario y al presentante para sustituir planos, manteniendo el acto dispositivo. Si se observare la falta de medio de pago, se pide se tenga presente la constancia notarial de que el precio se pagó en efectivo en 2018, por ser hecho histórico y no obligación presente.
+
+\vspace{0.35em}
+\noindent POR TANTO:\\
+Al señor Registrador pido se inscriba lo rogado.
+
+\LugarFecha
+
+\noindent
+\BloqueFirmaSimple{NOTARIO O PRESENTANTE SID}{\NotarioNombre\\ / \faltante{[presentante]}}
+\hfill
+\BloqueFirma{EL ADQUIRENTE}{\CompradorNombreCompleto}{\CompradorDNI}
+
+\vspace{0.8em}
+\noindent{\small\textit{Uso SUNARP}}\\
+{\small
+\begin{tabularx}{\textwidth}{|X|X|}
+\hline
+Título N.º: \linea[3.6cm] & Fecha de presentación: \linea[3.4cm] \\
+\hline
+Derechos: S/ \linea[3.2cm] & Vencimiento de calificación: \linea[3.2cm] \\
+\hline
+\multicolumn{2}{|l|}{Resultado: $\square$ inscrito \quad $\square$ observado \quad $\square$ tachado \quad Asiento / nueva partida: \linea[4.2cm]} \\
+\hline
+\end{tabularx}}
+
+\end{document}

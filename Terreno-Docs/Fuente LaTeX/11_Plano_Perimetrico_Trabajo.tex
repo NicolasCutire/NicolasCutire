@@ -1,0 +1,51 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Plano perimétrico de trabajo (esquema)}{DOC-11}
+
+\noindent Diagrama de trabajo WGS84 aprobado por las partes. Norte hacia el borde superior. El \textbf{Puente Jayave} (pin rojo) se ubica \textbf{al oeste del predio}, en el cruce del río con la Interoceánica Sur, \textbf{no debajo} del rectángulo P1--P2. \textbf{No sustituye} el plano UTM de profesional habilitado.
+
+\vspace{0.35em}
+\begin{center}
+\includegraphics[width=0.96\textwidth]{diagrama-10ha-puente-jayave.png}\\[0.2em]
+{\footnotesize Diagrama de trabajo: polígono de 10,00 ha al norte de la vía. Pin rojo = Puente Jayave sobre el río, a la izquierda (oeste) de P2.}
+\end{center}
+
+\vspace{0.35em}
+{\small\renewcommand{\arraystretch}{1.22}
+\noindent\begin{tabularx}{\textwidth}{>{\bfseries}p{1.15cm} X}
+\rowcolor{encabezado}
+\multicolumn{2}{l}{\textbf{Vértices WGS84 / UTM 19S}}\\
+P1 & Frente este. $-12{,}912452$, $-70{,}170058$ \quad E \PUnoE\ \ N \PUnoN\\
+P2 & Frente oeste. $-12{,}912497$, $-70{,}170981$ \quad E \PDosE\ \ N \PDosN\\
+P3 & Fondo oeste. $-12{,}903469$, $-70{,}171438$ \quad E \PTresE\ \ N \PTresN\\
+P4 & Fondo este. $-12{,}903424$, $-70{,}170515$ \quad E \PCuatroE\ \ N \PCuatroN\\
+\end{tabularx}}
+
+\vspace{0.35em}
+{\footnotesize
+\textbf{Notas}\\
+1. Frente P1--P2 sobre la Interoceánica Sur. Faja de derecho de vía del MTC a salvo.\\
+2. Puente Jayave: pin rojo sobre el río, al oeste (izquierda, rumbo Mazuco) del predio. No forma parte del área vendida.\\
+3. Colindancias W, N y E: remanente del predio de \VendedorNombreCompleto, salvo lo que muestre la partida.\\
+4. Hitos de campo: P1, P2, P3 y P4.}
+
+\vspace{0.25em}
+{\small\renewcommand{\arraystretch}{1.2}
+\noindent\begin{tabularx}{\textwidth}{>{\bfseries}p{4.6cm} X}
+Área del recorte & \AreaIndependizarMetros\ m$^2$ $=$ \AreaIndependizarHa\ ha. \\
+Perímetro & \PerimetroM\ m. \\
+Partida matriz & \PartidaMatriz. \\
+Adquirentes & \CompradorNombreCompleto. \\
+\end{tabularx}}
+
+\vspace{0.35em}
+\noindent{\small\textit{Espacio para el plano UTM definitivo del verificador:}}\\
+\vspace{0.1em}
+\noindent\fbox{\parbox[c][2.2cm][c]{0.96\textwidth}{\centering\color{black!40}pegar reducción del plano visado}}
+
+\LugarFecha
+\CuatroFirmas{TITULAR}{\VendedorNombreCompleto}{COMPRADOR 1}{\CompradorUnoNombre}{COMPRADORA 2}{\CompradorDosNombre}{PROFESIONAL}{\IngenieroNombre}
+
+\end{document}
