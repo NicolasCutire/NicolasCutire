@@ -1,0 +1,736 @@
+{
+  "tramo": "km 218+980 - 219+080",
+  "filtro": "FIN completo: INICIO y FIN contenidos en tramo; FIN en blanco: INICIO dentro del tramo (tal cual Excel)",
+  "columnas_origen": "Planilla columnas O (INICIO KM) y P (FIN KM)",
+  "total_registros": 91,
+  "registros": [
+    {
+      "Descripción": "Pintura Chevron Guarda Vías T2",
+      "Unidad": "m2",
+      "Fecha": "2018-04-25",
+      "INICIO (KM)": "219+060",
+      "FIN (KM)": "219+070",
+      "METRADO": 1.5
+    },
+    {
+      "Descripción": "Reposición de Defensas Averiadas T2",
+      "Unidad": "ml",
+      "Fecha": "2018-04-25",
+      "INICIO (KM)": "219+060",
+      "FIN (KM)": "219+070",
+      "METRADO": 7.6
+    },
+    {
+      "Descripción": "Limpieza de postes (hitos) kilométricos T2",
+      "Unidad": "und",
+      "Fecha": "2018-04-30",
+      "INICIO (KM)": "219+000",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza de Placas de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2018-05-01",
+      "INICIO (KM)": "219+000",
+      "FIN (KM)": "219+050",
+      "METRADO": 1.6875
+    },
+    {
+      "Descripción": "Limpieza de guardavías",
+      "Unidad": "ml",
+      "Fecha": "2018-05-01",
+      "INICIO (KM)": "219+005",
+      "FIN (KM)": "219+020",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
+      "Unidad": "ml",
+      "Fecha": "2018-06-25",
+      "INICIO (KM)": "219+044",
+      "FIN (KM)": "219+044",
+      "METRADO": 25
+    },
+    {
+      "Descripción": "Repintado de Postes de (hitos) kilométricos T2",
+      "Unidad": "m2",
+      "Fecha": "2018-08-17",
+      "INICIO (KM)": "219+000",
+      "FIN (KM)": "219+000",
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2018-09-07",
+      "INICIO (KM)": "219+010",
+      "FIN (KM)": null,
+      "METRADO": 0.7
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2018-09-07",
+      "INICIO (KM)": "219+015",
+      "FIN (KM)": null,
+      "METRADO": 1.7999999999999998
+    },
+    {
+      "Descripción": "Limpieza de Parapetos Veredas de Concreto T2",
+      "Unidad": "m2",
+      "Fecha": "2018-09-07",
+      "INICIO (KM)": "219+015",
+      "FIN (KM)": null,
+      "METRADO": 0.8
+    },
+    {
+      "Descripción": "Limpieza de Parapetos Veredas de Concreto T2",
+      "Unidad": "m2",
+      "Fecha": "2018-09-07",
+      "INICIO (KM)": "219+015",
+      "FIN (KM)": null,
+      "METRADO": 0.28
+    },
+    {
+      "Descripción": "Desbroce Manual T2",
+      "Unidad": "m2",
+      "Fecha": "2019-01-02",
+      "INICIO (KM)": "219+000",
+      "FIN (KM)": "219+040",
+      "METRADO": 40
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-02-01",
+      "INICIO (KM)": "219+040",
+      "FIN (KM)": "219+060",
+      "METRADO": 40
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-02-04",
+      "INICIO (KM)": "219+020",
+      "FIN (KM)": "219+080",
+      "METRADO": 16
+    },
+    {
+      "Descripción": "Limpieza de Parapetos Veredas de Concreto T2",
+      "Unidad": "m2",
+      "Fecha": "2019-02-04",
+      "INICIO (KM)": "219+030",
+      "FIN (KM)": "219+070",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de Parapetos Veredas de Concreto T2",
+      "Unidad": "m2",
+      "Fecha": "2019-02-04",
+      "INICIO (KM)": "219+030",
+      "FIN (KM)": "219+070",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-02-04",
+      "INICIO (KM)": "219+040",
+      "FIN (KM)": "219+060",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de Parapetos Veredas de Concreto T2",
+      "Unidad": "m2",
+      "Fecha": "2019-07-04",
+      "INICIO (KM)": "219+030",
+      "FIN (KM)": "219+070",
+      "METRADO": 12
+    },
+    {
+      "Descripción": "Limpieza de Cauces T2",
+      "Unidad": "ml",
+      "Fecha": "2019-07-04",
+      "INICIO (KM)": "219+045",
+      "FIN (KM)": null,
+      "METRADO": 24
+    },
+    {
+      "Descripción": "Repintado de Postes de (hitos) kilométricos T2",
+      "Unidad": "m2",
+      "Fecha": "2019-10-14",
+      "INICIO (KM)": "219+000",
+      "FIN (KM)": null,
+      "METRADO": 0.5
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2019-12-13",
+      "INICIO (KM)": "219+044",
+      "FIN (KM)": "219+069",
+      "METRADO": 50
+    },
+    {
+      "Descripción": "Limpieza de Parapetos Veredas de Concreto T2",
+      "Unidad": "m2",
+      "Fecha": "2019-12-13",
+      "INICIO (KM)": "219+044",
+      "FIN (KM)": "219+069",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2020-06-15",
+      "INICIO (KM)": "219+030",
+      "FIN (KM)": "219+060",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2020-08-19",
+      "INICIO (KM)": "219+020",
+      "FIN (KM)": "219+035",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2020-08-19",
+      "INICIO (KM)": "219+040",
+      "FIN (KM)": "219+060",
+      "METRADO": 40
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2020-08-19",
+      "INICIO (KM)": "219+040",
+      "FIN (KM)": "219+060",
+      "METRADO": 40
+    },
+    {
+      "Descripción": "Limpieza de Parapetos Veredas de Concreto T2",
+      "Unidad": "m2",
+      "Fecha": "2020-12-04",
+      "INICIO (KM)": "219+044",
+      "FIN (KM)": null,
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-01-30",
+      "INICIO (KM)": "219+000",
+      "FIN (KM)": null,
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza de Guardavías T2",
+      "Unidad": "ml",
+      "Fecha": "2021-05-19",
+      "INICIO (KM)": "218+980",
+      "FIN (KM)": "218+998",
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de los Dispositivos de Drenaje (de muros) T2",
+      "Unidad": "m2",
+      "Fecha": "2021-06-25",
+      "INICIO (KM)": "219+015",
+      "FIN (KM)": "219+030",
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-07-06",
+      "INICIO (KM)": "219+015",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-07-07",
+      "INICIO (KM)": "219+015",
+      "FIN (KM)": null,
+      "METRADO": 2
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-07-07",
+      "INICIO (KM)": "219+015",
+      "FIN (KM)": null,
+      "METRADO": 2
+    },
+    {
+      "Descripción": "Limpieza de Placas de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2021-07-07",
+      "INICIO (KM)": "219+016",
+      "FIN (KM)": null,
+      "METRADO": 0.5625
+    },
+    {
+      "Descripción": "Repintado de Postes de (hitos) kilométricos T2",
+      "Unidad": "m2",
+      "Fecha": "2021-09-01",
+      "INICIO (KM)": "219+000",
+      "FIN (KM)": null,
+      "METRADO": 0.5
+    },
+    {
+      "Descripción": "Limpieza de Guardavías T2",
+      "Unidad": "ml",
+      "Fecha": "2021-09-01",
+      "INICIO (KM)": "219+019",
+      "FIN (KM)": "219+043",
+      "METRADO": 24
+    },
+    {
+      "Descripción": "Limpieza de Guardavías T2",
+      "Unidad": "ml",
+      "Fecha": "2021-09-01",
+      "INICIO (KM)": "219+019",
+      "FIN (KM)": "219+043",
+      "METRADO": 24
+    },
+    {
+      "Descripción": "Pintura Chevron Guarda Vías T2",
+      "Unidad": "m2",
+      "Fecha": "2021-09-01",
+      "INICIO (KM)": "219+019",
+      "FIN (KM)": "219+043",
+      "METRADO": 1.2000000000000002
+    },
+    {
+      "Descripción": "Repintado de Postes de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2021-09-01",
+      "INICIO (KM)": "219+020",
+      "FIN (KM)": null,
+      "METRADO": 1.56
+    },
+    {
+      "Descripción": "Limpieza de Postes de Señalización Vertical T2",
+      "Unidad": "und",
+      "Fecha": "2021-09-01",
+      "INICIO (KM)": "219+020",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2021-09-01",
+      "INICIO (KM)": "219+047",
+      "FIN (KM)": "219+054",
+      "METRADO": 3.5
+    },
+    {
+      "Descripción": "Limpieza de Guardavías T2",
+      "Unidad": "ml",
+      "Fecha": "2021-09-01",
+      "INICIO (KM)": "219+054",
+      "FIN (KM)": "219+069",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza de Guardavías T2",
+      "Unidad": "ml",
+      "Fecha": "2021-09-01",
+      "INICIO (KM)": "219+054",
+      "FIN (KM)": "219+069",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Pintura Chevron Guarda Vías T2",
+      "Unidad": "m2",
+      "Fecha": "2021-09-01",
+      "INICIO (KM)": "219+054",
+      "FIN (KM)": "219+069",
+      "METRADO": 0.75
+    },
+    {
+      "Descripción": "Limpieza Pórtico instalados en los Tramos T2",
+      "Unidad": "m2",
+      "Fecha": "2021-10-14",
+      "INICIO (KM)": "219+016",
+      "FIN (KM)": null,
+      "METRADO": 0.7000000000000001
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-10-14",
+      "INICIO (KM)": "219+044",
+      "FIN (KM)": "219+060",
+      "METRADO": 40
+    },
+    {
+      "Descripción": "Tratamiento de Fisuras T2",
+      "Unidad": "m2",
+      "Fecha": "2021-10-17",
+      "INICIO (KM)": "219+000",
+      "FIN (KM)": "219+030",
+      "METRADO": 1.5
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2021-10-18",
+      "INICIO (KM)": "219+030",
+      "FIN (KM)": "219+040",
+      "METRADO": 11
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2021-10-18",
+      "INICIO (KM)": "219+044",
+      "FIN (KM)": null,
+      "METRADO": 3.75
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2021-10-18",
+      "INICIO (KM)": "219+055",
+      "FIN (KM)": "219+063",
+      "METRADO": 7.2
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-10-24",
+      "INICIO (KM)": "219+050",
+      "FIN (KM)": null,
+      "METRADO": 2
+    },
+    {
+      "Descripción": "Reposición de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2021-10-29",
+      "INICIO (KM)": "218+980",
+      "FIN (KM)": null,
+      "METRADO": 0.5625
+    },
+    {
+      "Descripción": "Reposición de capta faros (ojo de gato) T2",
+      "Unidad": "ml",
+      "Fecha": "2022-01-13",
+      "INICIO (KM)": "219+008",
+      "FIN (KM)": "219+024",
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza Pórtico instalados en los Tramos T2",
+      "Unidad": "m2",
+      "Fecha": "2022-01-13",
+      "INICIO (KM)": "219+016",
+      "FIN (KM)": null,
+      "METRADO": 0.30000000000000004
+    },
+    {
+      "Descripción": "Repintado de Postes de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2022-01-13",
+      "INICIO (KM)": "219+016",
+      "FIN (KM)": null,
+      "METRADO": 1.56
+    },
+    {
+      "Descripción": "Reposición de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2022-01-13",
+      "INICIO (KM)": "219+016",
+      "FIN (KM)": null,
+      "METRADO": 5
+    },
+    {
+      "Descripción": "Limpieza de Delineador T2",
+      "Unidad": "und",
+      "Fecha": "2022-01-13",
+      "INICIO (KM)": "219+050",
+      "FIN (KM)": "219+066",
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Pintura Chevron Guarda Vías T2",
+      "Unidad": "m2",
+      "Fecha": "2022-01-13",
+      "INICIO (KM)": "219+050",
+      "FIN (KM)": "219+066",
+      "METRADO": 0.6000000000000001
+    },
+    {
+      "Descripción": "Limpieza de Guardavías T2",
+      "Unidad": "ml",
+      "Fecha": "2022-08-10",
+      "INICIO (KM)": "219+008",
+      "FIN (KM)": "219+024",
+      "METRADO": 12
+    },
+    {
+      "Descripción": "Limpieza de Guardavías T2",
+      "Unidad": "ml",
+      "Fecha": "2022-08-10",
+      "INICIO (KM)": "219+008",
+      "FIN (KM)": "219+024",
+      "METRADO": 12
+    },
+    {
+      "Descripción": "Limpieza de Cauces T2",
+      "Unidad": "ml",
+      "Fecha": "2022-08-10",
+      "INICIO (KM)": "219+040",
+      "FIN (KM)": "219+060",
+      "METRADO": 150
+    },
+    {
+      "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
+      "Unidad": "ml",
+      "Fecha": "2022-08-10",
+      "INICIO (KM)": "219+040",
+      "FIN (KM)": "219+060",
+      "METRADO": 40
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2022-08-10",
+      "INICIO (KM)": "219+040",
+      "FIN (KM)": "219+060",
+      "METRADO": 8
+    },
+    {
+      "Descripción": "Limpieza de Guardavías T2",
+      "Unidad": "ml",
+      "Fecha": "2023-02-25",
+      "INICIO (KM)": "219+030",
+      "FIN (KM)": null,
+      "METRADO": 16
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2023-02-25",
+      "INICIO (KM)": "219+040",
+      "FIN (KM)": null,
+      "METRADO": 4
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2023-02-25",
+      "INICIO (KM)": "219+040",
+      "FIN (KM)": null,
+      "METRADO": 4
+    },
+    {
+      "Descripción": "Limpieza de Parapetos Veredas de Concreto T2",
+      "Unidad": "m2",
+      "Fecha": "2023-02-25",
+      "INICIO (KM)": "219+040",
+      "FIN (KM)": null,
+      "METRADO": 6
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2023-02-25",
+      "INICIO (KM)": "219+040",
+      "FIN (KM)": null,
+      "METRADO": 5.5
+    },
+    {
+      "Descripción": "Repintado de Postes de (hitos) kilométricos T2",
+      "Unidad": "m2",
+      "Fecha": "2023-03-02",
+      "INICIO (KM)": "219+000",
+      "FIN (KM)": null,
+      "METRADO": 0.5
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2024-03-19",
+      "INICIO (KM)": "219+050",
+      "FIN (KM)": null,
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza de Parapetos Veredas de Concreto T2",
+      "Unidad": "m2",
+      "Fecha": "2024-03-19",
+      "INICIO (KM)": "219+050",
+      "FIN (KM)": null,
+      "METRADO": 6
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2024-03-19",
+      "INICIO (KM)": "219+050",
+      "FIN (KM)": null,
+      "METRADO": 7
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2024-03-19",
+      "INICIO (KM)": "219+050",
+      "FIN (KM)": null,
+      "METRADO": 8
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2024-05-18",
+      "INICIO (KM)": "219+000",
+      "FIN (KM)": "219+030",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza de Juntas en Cunetas y Bermas",
+      "Unidad": "m2",
+      "Fecha": "2024-05-24",
+      "INICIO (KM)": "219+000",
+      "FIN (KM)": "219+000",
+      "METRADO": 510
+    },
+    {
+      "Descripción": "Limpieza de Placas de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2024-07-08",
+      "INICIO (KM)": "218+985",
+      "FIN (KM)": null,
+      "METRADO": 0.5625
+    },
+    {
+      "Descripción": "Repintado de Postes de (hitos) kilométricos T2",
+      "Unidad": "m2",
+      "Fecha": "2024-07-08",
+      "INICIO (KM)": "219+000",
+      "FIN (KM)": null,
+      "METRADO": 0.5
+    },
+    {
+      "Descripción": "Limpieza de Guardavías T2",
+      "Unidad": "ml",
+      "Fecha": "2025-04-06",
+      "INICIO (KM)": "219+010",
+      "FIN (KM)": "219+025",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza de Guardavías T2",
+      "Unidad": "ml",
+      "Fecha": "2025-04-06",
+      "INICIO (KM)": "219+010",
+      "FIN (KM)": "219+025",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Repintado de Parapetos Muros T2",
+      "Unidad": "m2",
+      "Fecha": "2025-04-06",
+      "INICIO (KM)": "219+050",
+      "FIN (KM)": null,
+      "METRADO": 4
+    },
+    {
+      "Descripción": "Limpieza de Cauces T2",
+      "Unidad": "ml",
+      "Fecha": "2025-06-30",
+      "INICIO (KM)": "219+044",
+      "FIN (KM)": null,
+      "METRADO": 80
+    },
+    {
+      "Descripción": "Limpieza de Postes de Señalización Vertical T2",
+      "Unidad": "und",
+      "Fecha": "2025-09-25",
+      "INICIO (KM)": "218+980",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
+      "Unidad": "ml",
+      "Fecha": "2025-11-06",
+      "INICIO (KM)": "219+030",
+      "FIN (KM)": "219+040",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2025-11-06",
+      "INICIO (KM)": "219+030",
+      "FIN (KM)": "219+040",
+      "METRADO": 9
+    },
+    {
+      "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
+      "Unidad": "ml",
+      "Fecha": "2025-11-06",
+      "INICIO (KM)": "219+040",
+      "FIN (KM)": "219+060",
+      "METRADO": 12
+    },
+    {
+      "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
+      "Unidad": "ml",
+      "Fecha": "2025-11-06",
+      "INICIO (KM)": "219+060",
+      "FIN (KM)": "219+065",
+      "METRADO": 5
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2025-11-06",
+      "INICIO (KM)": "219+060",
+      "FIN (KM)": "219+065",
+      "METRADO": 6.6
+    },
+    {
+      "Descripción": "Limpieza de Barandas Metálicas T2",
+      "Unidad": "m2",
+      "Fecha": "2025-11-21",
+      "INICIO (KM)": "219+030",
+      "FIN (KM)": "219+030",
+      "METRADO": 14
+    },
+    {
+      "Descripción": "Repintado de Postes de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2025-12-31",
+      "INICIO (KM)": "219+005",
+      "FIN (KM)": null,
+      "METRADO": 1.56
+    },
+    {
+      "Descripción": "Limpieza de Cauces T2",
+      "Unidad": "ml",
+      "Fecha": "2026-01-16",
+      "INICIO (KM)": "219+020",
+      "FIN (KM)": "219+050",
+      "METRADO": 50
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2026-02-03",
+      "INICIO (KM)": "219+050",
+      "FIN (KM)": null,
+      "METRADO": 30
+    }
+  ]
+}
