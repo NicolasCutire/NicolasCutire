@@ -26,9 +26,11 @@ Luego abre:
 xdg-open "/home/nicolas/Documents/Personal Docs/Terreno Docs/Final Docs List"
 ```
 
-Ahí están los 23 PDF. El plano con el puente a la izquierda es:
+Ahí están los PDF (incluye el **DOC-24**, recibo de S/ 20 000 en trato directo). También hay un texto para imprimir y firmar:
 
-`Final Docs List/11_Plano_Ubicacion_Independizacion.pdf`
+`Terreno Docs/PARA_FIRMAR_Recibo_20k_trato_directo.txt`
+
+El plano de trabajo es `Final Docs List/11_Plano_Perimetrico_Trabajo.pdf`.
 
 ## Si tu repo es privado
 

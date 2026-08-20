@@ -4,7 +4,7 @@ EXPEDIENTE DE TRABAJO — PREDIO RÚSTICO 10 ha (INAMBARI, MADRE DE DIOS)
 Fuentes LaTeX:
   /home/nicolas/Documents/Personal Docs/Terreno Docs/Fuente LaTeX
 
-PDF finales (21):
+PDF finales (24):
   /home/nicolas/Documents/Personal Docs/Terreno Docs/Final Docs List
 
 Anexos de mapa:
@@ -47,3 +47,6 @@ Orden de los PDF:
   19 Proyecto de escritura pública
   20 Solicitud de inscripción SUNARP
   21 Checklist de cierre
+  22 Modelo documento 2018
+  23 Explicación de costos
+  24 Recibo de entrega directa del precio (trato sin intermediario)
