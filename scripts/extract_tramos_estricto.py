@@ -161,48 +161,42 @@ def build_sheet(ws, tramo_label: str, records: list[dict]):
     ws["A1"] = f"TRAMO km {tramo_label}"
     ws["A1"].font = title_font
     ws.merge_cells("A1:F1")
-    ws["A2"] = (
-        "Filtro: FIN completo contenido en tramo; FIN en blanco si INICIO cae en tramo | "
-        f"Total registros: {len(records)}"
-    )
+    ws["A2"] = f"Periodo 2018-2026 | Total registros: {len(records)}"
     ws.merge_cells("A2:F2")
 
-    current_row = 4
-    years = sorted({r["Año"] for r in records})
+    header_row = 4
+    for col_idx, name in enumerate(COLUMNS, 1):
+        cell = ws.cell(header_row, col_idx, name)
+        cell.fill = header_fill
+        cell.font = header_font
+        cell.alignment = Alignment(horizontal="center")
+        cell.border = border
 
     if not records:
-        ws.cell(current_row, 1, "Sin registros dentro del tramo evaluado.")
-        ws.merge_cells(start_row=current_row, start_column=1, end_row=current_row, end_column=6)
+        ws.cell(header_row + 1, 1, "Sin registros dentro del tramo evaluado (2018-2026).")
+        ws.merge_cells(
+            start_row=header_row + 1,
+            start_column=1,
+            end_row=header_row + 1,
+            end_column=6,
+        )
+        autosize_columns(ws)
         return
 
-    for year in years:
-        year_rows = [r for r in records if r["Año"] == year]
-        ws.cell(current_row, 1, f"Año {year} ({len(year_rows)} registros)")
-        ws.merge_cells(start_row=current_row, start_column=1, end_row=current_row, end_column=6)
-        for col in range(1, 7):
-            cell = ws.cell(current_row, col)
-            cell.fill = year_fill
-            cell.font = year_font
-            cell.border = border
-        current_row += 1
-
+    current_row = header_row + 1
+    for rec in records:
         for col_idx, name in enumerate(COLUMNS, 1):
-            cell = ws.cell(current_row, col_idx, name)
-            cell.fill = header_fill
-            cell.font = header_font
-            cell.alignment = Alignment(horizontal="center")
+            value = rec.get(name)
+            cell = ws.cell(current_row, col_idx, value if value is not None else "")
             cell.border = border
+            if col_idx == 1:
+                cell.alignment = wrap
+            if col_idx == 3 and value:
+                cell.number_format = "YYYY-MM-DD"
         current_row += 1
-
-        for rec in year_rows:
-            for col_idx, name in enumerate(COLUMNS, 1):
-                cell = ws.cell(current_row, col_idx, rec.get(name))
-                cell.border = border
-                if col_idx == 1:
-                    cell.alignment = wrap
-            current_row += 1
 
     ws.freeze_panes = "A5"
+    ws.auto_filter.ref = f"A{header_row}:F{current_row - 1}"
     autosize_columns(ws)
 
 
@@ -247,7 +241,7 @@ def main():
         wb_single.save(OUTPUT_DIR / f"{filename}.xlsx")
 
     ws_sum = wb_master.create_sheet(title="Resumen", index=0)
-    ws_sum["A1"] = "REPORTES TRAMOS - FILTRO INICIO/FIN KM (FIN BLANCO INCLUIDO)"
+    ws_sum["A1"] = "REPORTES TRAMOS 2018-2026 (INICIO/FIN KM)"
     ws_sum["A1"].font = title_font
     ws_sum.merge_cells("A1:E1")
     headers = ["Tramo (km)", "Registros", "Rango evaluado", "Hoja", "Archivo"]
@@ -268,8 +262,12 @@ def main():
     ws_sum.cell(total_row, 1, "TOTAL").font = Font(bold=True)
     ws_sum.cell(total_row, 2, sum(c for _, _, c, _, _ in summary)).font = Font(bold=True)
 
-    master_path = OUTPUT_DIR / "reportes_todos_tramos_filtrado_estricto.xlsx"
+    master_path = OUTPUT_DIR / "reportes_tramos_2018_2026.xlsx"
     wb_master.save(master_path)
+
+    # Alias con nombre anterior por compatibilidad
+    alias_path = OUTPUT_DIR / "reportes_todos_tramos_filtrado_estricto.xlsx"
+    wb_master.save(alias_path)
 
     print("RESUMEN FILTRO (FIN BLANCO INCLUIDO)")
     print("-" * 60)
