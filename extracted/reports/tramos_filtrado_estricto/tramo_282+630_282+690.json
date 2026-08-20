@@ -1,6 +1,6 @@
 {
   "tramo": "km 282+630 - 282+690",
-  "filtro": "estricto: INICIO (KM) y FIN (KM) dentro del tramo",
+  "filtro": "FIN completo: INICIO y FIN contenidos en tramo; FIN en blanco: INICIO dentro del tramo (tal cual Excel)",
   "columnas_origen": "Planilla columnas O (INICIO KM) y P (FIN KM)",
   "total_registros": 0,
   "registros": []

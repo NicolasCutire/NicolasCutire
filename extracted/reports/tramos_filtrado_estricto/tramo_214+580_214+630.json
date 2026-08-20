@@ -1,8 +1,8 @@
 {
   "tramo": "km 214+580 - 214+630",
-  "filtro": "estricto: INICIO (KM) y FIN (KM) dentro del tramo",
+  "filtro": "FIN completo: INICIO y FIN contenidos en tramo; FIN en blanco: INICIO dentro del tramo (tal cual Excel)",
   "columnas_origen": "Planilla columnas O (INICIO KM) y P (FIN KM)",
-  "total_registros": 158,
+  "total_registros": 172,
   "registros": [
     {
       "Descripción": "Limpieza de carril/pista y bermas T2",
@@ -139,6 +139,22 @@
       "INICIO (KM)": "214+600",
       "FIN (KM)": "214+630",
       "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2018-05-20",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 16
+    },
+    {
+      "Descripción": "Limpieza de juntas de cuneta de vía",
+      "Unidad": "ml",
+      "Fecha": "2018-05-20",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 9.066666666666666
     },
     {
       "Descripción": "Limpieza de carril/pista y bermas T2",
@@ -461,6 +477,22 @@
       "METRADO": 20
     },
     {
+      "Descripción": "Reparación Parcial de Guarda Vías T2",
+      "Unidad": "ml",
+      "Fecha": "2020-03-05",
+      "INICIO (KM)": "214+620",
+      "FIN (KM)": null,
+      "METRADO": 3
+    },
+    {
+      "Descripción": "Reposición de capta faros (ojo de gato) T2",
+      "Unidad": "ml",
+      "Fecha": "2020-03-05",
+      "INICIO (KM)": "214+620",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
       "Descripción": "Limpieza de carril/pista y bermas T2",
       "Unidad": "m2",
       "Fecha": "2020-05-13",
@@ -539,6 +571,14 @@
       "INICIO (KM)": "214+580",
       "FIN (KM)": "214+585",
       "METRADO": 25
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-01-31",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 3
     },
     {
       "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
@@ -717,6 +757,14 @@
       "METRADO": 30
     },
     {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2021-07-19",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": null,
+      "METRADO": 60
+    },
+    {
       "Descripción": "Limpieza Residuos Solidos / Basuras",
       "Unidad": "m2",
       "Fecha": "2021-07-28",
@@ -783,10 +831,26 @@
     {
       "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
       "Unidad": "ml",
+      "Fecha": "2021-10-01",
+      "INICIO (KM)": "214+580",
+      "FIN (KM)": null,
+      "METRADO": 13
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
+      "Unidad": "ml",
       "Fecha": "2021-10-04",
       "INICIO (KM)": "214+580",
       "FIN (KM)": "214+590",
       "METRADO": 10
+    },
+    {
+      "Descripción": "Reposición de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2021-10-14",
+      "INICIO (KM)": "214+629",
+      "FIN (KM)": null,
+      "METRADO": 0.5625
     },
     {
       "Descripción": "Limpieza de carril/pista y bermas T2",
@@ -915,6 +979,22 @@
       "INICIO (KM)": "214+600",
       "FIN (KM)": "214+630",
       "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2022-11-25",
+      "INICIO (KM)": "214+610",
+      "FIN (KM)": null,
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2022-12-06",
+      "INICIO (KM)": "214+610",
+      "FIN (KM)": null,
+      "METRADO": 11
     },
     {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",
@@ -1123,6 +1203,38 @@
       "INICIO (KM)": "214+600",
       "FIN (KM)": "214+630",
       "METRADO": 80
+    },
+    {
+      "Descripción": "Reparación de las Estructuras de Contención (gabión) T2",
+      "Unidad": "m3",
+      "Fecha": "2024-07-19",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 0.1
+    },
+    {
+      "Descripción": "Tratamiento de Fisuras T2",
+      "Unidad": "m2",
+      "Fecha": "2024-07-19",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 8
+    },
+    {
+      "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
+      "Unidad": "ml",
+      "Fecha": "2024-07-19",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2024-07-19",
+      "INICIO (KM)": "214+600",
+      "FIN (KM)": null,
+      "METRADO": 120
     },
     {
       "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",

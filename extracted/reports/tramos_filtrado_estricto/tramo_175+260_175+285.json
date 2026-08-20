@@ -1,8 +1,8 @@
 {
   "tramo": "km 175+260 - 175+285",
-  "filtro": "estricto: INICIO (KM) y FIN (KM) dentro del tramo",
+  "filtro": "FIN completo: INICIO y FIN contenidos en tramo; FIN en blanco: INICIO dentro del tramo (tal cual Excel)",
   "columnas_origen": "Planilla columnas O (INICIO KM) y P (FIN KM)",
-  "total_registros": 29,
+  "total_registros": 37,
   "registros": [
     {
       "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
@@ -11,6 +11,22 @@
       "INICIO (KM)": "175+265",
       "FIN (KM)": "175+275",
       "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
+      "Unidad": "ml",
+      "Fecha": "2022-07-13",
+      "INICIO (KM)": "175+265",
+      "FIN (KM)": null,
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Sellado de juntas de cunetas T2",
+      "Unidad": "ml",
+      "Fecha": "2022-07-14",
+      "INICIO (KM)": "175+265",
+      "FIN (KM)": null,
+      "METRADO": 13.5
     },
     {
       "Descripción": "Limpieza de Guardavías T2",
@@ -27,6 +43,22 @@
       "INICIO (KM)": "175+265",
       "FIN (KM)": "175+280",
       "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2024-01-19",
+      "INICIO (KM)": "175+265",
+      "FIN (KM)": null,
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Pintura Chevron Guarda Vías T2",
+      "Unidad": "m2",
+      "Fecha": "2024-02-09",
+      "INICIO (KM)": "175+285",
+      "FIN (KM)": null,
+      "METRADO": 6
     },
     {
       "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
@@ -219,6 +251,38 @@
       "INICIO (KM)": "175+260",
       "FIN (KM)": "175+270",
       "METRADO": 100
+    },
+    {
+      "Descripción": "Pintura Chevron Guarda Vías T2",
+      "Unidad": "m2",
+      "Fecha": "2025-09-19",
+      "INICIO (KM)": "175+285",
+      "FIN (KM)": null,
+      "METRADO": 5.25
+    },
+    {
+      "Descripción": "Reposición de Defensas Averiadas T2",
+      "Unidad": "ml",
+      "Fecha": "2025-09-19",
+      "INICIO (KM)": "175+285",
+      "FIN (KM)": null,
+      "METRADO": 12
+    },
+    {
+      "Descripción": "Sellado de Juntas de Badenes T2",
+      "Unidad": "ml",
+      "Fecha": "2025-09-22",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": null,
+      "METRADO": 16
+    },
+    {
+      "Descripción": "Sellado de Juntas de Badenes T2",
+      "Unidad": "ml",
+      "Fecha": "2025-09-22",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": null,
+      "METRADO": 16
     },
     {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",

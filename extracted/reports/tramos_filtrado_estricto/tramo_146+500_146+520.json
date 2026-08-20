@@ -1,8 +1,8 @@
 {
   "tramo": "km 146+500 - 146+520",
-  "filtro": "estricto: INICIO (KM) y FIN (KM) dentro del tramo",
+  "filtro": "FIN completo: INICIO y FIN contenidos en tramo; FIN en blanco: INICIO dentro del tramo (tal cual Excel)",
   "columnas_origen": "Planilla columnas O (INICIO KM) y P (FIN KM)",
-  "total_registros": 21,
+  "total_registros": 26,
   "registros": [
     {
       "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
@@ -85,12 +85,36 @@
       "METRADO": 2
     },
     {
+      "Descripción": "Reposición de Cuneta",
+      "Unidad": "ml",
+      "Fecha": "2020-01-06",
+      "INICIO (KM)": "146+510",
+      "FIN (KM)": null,
+      "METRADO": 3
+    },
+    {
+      "Descripción": "Reposición de Cuneta",
+      "Unidad": "ml",
+      "Fecha": "2020-01-06",
+      "INICIO (KM)": "146+520",
+      "FIN (KM)": null,
+      "METRADO": 3
+    },
+    {
       "Descripción": "Limpieza de carril/pista y bermas T2",
       "Unidad": "m2",
       "Fecha": "2020-03-19",
       "INICIO (KM)": "146+500",
       "FIN (KM)": "146+520",
       "METRADO": 72
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2020-04-23",
+      "INICIO (KM)": "146+520",
+      "FIN (KM)": null,
+      "METRADO": 8
     },
     {
       "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
@@ -143,6 +167,14 @@
     {
       "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
       "Unidad": "ml",
+      "Fecha": "2025-03-24",
+      "INICIO (KM)": "146+500",
+      "FIN (KM)": null,
+      "METRADO": 12
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
       "Fecha": "2025-05-23",
       "INICIO (KM)": "146+510",
       "FIN (KM)": "146+510",
@@ -171,6 +203,14 @@
       "INICIO (KM)": "146+500",
       "FIN (KM)": "146+505",
       "METRADO": 14
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2026-03-16",
+      "INICIO (KM)": "146+520",
+      "FIN (KM)": null,
+      "METRADO": 3
     }
   ]
 }

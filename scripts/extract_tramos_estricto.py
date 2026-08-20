@@ -70,8 +70,14 @@ def serialize_metrado(value):
     return value
 
 
-def strict_within_tramo(inicio: int, fin: int, r_start: int, r_end: int) -> bool:
-    """Activity fully contained in tramo using INICIO (KM) and FIN (KM) only."""
+def matches_tramo(inicio: int, fin: int | None, r_start: int, r_end: int) -> bool:
+    """Match tramo using INICIO/FIN columns only.
+
+    - FIN present: activity must be fully contained in tramo (strict).
+    - FIN blank: include if INICIO falls within tramo (as in source Excel).
+    """
+    if fin is None:
+        return r_start <= inicio <= r_end
     if inicio > fin:
         inicio, fin = fin, inicio
     return inicio >= r_start and fin <= r_end
@@ -101,7 +107,7 @@ def load_all_records() -> list[dict]:
                 continue
             inicio_raw = to_num(row[14])
             fin_raw = to_num(row[15])
-            if inicio_raw is None or fin_raw is None:
+            if inicio_raw is None:
                 continue
 
             desc = row[9]
@@ -118,6 +124,7 @@ def load_all_records() -> list[dict]:
                     "FIN (KM)": format_progresiva_excel(fin_raw),
                     "_inicio_raw": inicio_raw,
                     "_fin_raw": fin_raw,
+                    "_fin_blank": fin_raw is None,
                     "METRADO": serialize_metrado(row[16]),
                 }
             )
@@ -128,7 +135,7 @@ def load_all_records() -> list[dict]:
 def filter_tramo(all_records: list[dict], r_start: int, r_end: int) -> list[dict]:
     filtered = []
     for rec in all_records:
-        if strict_within_tramo(rec["_inicio_raw"], rec["_fin_raw"], r_start, r_end):
+        if matches_tramo(rec["_inicio_raw"], rec["_fin_raw"], r_start, r_end):
             filtered.append({k: rec[k] for k in COLUMNS + ["Año"]})
     filtered.sort(key=lambda r: (r["Fecha"] or "", r["Año"], r["INICIO (KM)"] or ""))
     return filtered
@@ -155,7 +162,7 @@ def build_sheet(ws, tramo_label: str, records: list[dict]):
     ws["A1"].font = title_font
     ws.merge_cells("A1:F1")
     ws["A2"] = (
-        "Filtro estricto: INICIO (KM) y FIN (KM) contenidos en el tramo | "
+        "Filtro: FIN completo contenido en tramo; FIN en blanco si INICIO cae en tramo | "
         f"Total registros: {len(records)}"
     )
     ws.merge_cells("A2:F2")
@@ -213,7 +220,10 @@ def main():
 
         payload = {
             "tramo": f"km {tramo_label}",
-            "filtro": "estricto: INICIO (KM) y FIN (KM) dentro del tramo",
+            "filtro": (
+                "FIN completo: INICIO y FIN contenidos en tramo; "
+                "FIN en blanco: INICIO dentro del tramo (tal cual Excel)"
+            ),
             "columnas_origen": "Planilla columnas O (INICIO KM) y P (FIN KM)",
             "total_registros": len(records),
             "registros": [{k: r[k] for k in COLUMNS} for r in records],
@@ -237,7 +247,7 @@ def main():
         wb_single.save(OUTPUT_DIR / f"{filename}.xlsx")
 
     ws_sum = wb_master.create_sheet(title="Resumen", index=0)
-    ws_sum["A1"] = "REPORTES TRAMOS - FILTRO ESTRICTO (INICIO/FIN KM)"
+    ws_sum["A1"] = "REPORTES TRAMOS - FILTRO INICIO/FIN KM (FIN BLANCO INCLUIDO)"
     ws_sum["A1"].font = title_font
     ws_sum.merge_cells("A1:E1")
     headers = ["Tramo (km)", "Registros", "Rango evaluado", "Hoja", "Archivo"]
@@ -261,7 +271,7 @@ def main():
     master_path = OUTPUT_DIR / "reportes_todos_tramos_filtrado_estricto.xlsx"
     wb_master.save(master_path)
 
-    print("RESUMEN FILTRO ESTRICTO")
+    print("RESUMEN FILTRO (FIN BLANCO INCLUIDO)")
     print("-" * 60)
     for label, _, count, r_start, r_end in summary:
         print(f"km {label}: {count:4d} registros  [{format_progresiva_excel(r_start)} - {format_progresiva_excel(r_end)}]")

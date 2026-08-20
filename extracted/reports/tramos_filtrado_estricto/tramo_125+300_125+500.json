@@ -1,8 +1,8 @@
 {
   "tramo": "km 125+300 - 125+500",
-  "filtro": "estricto: INICIO (KM) y FIN (KM) dentro del tramo",
+  "filtro": "FIN completo: INICIO y FIN contenidos en tramo; FIN en blanco: INICIO dentro del tramo (tal cual Excel)",
   "columnas_origen": "Planilla columnas O (INICIO KM) y P (FIN KM)",
-  "total_registros": 472,
+  "total_registros": 525,
   "registros": [
     {
       "Descripción": "Remocion de Derrumbes T2",
@@ -245,6 +245,14 @@
       "METRADO": 72
     },
     {
+      "Descripción": "Limpieza Manual de Zanjas de Coronación T2",
+      "Unidad": "ml",
+      "Fecha": "2018-12-20",
+      "INICIO (KM)": "125+430",
+      "FIN (KM)": null,
+      "METRADO": 18
+    },
+    {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",
       "Unidad": "ml",
       "Fecha": "2018-12-26",
@@ -253,12 +261,52 @@
       "METRADO": 50
     },
     {
+      "Descripción": "Reparación Parcial de Guarda Vías T2",
+      "Unidad": "ml",
+      "Fecha": "2018-12-30",
+      "INICIO (KM)": "125+400",
+      "FIN (KM)": null,
+      "METRADO": 18
+    },
+    {
+      "Descripción": "Reposición de Tachas Reflectivas T2",
+      "Unidad": "und",
+      "Fecha": "2019-01-02",
+      "INICIO (KM)": "125+370",
+      "FIN (KM)": null,
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Reposición de Defensas Averiadas T2",
+      "Unidad": "ml",
+      "Fecha": "2019-01-02",
+      "INICIO (KM)": "125+370",
+      "FIN (KM)": null,
+      "METRADO": 18
+    },
+    {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",
       "Unidad": "ml",
       "Fecha": "2019-01-02",
       "INICIO (KM)": "125+400",
       "FIN (KM)": "125+430",
       "METRADO": 30
+    },
+    {
+      "Descripción": "Pintura Chevron Guarda Vías T2",
+      "Unidad": "m2",
+      "Fecha": "2019-01-03",
+      "INICIO (KM)": "125+370",
+      "FIN (KM)": null,
+      "METRADO": 9
+    },
+    {
+      "Descripción": "Pintura Chevron Guarda Vías T2",
+      "Unidad": "m2",
+      "Fecha": "2019-01-04",
+      "INICIO (KM)": "125+370",
+      "FIN (KM)": null,
+      "METRADO": 9
     },
     {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",
@@ -781,12 +829,28 @@
       "METRADO": 30
     },
     {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2020-02-06",
+      "INICIO (KM)": "125+450",
+      "FIN (KM)": null,
+      "METRADO": 72
+    },
+    {
       "Descripción": "Remocion de Derrumbes T2",
       "Unidad": "m3",
       "Fecha": "2020-02-07",
       "INICIO (KM)": "125+440",
       "FIN (KM)": "125+455",
       "METRADO": 12
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2020-02-09",
+      "INICIO (KM)": "125+455",
+      "FIN (KM)": null,
+      "METRADO": 24
     },
     {
       "Descripción": "Remocion de Derrumbes T2",
@@ -805,6 +869,22 @@
       "METRADO": 30
     },
     {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2020-02-28",
+      "INICIO (KM)": "125+367",
+      "FIN (KM)": null,
+      "METRADO": 8
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2020-02-28",
+      "INICIO (KM)": "125+420",
+      "FIN (KM)": null,
+      "METRADO": 108
+    },
+    {
       "Descripción": "Remocion de Derrumbes T2",
       "Unidad": "m3",
       "Fecha": "2020-03-09",
@@ -813,12 +893,44 @@
       "METRADO": 75
     },
     {
+      "Descripción": "Reposición de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2020-03-10",
+      "INICIO (KM)": "125+500",
+      "FIN (KM)": null,
+      "METRADO": 0.5625
+    },
+    {
       "Descripción": "Limpieza de carril/pista y bermas T2",
       "Unidad": "m2",
       "Fecha": "2020-03-15",
       "INICIO (KM)": "125+400",
       "FIN (KM)": "125+420",
       "METRADO": 32.4
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2020-03-19",
+      "INICIO (KM)": "125+455",
+      "FIN (KM)": null,
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2020-03-22",
+      "INICIO (KM)": "125+455",
+      "FIN (KM)": null,
+      "METRADO": 90
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2020-04-05",
+      "INICIO (KM)": "125+455",
+      "FIN (KM)": null,
+      "METRADO": 60
     },
     {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",
@@ -1109,6 +1221,14 @@
       "METRADO": 3
     },
     {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2021-02-16",
+      "INICIO (KM)": "125+365",
+      "FIN (KM)": null,
+      "METRADO": 11
+    },
+    {
       "Descripción": "Reparación de las Estructuras de Contención (gabión) T2",
       "Unidad": "m3",
       "Fecha": "2021-02-21",
@@ -1205,12 +1325,28 @@
       "METRADO": 72
     },
     {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2021-03-24",
+      "INICIO (KM)": "125+475",
+      "FIN (KM)": null,
+      "METRADO": 15
+    },
+    {
       "Descripción": "Limpieza de carril/pista y bermas T2",
       "Unidad": "m2",
       "Fecha": "2021-04-11",
       "INICIO (KM)": "125+450",
       "FIN (KM)": "125+460",
       "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2021-04-15",
+      "INICIO (KM)": "125+365",
+      "FIN (KM)": null,
+      "METRADO": 12
     },
     {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",
@@ -1229,6 +1365,14 @@
       "METRADO": 101
     },
     {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2021-04-20",
+      "INICIO (KM)": "125+394",
+      "FIN (KM)": null,
+      "METRADO": 2
+    },
+    {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",
       "Unidad": "ml",
       "Fecha": "2021-04-20",
@@ -1245,12 +1389,52 @@
       "METRADO": 95
     },
     {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2021-04-20",
+      "INICIO (KM)": "125+400",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2021-04-20",
+      "INICIO (KM)": "125+400",
+      "FIN (KM)": null,
+      "METRADO": 2
+    },
+    {
+      "Descripción": "Reparación de las Estructuras de Contención (gabión) T2",
+      "Unidad": "m3",
+      "Fecha": "2021-04-20",
+      "INICIO (KM)": "125+420",
+      "FIN (KM)": null,
+      "METRADO": 2
+    },
+    {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2021-04-20",
+      "INICIO (KM)": "125+495",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
       "Descripción": "Limpieza Manual de Zanjas de Coronación T2",
       "Unidad": "ml",
       "Fecha": "2021-05-20",
       "INICIO (KM)": "125+394",
       "FIN (KM)": "125+495",
       "METRADO": 101
+    },
+    {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2021-05-20",
+      "INICIO (KM)": "125+394",
+      "FIN (KM)": null,
+      "METRADO": 1
     },
     {
       "Descripción": "Limpieza Manual de Zanjas de Coronación T2",
@@ -1261,12 +1445,68 @@
       "METRADO": 95
     },
     {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2021-05-20",
+      "INICIO (KM)": "125+400",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Reparación de las Estructuras de Contención (gabión) T2",
+      "Unidad": "m3",
+      "Fecha": "2021-05-20",
+      "INICIO (KM)": "125+420",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza Manual de Zanjas de Coronación T2",
+      "Unidad": "ml",
+      "Fecha": "2021-06-09",
+      "INICIO (KM)": "125+500",
+      "FIN (KM)": null,
+      "METRADO": 8
+    },
+    {
+      "Descripción": "Limpieza Manual de Zanjas de Coronación T2",
+      "Unidad": "ml",
+      "Fecha": "2021-06-09",
+      "INICIO (KM)": "125+500",
+      "FIN (KM)": null,
+      "METRADO": 45
+    },
+    {
+      "Descripción": "Limpieza Manual de Zanjas de Coronación T2",
+      "Unidad": "ml",
+      "Fecha": "2021-06-09",
+      "INICIO (KM)": "125+500",
+      "FIN (KM)": null,
+      "METRADO": 120
+    },
+    {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2021-06-10",
+      "INICIO (KM)": "125+480",
+      "FIN (KM)": null,
+      "METRADO": 2
+    },
+    {
       "Descripción": "Limpieza Manual de Zanjas de Coronación T2",
       "Unidad": "ml",
       "Fecha": "2021-06-18",
       "INICIO (KM)": "125+394",
       "FIN (KM)": "125+495",
       "METRADO": 101
+    },
+    {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2021-06-18",
+      "INICIO (KM)": "125+394",
+      "FIN (KM)": null,
+      "METRADO": 1
     },
     {
       "Descripción": "Limpieza Manual de Zanjas de Coronación T2",
@@ -1282,6 +1522,22 @@
       "Fecha": "2021-06-18",
       "INICIO (KM)": "125+400",
       "FIN (KM)": "125+495",
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2021-06-18",
+      "INICIO (KM)": "125+400",
+      "FIN (KM)": null,
+      "METRADO": 2
+    },
+    {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2021-06-18",
+      "INICIO (KM)": "125+495",
+      "FIN (KM)": null,
       "METRADO": 1
     },
     {
@@ -1333,12 +1589,36 @@
       "METRADO": 10
     },
     {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2021-08-19",
+      "INICIO (KM)": "125+395",
+      "FIN (KM)": null,
+      "METRADO": 2
+    },
+    {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2021-08-19",
+      "INICIO (KM)": "125+495",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
       "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
       "Unidad": "ml",
       "Fecha": "2021-08-19",
       "INICIO (KM)": "125+495",
       "FIN (KM)": "125+495",
       "METRADO": 45
+    },
+    {
+      "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
+      "Unidad": "ml",
+      "Fecha": "2021-08-19",
+      "INICIO (KM)": "125+495",
+      "FIN (KM)": null,
+      "METRADO": 20
     },
     {
       "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
@@ -1467,6 +1747,14 @@
       "INICIO (KM)": "125+394",
       "FIN (KM)": "125+495",
       "METRADO": 42
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2021-11-27",
+      "INICIO (KM)": "125+400",
+      "FIN (KM)": null,
+      "METRADO": 5
     },
     {
       "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
@@ -1613,6 +1901,30 @@
       "METRADO": 7
     },
     {
+      "Descripción": "Repintado de delineador T2",
+      "Unidad": "und",
+      "Fecha": "2022-01-19",
+      "INICIO (KM)": "125+300",
+      "FIN (KM)": null,
+      "METRADO": 3
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2022-01-19",
+      "INICIO (KM)": "125+360",
+      "FIN (KM)": null,
+      "METRADO": 8
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2022-01-19",
+      "INICIO (KM)": "125+367",
+      "FIN (KM)": null,
+      "METRADO": 10
+    },
+    {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",
       "Unidad": "ml",
       "Fecha": "2022-01-21",
@@ -1675,6 +1987,14 @@
       "INICIO (KM)": "125+394",
       "FIN (KM)": "125+495",
       "METRADO": 40
+    },
+    {
+      "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
+      "Unidad": "ml",
+      "Fecha": "2022-03-01",
+      "INICIO (KM)": "125+425",
+      "FIN (KM)": null,
+      "METRADO": 12
     },
     {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",
@@ -1901,6 +2221,54 @@
       "METRADO": 6
     },
     {
+      "Descripción": "Limpieza Manual de Zanjas de Coronación T2",
+      "Unidad": "ml",
+      "Fecha": "2022-08-03",
+      "INICIO (KM)": "125+394",
+      "FIN (KM)": null,
+      "METRADO": 16
+    },
+    {
+      "Descripción": "Limpieza Manual de Zanjas de Coronación T2",
+      "Unidad": "ml",
+      "Fecha": "2022-08-03",
+      "INICIO (KM)": "125+394",
+      "FIN (KM)": null,
+      "METRADO": 18
+    },
+    {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2022-08-03",
+      "INICIO (KM)": "125+394",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
+      "Unidad": "ml",
+      "Fecha": "2022-08-03",
+      "INICIO (KM)": "125+394",
+      "FIN (KM)": null,
+      "METRADO": 6
+    },
+    {
+      "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
+      "Unidad": "ml",
+      "Fecha": "2022-08-03",
+      "INICIO (KM)": "125+495",
+      "FIN (KM)": null,
+      "METRADO": 8
+    },
+    {
+      "Descripción": "Reparación de las Estructuras de Contención (gabión) T2",
+      "Unidad": "m3",
+      "Fecha": "2022-08-03",
+      "INICIO (KM)": "125+495",
+      "FIN (KM)": null,
+      "METRADO": 0.5
+    },
+    {
       "Descripción": "Limpieza de carril/pista y bermas T2",
       "Unidad": "m2",
       "Fecha": "2022-08-11",
@@ -1949,6 +2317,22 @@
       "METRADO": 3
     },
     {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2022-09-15",
+      "INICIO (KM)": "125+440",
+      "FIN (KM)": null,
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2022-09-28",
+      "INICIO (KM)": "125+395",
+      "FIN (KM)": null,
+      "METRADO": 13
+    },
+    {
       "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
       "Unidad": "ml",
       "Fecha": "2022-11-02",
@@ -1963,6 +2347,14 @@
       "INICIO (KM)": "125+394",
       "FIN (KM)": "125+495",
       "METRADO": 8
+    },
+    {
+      "Descripción": "Reparación de las Estructuras de Contención (gabión) T2",
+      "Unidad": "m3",
+      "Fecha": "2022-11-02",
+      "INICIO (KM)": "125+490",
+      "FIN (KM)": null,
+      "METRADO": 0.5
     },
     {
       "Descripción": "Reparación de las Estructuras de Contención (gabión) T2",
@@ -2099,6 +2491,22 @@
       "INICIO (KM)": "125+399",
       "FIN (KM)": "125+495",
       "METRADO": 12
+    },
+    {
+      "Descripción": "Reparación de las Estructuras de Contención (gabión) T2",
+      "Unidad": "m3",
+      "Fecha": "2023-01-05",
+      "INICIO (KM)": "125+495",
+      "FIN (KM)": null,
+      "METRADO": 0.1
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2023-01-06",
+      "INICIO (KM)": "125+310",
+      "FIN (KM)": null,
+      "METRADO": 14
     },
     {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",
@@ -2819,6 +3227,22 @@
       "INICIO (KM)": "125+400",
       "FIN (KM)": "125+440",
       "METRADO": 105
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2025-02-05",
+      "INICIO (KM)": "125+400",
+      "FIN (KM)": null,
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Recomposición de Erosión T2",
+      "Unidad": "m3",
+      "Fecha": "2025-02-05",
+      "INICIO (KM)": "125+400",
+      "FIN (KM)": null,
+      "METRADO": 6
     },
     {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",

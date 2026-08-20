@@ -1,8 +1,8 @@
 {
   "tramo": "km 243+700 - 243+730",
-  "filtro": "estricto: INICIO (KM) y FIN (KM) dentro del tramo",
+  "filtro": "FIN completo: INICIO y FIN contenidos en tramo; FIN en blanco: INICIO dentro del tramo (tal cual Excel)",
   "columnas_origen": "Planilla columnas O (INICIO KM) y P (FIN KM)",
-  "total_registros": 15,
+  "total_registros": 23,
   "registros": [
     {
       "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
@@ -11,6 +11,14 @@
       "INICIO (KM)": "243+700",
       "FIN (KM)": "243+710",
       "METRADO": 14
+    },
+    {
+      "Descripción": "Reposición de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2019-10-29",
+      "INICIO (KM)": "243+725",
+      "FIN (KM)": null,
+      "METRADO": 0.5625
     },
     {
       "Descripción": "Limpieza de carril/pista y bermas T2",
@@ -37,6 +45,14 @@
       "METRADO": 0.25
     },
     {
+      "Descripción": "Reposición de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2022-01-27",
+      "INICIO (KM)": "243+730",
+      "FIN (KM)": null,
+      "METRADO": 0.5625
+    },
+    {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",
       "Unidad": "ml",
       "Fecha": "2022-11-05",
@@ -61,6 +77,14 @@
       "METRADO": 20
     },
     {
+      "Descripción": "Repintado de Postes de (hitos) kilométricos T2",
+      "Unidad": "m2",
+      "Fecha": "2023-04-26",
+      "INICIO (KM)": "243+729",
+      "FIN (KM)": null,
+      "METRADO": 0.5
+    },
+    {
       "Descripción": "Remocion de Derrumbes T2",
       "Unidad": "m3",
       "Fecha": "2024-03-11",
@@ -79,6 +103,14 @@
     {
       "Descripción": "Limpieza de carril/pista y bermas T2",
       "Unidad": "m2",
+      "Fecha": "2024-03-21",
+      "INICIO (KM)": "243+701",
+      "FIN (KM)": null,
+      "METRADO": 20
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
       "Fecha": "2024-03-27",
       "INICIO (KM)": "243+700",
       "FIN (KM)": "243+730",
@@ -91,6 +123,22 @@
       "INICIO (KM)": "243+705",
       "FIN (KM)": "243+730",
       "METRADO": 4
+    },
+    {
+      "Descripción": "Limpieza de Placas de Señalización Vertical T2",
+      "Unidad": "m2",
+      "Fecha": "2024-07-09",
+      "INICIO (KM)": "243+720",
+      "FIN (KM)": null,
+      "METRADO": 0.5625
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2025-01-08",
+      "INICIO (KM)": "243+700",
+      "FIN (KM)": null,
+      "METRADO": 20
     },
     {
       "Descripción": "Limpieza Manual de Cuneta de Vía T2",
@@ -123,6 +171,22 @@
       "INICIO (KM)": "243+700",
       "FIN (KM)": "243+720",
       "METRADO": 800
+    },
+    {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2025-10-21",
+      "INICIO (KM)": "243+700",
+      "FIN (KM)": null,
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Reposición de Delineador T2",
+      "Unidad": "und",
+      "Fecha": "2026-01-27",
+      "INICIO (KM)": "243+700",
+      "FIN (KM)": null,
+      "METRADO": 2
     }
   ]
 }
