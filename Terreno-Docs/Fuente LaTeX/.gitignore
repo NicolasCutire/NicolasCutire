@@ -1,0 +1,7 @@
+# PDFs compilados viven en Final Docs List/, no en la fuente
+*.pdf
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
