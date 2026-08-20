@@ -1,0 +1,176 @@
+{
+  "tramo": "km 146+500 - 146+520",
+  "filtro": "estricto: INICIO (KM) y FIN (KM) dentro del tramo",
+  "columnas_origen": "Planilla columnas O (INICIO KM) y P (FIN KM)",
+  "total_registros": 21,
+  "registros": [
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2018-06-11",
+      "INICIO (KM)": "146+518",
+      "FIN (KM)": "146+518",
+      "METRADO": 8
+    },
+    {
+      "Descripción": "Reparación de Bache Superficial T2",
+      "Unidad": "m2",
+      "Fecha": "2018-06-18",
+      "INICIO (KM)": "146+512",
+      "FIN (KM)": "146+512",
+      "METRADO": 0.01
+    },
+    {
+      "Descripción": "Reparación de Bache Superficial T2",
+      "Unidad": "m2",
+      "Fecha": "2018-06-18",
+      "INICIO (KM)": "146+517",
+      "FIN (KM)": "146+517",
+      "METRADO": 0.01
+    },
+    {
+      "Descripción": "Reparación de Bache Superficial T2",
+      "Unidad": "m2",
+      "Fecha": "2018-06-18",
+      "INICIO (KM)": "146+517",
+      "FIN (KM)": "146+517",
+      "METRADO": 0.01
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2018-07-12",
+      "INICIO (KM)": "146+500",
+      "FIN (KM)": "146+510",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza Manual / Mecanizada T2",
+      "Unidad": "ml",
+      "Fecha": "2019-01-02",
+      "INICIO (KM)": "146+500",
+      "FIN (KM)": "146+510",
+      "METRADO": 1
+    },
+    {
+      "Descripción": "Limpieza mecanizada de cabezal de alcantarilla T2",
+      "Unidad": "m3",
+      "Fecha": "2019-03-19",
+      "INICIO (KM)": "146+500",
+      "FIN (KM)": "146+520",
+      "METRADO": 75
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2019-08-08",
+      "INICIO (KM)": "146+510",
+      "FIN (KM)": "146+520",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2019-08-09",
+      "INICIO (KM)": "146+510",
+      "FIN (KM)": "146+520",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza de Delineador T2",
+      "Unidad": "und",
+      "Fecha": "2019-11-29",
+      "INICIO (KM)": "146+500",
+      "FIN (KM)": "146+504",
+      "METRADO": 2
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2020-03-19",
+      "INICIO (KM)": "146+500",
+      "FIN (KM)": "146+520",
+      "METRADO": 72
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2020-12-01",
+      "INICIO (KM)": "146+520",
+      "FIN (KM)": "146+520",
+      "METRADO": 4
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2021-04-03",
+      "INICIO (KM)": "146+500",
+      "FIN (KM)": "146+510",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2021-12-06",
+      "INICIO (KM)": "146+520",
+      "FIN (KM)": "146+520",
+      "METRADO": 12
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2022-11-28",
+      "INICIO (KM)": "146+520",
+      "FIN (KM)": "146+520",
+      "METRADO": 6
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2024-04-13",
+      "INICIO (KM)": "146+510",
+      "FIN (KM)": "146+514",
+      "METRADO": 12
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2024-06-28",
+      "INICIO (KM)": "146+520",
+      "FIN (KM)": "146+520",
+      "METRADO": 16
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2025-05-23",
+      "INICIO (KM)": "146+510",
+      "FIN (KM)": "146+510",
+      "METRADO": 14
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2025-06-09",
+      "INICIO (KM)": "146+510",
+      "FIN (KM)": "146+514",
+      "METRADO": 14
+    },
+    {
+      "Descripción": "Limpieza Manual de Cabezal de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2025-06-10",
+      "INICIO (KM)": "146+510",
+      "FIN (KM)": "146+514",
+      "METRADO": 14
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuerpo de Alcantarilla T2",
+      "Unidad": "ml",
+      "Fecha": "2025-08-28",
+      "INICIO (KM)": "146+500",
+      "FIN (KM)": "146+505",
+      "METRADO": 14
+    }
+  ]
+}

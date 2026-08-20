@@ -1,0 +1,240 @@
+{
+  "tramo": "km 175+260 - 175+285",
+  "filtro": "estricto: INICIO (KM) y FIN (KM) dentro del tramo",
+  "columnas_origen": "Planilla columnas O (INICIO KM) y P (FIN KM)",
+  "total_registros": 29,
+  "registros": [
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2022-04-03",
+      "INICIO (KM)": "175+265",
+      "FIN (KM)": "175+275",
+      "METRADO": 10
+    },
+    {
+      "Descripción": "Limpieza de Guardavías T2",
+      "Unidad": "ml",
+      "Fecha": "2023-10-10",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+282",
+      "METRADO": 22
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2024-01-15",
+      "INICIO (KM)": "175+265",
+      "FIN (KM)": "175+280",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2025-02-26",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+270",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2025-03-25",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+270",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2025-03-26",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+270",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-03-27",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+270",
+      "METRADO": 105
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2025-03-27",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+270",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2025-04-04",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 120
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2025-04-06",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2025-04-06",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-04-07",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 60
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-04-07",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-04-08",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 135
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-04-09",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 90
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-04-09",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 45
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-04-11",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 45
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-04-14",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 135
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-04-16",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 330
+    },
+    {
+      "Descripción": "Limpieza de carril/pista y bermas T2",
+      "Unidad": "m2",
+      "Fecha": "2025-04-18",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 25
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-04-21",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 135
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-04-22",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 75
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-04-26",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 135
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-04-27",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 195
+    },
+    {
+      "Descripción": "Remocion de Derrumbes T2",
+      "Unidad": "m3",
+      "Fecha": "2025-05-11",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+285",
+      "METRADO": 30
+    },
+    {
+      "Descripción": "Limpieza de Deslizamientos Menores < 15 m3 T2",
+      "Unidad": "m3",
+      "Fecha": "2025-08-31",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+280",
+      "METRADO": 15
+    },
+    {
+      "Descripción": "Limpieza de Superfície de Concreto y Dispos. Drenaje T2",
+      "Unidad": "ml",
+      "Fecha": "2025-09-06",
+      "INICIO (KM)": "175+260",
+      "FIN (KM)": "175+270",
+      "METRADO": 100
+    },
+    {
+      "Descripción": "Limpieza Manual de Cuneta de Vía T2",
+      "Unidad": "ml",
+      "Fecha": "2025-11-21",
+      "INICIO (KM)": "175+270",
+      "FIN (KM)": "175+270",
+      "METRADO": 120
+    },
+    {
+      "Descripción": "Limpieza de Cajas de Inspección Subdren T2",
+      "Unidad": "und",
+      "Fecha": "2025-11-27",
+      "INICIO (KM)": "175+270",
+      "FIN (KM)": "175+270",
+      "METRADO": 2
+    }
+  ]
+}

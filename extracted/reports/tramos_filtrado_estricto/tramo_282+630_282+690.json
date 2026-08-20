@@ -1,0 +1,7 @@
+{
+  "tramo": "km 282+630 - 282+690",
+  "filtro": "estricto: INICIO (KM) y FIN (KM) dentro del tramo",
+  "columnas_origen": "Planilla columnas O (INICIO KM) y P (FIN KM)",
+  "total_registros": 0,
+  "registros": []
+}
