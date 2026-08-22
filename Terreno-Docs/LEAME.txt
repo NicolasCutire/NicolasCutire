@@ -4,7 +4,7 @@ EXPEDIENTE DE TRABAJO — PREDIO RÚSTICO 10 ha (INAMBARI, MADRE DE DIOS)
 Fuentes LaTeX:
   /home/nicolas/Documents/Personal Docs/Terreno Docs/Fuente LaTeX
 
-PDF finales (24):
+PDF finales (25):
   /home/nicolas/Documents/Personal Docs/Terreno Docs/Final Docs List
 
 Anexos de mapa:
@@ -50,3 +50,4 @@ Orden de los PDF:
   22 Modelo documento 2018
   23 Explicación de costos
   24 Recibo de entrega directa del precio (trato sin intermediario)
+  25 Casuística remanente Lucio (compraventa vs donación ~90 ha)
