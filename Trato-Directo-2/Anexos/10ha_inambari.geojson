@@ -1,0 +1,91 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "10 ha rectangulo",
+        "area_ha": 10
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.170058,
+              -12.912452
+            ],
+            [
+              -70.170981,
+              -12.912497
+            ],
+            [
+              -70.17143838,
+              -12.90346898
+            ],
+            [
+              -70.17051538,
+              -12.90342398
+            ],
+            [
+              -70.170058,
+              -12.912452
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "P1 Frente Este (dato Google)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.170058,
+          -12.912452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "P2 Frente Oeste (dato Google)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.170981,
+          -12.912497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "P3 Fondo Oeste (calculado)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.17143838,
+          -12.90346898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "P4 Fondo Este (calculado)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.17051538,
+          -12.90342398
+        ]
+      }
+    }
+  ]
+}

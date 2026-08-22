@@ -1,0 +1,57 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\thispagestyle{empty}
+\vspace*{1.4cm}
+\begin{center}
+{\color{tinta}\rule{0.72\textwidth}{1.8pt}}\\[0.9em]
+{\large\bfseries\color{tinta}EXPEDIENTE PRIVADO DE TRABAJO}\\[0.35em]
+{\LARGE\bfseries\color{tinta}INDEPENDIZACIÓN Y COMPRAVENTA}\\[0.15em]
+{\LARGE\bfseries\color{tinta}DE PREDIO RÚSTICO}\\[0.55em]
+{\Huge\bfseries\color{tinta}10,00 HECTÁREAS}\\[0.35em]
+{\large Distrito de Inambari --- Provincia de Tambopata}\\[0.12em]
+{\large Departamento de Madre de Dios --- Perú}\\[0.55em]
+{\color{tinta}\rule{0.72\textwidth}{1.8pt}}
+\end{center}
+
+\vspace{1.1cm}
+\noindent
+\renewcommand{\arraystretch}{1.35}
+\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{4.6cm}>{\raggedright\arraybackslash}X@{}}
+\rowcolor{encabezado}
+\multicolumn{2}{l}{\textbf{Identificación del predio y de las partes}}\\
+Metodología & \textbf{Trato directo:} el titular registral vende a los compradores. No hay intermediario en el título de dominio.\\
+Predio a independizar & 10,00 ha: \CriterioRecorte\ Queda al este del Puente Jayave (el puente, sobre el río, no forma parte del lote).\\
+Predio matriz & Partida \textbf{\PartidaMatriz}, \ZonaRegistral, \OficinaRegistral. Titular: \VendedorNombreCompleto, DNI \VendedorDNI. Área inscrita: \AreaMatriz. U.C.\ \UnidadCatastral. \UbicacionRegistral.\\
+Naturaleza & Predio rústico. Las 10 ha son la décima parte exacta de las 100,00 ha inscritas.\\
+Vendedor / titular & \VendedorNombreCompleto, DNI \VendedorDNI, soltero, sin unión de hecho vigente.\\
+Compradores (copropiedad 50/50) & \CompradorUnoNombre, DNI \CompradorUnoDNI, soltero; y \CompradorDosNombre, DNI \CompradorDosDNI, soltera. \textbf{Parentesco:} \CompradorParentesco.\\
+Conviviente del vendedor & No corresponde.\\
+Referencia Lucio (opcional) & \IntermediarioNombre, DNI \IntermediarioDNI: \IntermediarioRol. No firma la compraventa ni la independización.\\
+Antecedente de 2018 & Documento privado de compraventa / pago por \MontoPago\ (fecha \FechaPago, a confirmar en el papel), a reconocer entre Richar y los compradores (DOC-15 / DOC-22).\\
+Objeto de este expediente & Independizar 10 ha, compraventa onerosa directa e inscripción SUNARP a nombre de Nico y Lucy.\\
+\end{tabularx}
+
+\vspace{1.1cm}
+\begin{center}
+\fcolorbox{aviso}{fondoaviso}{%
+\begin{minipage}{0.88\textwidth}
+\centering\small
+\textbf{BORRADOR --- NO ES INSTRUMENTO PÚBLICO}\\[0.3em]
+Este juego de documentos se entrega para visualización del proceso.
+Carece de fe pública, no sustituye la autorización de abogado colegiado
+ni la escritura que autorice un notario de Madre de Dios, y no produce
+efectos registrales hasta su elevación e inscripción.
+\end{minipage}}
+\end{center}
+
+\vfill
+\begin{center}
+{\small Carpeta de trabajo: \texttt{\CarpetaTrabajo}}\\[0.15em]
+{\small Destino de PDF finales: \texttt{Trato-Directo/Final Docs List}}\\[0.35em]
+{\small Fecha de este juego: \FechaJuegoExpediente}\\[0.7em]
+{\color{tinta}\rule{0.45\textwidth}{0.6pt}}\\[0.3em]
+{\footnotesize Versión \VersionExpediente}
+\end{center}
+\end{document}

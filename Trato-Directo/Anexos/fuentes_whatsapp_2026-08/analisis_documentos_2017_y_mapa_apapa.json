@@ -1,0 +1,388 @@
+{
+  "meta": {
+    "fecha_analisis": "2026-08-21",
+    "fuente": "Fotografías WhatsApp del expediente de título/compraventa 100 ha (Huanca → Cutire) y mapa APAPA",
+    "carpeta_imagenes": "Anexos/fuentes_whatsapp_2026-08/imagenes",
+    "carpeta_ocr": "Anexos/fuentes_whatsapp_2026-08/ocr",
+    "metodo": "Lectura visual + OCR (tesseract eng; spa no instalado). OCR imperfecto en sellos/mapas; campos críticos validados por lectura de imagen.",
+    "idioma_documentos": "es",
+    "ambito_geografico": {
+      "distrito": "Inambari (Mazuko)",
+      "provincia": "Tambopata",
+      "departamento": "Madre de Dios",
+      "sectores_mencionados": [
+        "Santa Rita Baja / Santa Rita Baja - II",
+        "Primavera Alta",
+        "Primavera Baja",
+        "Kilómetro 129 (dirección vendedores)"
+      ]
+    }
+  },
+
+  "conclusion_hidrografia": {
+    "mencion_rio_o_quebrada_en_documentos_legales": false,
+    "detalle": "En título PETT, minuta N° 954, testimonio/escritura N° 962 y constancias notariales NO aparece la palabra 'río', 'quebrada', 'Jayave', 'cauce' ni descripción de linderos naturales. 'Inambari' solo como distrito/municipalidad.",
+    "mencion_en_mapa_apapa": true,
+    "nombre_curso_en_mapa": "Qda. Jayave (Quebrada Jayave; en algunas lecturas también 'Jarave')",
+    "efecto_sobre_predio_huanca": "En el mapa APAPA, el predio marcado 'Saturnino Huanca' aparece en el borde este de las franjas verticales, tocado/sombreado por la hidrografía de la Qda. Jayave, junto a vecinos (p. ej. Alejandro Flores, Edi Aguilar, Victor Cordova).",
+    "implicancia_para_10ha": "Los títulos legales de las 100 ha no describen el agua; la evidencia cartográfica comunitaria sí. Para independizar 10 ha hay que verificar en campo y en plano perimétrico si la quebrada corta la franja a vender."
+  },
+
+  "personas": {
+    "vendedores_2017": [
+      {
+        "nombre": "Saturnino Huanca Alvarez",
+        "dni": "04808650",
+        "nacionalidad": "peruana",
+        "ocupacion": "agricultor",
+        "estado_civil_en_escritura_2017": "soltero",
+        "domicilio": "Comunidad Santa Rita Baja, Kilómetro 129, distrito Inambari, provincia Tambopata, Madre de Dios",
+        "rol": "vendedor / otorgante",
+        "notas": "Titular adjudicación PETT 1999. En título 1999 figura como conviviente (ver inconsistencia abajo)."
+      },
+      {
+        "nombre": "Narcisa Senobia Huaman Huillca",
+        "dni": "80074069",
+        "nacionalidad": "peruana",
+        "ocupacion": "su casa",
+        "estado_civil_en_escritura_2017": "soltera",
+        "domicilio": "Comunidad Santa Rita Baja, Kilómetro 129, distrito Inambari, provincia Tambopata, Madre de Dios",
+        "rol": "vendedora / otorgante",
+        "condicion": "iletrada; firma a ruego; imprime huella índice derecho",
+        "firmante_a_ruego": "Percy Cancha Huillca"
+      }
+    ],
+    "comprador_2017": {
+      "nombre": "Richar Darwin Cutire Condori",
+      "dni": "42610690",
+      "nacionalidad": "peruana",
+      "ocupacion": "agricultor",
+      "estado_civil": "soltero",
+      "domicilio": "Comunidad Primavera Alta, distrito Inambari, provincia Tambopata, Madre de Dios",
+      "rol": "comprador / a favor de",
+      "solicito_primer_testimonio": true
+    },
+    "intervenciones": [
+      {
+        "nombre": "Percy Cancha Huillca",
+        "dni": "04827072",
+        "ocupacion": "agricultor",
+        "estado_civil": "soltero",
+        "domicilio": "Calle José María Arguedas Y-12 (Y-doce), distrito Tambopata, provincia Tambopata, Madre de Dios",
+        "rol": "firmante a ruego de Narcisa Senobia Huaman Huillca"
+      },
+      {
+        "nombre": "Juan Carlos Naquiche Albines",
+        "colegiatura": "Colegio de Abogados de Huaura N° 1164",
+        "rol": "autoriza la minuta"
+      },
+      {
+        "nombre": "Lourdes Madeleine García Medina",
+        "rol": "Notaria de Tambopata",
+        "oficina": "Notaría García Medina",
+        "direccion_oficina": "Jr. Puno N° 716, Puerto Maldonado",
+        "contactos_pie": {
+          "tel": "502258",
+          "otros_telefonos_legibles": ["373769", "Movistar 953547509"]
+        }
+      }
+    ],
+    "titulo_pett_1999": {
+      "adjudicatario": "Saturnino Huanca Alvarez",
+      "estado_civil_en_titulo": "CONVIVIENTE",
+      "conviviente_nombrada": "Zenovia Huaman Huillca (variantes OCR: Zenovia / Zenovir; Huillca / Huilcca)",
+      "inconsistencia": "En 1999 la conviviente figura como Zenovia Huaman Huillca; en 2017 la co-vendedora es Narcisa Senobia Huaman Huillca (ambos solteros en escritura). Conviene aclarar identidad/cadena de titularidad en copia literal."
+    }
+  },
+
+  "predio_matriz": {
+    "parcela": 19,
+    "proyecto_adjudicacion": "SANTA RITA BAJA - II",
+    "unidad_catastral": "30362",
+    "area_ha": 100.0,
+    "area_m2_adicionales": 0.0,
+    "partida_electronica": "05007514",
+    "registro": "Registro de Predios de Madre de Dios",
+    "ficha_historica": {
+      "ficha": "6744",
+      "asiento": "01-C",
+      "anotacion": "La independización",
+      "recibo": "14420",
+      "fecha_inscripcion": "1999-02-09",
+      "oficina": "Oficina Registral Madre de Dios (Región Inka)"
+    },
+    "titulo_propiedad_pett": {
+      "serie": "A",
+      "numero_impreso_en_titulo": "0052578",
+      "numero_citado_en_minuta": "52576",
+      "nota_numeracion": "La minuta cita 'Título de Propiedad N° 52576'; el certificado PETT muestra Serie A Nº 0052578. Probable misma serie (dígitos truncados/variante). Verificar en SUNARP.",
+      "resolucion_directoral": "N° 033-99",
+      "fecha_resolucion": "1999-02-05",
+      "fecha_expedicion": "1999-02-08",
+      "lugar_expedicion": "Puerto Maldonado",
+      "naturaleza": "adjudicación gratuita",
+      "base_legal": ["Decreto Ley N° 25902", "Decreto Legislativo N° 838"],
+      "firmantes_titulo": [
+        "Director Regional de Agricultura (Región Inka)",
+        "Ing. Juan Casas Uceda, Director Ejecutivo del PETT"
+      ],
+      "menciona_rio_o_quebrada": false,
+      "incluye_linderos_en_cara": false
+    }
+  },
+
+  "acto_compraventa_2017": {
+    "tipo": "compra-venta de bien inmueble (parcela completa 100 ha)",
+    "minuta_numero": "954",
+    "instrumento_publico_numero": 962,
+    "kardex": "4243",
+    "fecha_minuta": "2017-08-14",
+    "fecha_escritura": "2017-08-15",
+    "lugar": "Puerto Maldonado / Tambopata",
+    "notaria": "Lourdes Madeleine García Medina",
+    "objeto": "Venta real y perpetua de la Parcela N° 19 completa (100 ha) a Richar Darwin Cutire Condori",
+    "modalidad": "ad corpus (incluye entradas, salidas, usos, costumbres, servidumbres, aires, vuelos y lo que por derecho corresponda, sin reserva)",
+    "posesion_comprador_desde": "2016-10",
+    "precio": {
+      "total_soles": 65000.0,
+      "efectivo_previo_soles": 27000.0,
+      "depositos_bancarios_soles": 38000.0,
+      "banco": "Caja Arequipa",
+      "agencia": "Puerto Maldonado",
+      "titular_cuenta_depositos": "Huanca Alvarez Saturnino",
+      "cuenta": "00146706102100001001",
+      "tipo_cuenta": "Ahorro Móvil Sol",
+      "cci": "803-014-001467061001-04",
+      "ruc_caja": "20100209641",
+      "depositos": [
+        {
+          "fecha": "2016-12-27",
+          "hora": "12:12:16",
+          "nro_op": "1612270140505010066",
+          "monto_soles": 18000.0,
+          "itf_soles": 0.9
+        },
+        {
+          "fecha": "2016-12-27",
+          "hora": "13:17:09",
+          "nro_op": "1612270140505010071",
+          "monto_soles": 17000.0,
+          "itf_soles": 0.85
+        },
+        {
+          "fecha": "2016-12-27",
+          "hora": "13:18:32",
+          "nro_op": "1612270140505010073",
+          "monto_soles": 3000.0,
+          "itf_soles": 0.15
+        }
+      ],
+      "suma_depositos_verificada": 38000.0
+    },
+    "impuestos_y_constancias": {
+      "alcabala": {
+        "estado_en_constancia_notarial": "inafecto",
+        "base_legal_citada": ["D. Leg. N° 776", "Ley 27616"],
+        "municipalidad": "Municipalidad Distrital de Inambari - Mazuko",
+        "recibo_caja": "0085224",
+        "fecha_referencia": "2017-08-15",
+        "nota": "En cláusula 9ª de la minuta se menciona sujeción a alcabala (Ley 27963); la constancia notarial declara inafectación. Revisar criterio aplicado."
+      },
+      "impuesto_renta_segunda_categoria": {
+        "estado": "inafecto",
+        "base_legal_citada": [
+          "Decreto Supremo N° 054-99-EF",
+          "Decreto Legislativo N° 945",
+          "adecuaciones posteriores citadas en el texto"
+        ]
+      },
+      "autovaluo_predial": {
+        "periodo": 2017,
+        "fecha_pago": "2017-08-08",
+        "lugar_pago": "Municipalidad Distrital de Inambari - Mazuko"
+      }
+    },
+    "otras_clausulas_relevantes": {
+      "gravamenes": "Vendedores declaran libre de gravámenes, hipotecas, medidas judiciales; se obligan a saneamiento por evicción",
+      "impuesto_predial": "A cargo de vendedores hasta la fecha de firma; luego comprador",
+      "gastos_notariales_e_inscripcion": "A cargo del comprador",
+      "competencia_judicial": "Jueces y tribunales de Tambopata",
+      "norma_supletoria": "Código Civil y demás del ordenamiento peruano",
+      "origen_fondos": "Declarado lícito",
+      "prevencion_lavado_activos": "Constancia D. Leg. 1049 / 1232",
+      "verificacion_biometrica_reniec": true
+    },
+    "papeles_notariales": {
+      "serie": "1N",
+      "desde": "014804 vuelta",
+      "hasta": "014808 vuelta"
+    },
+    "primer_testimonio": {
+      "fojas_matriz": "3754-vuelta a 3758",
+      "emitido_a_solicitud_de": "Richar Darwin Cutire Condori",
+      "referencia_pie": "4243-15/08/2017 16:46-LMGM-JCNA",
+      "colegio_notarios_sello": "Colegio de Notarios de Cusco y Madre de Dios"
+    },
+    "menciona_rio_o_quebrada": false,
+    "menciona_servidumbres_genericas": true
+  },
+
+  "mapa_apapa": {
+    "archivo": "WhatsApp_Image_2026-08-21_at_8.07.15_AM-7603055b-4b46-41e2-87c9-b919b42fb30d.png",
+    "titulo_aproximado": "Mapa de ubicación/delimitación actual — Asociación de Productores Agrarios de Primavera Alta (APAPA)",
+    "tipo": "mapa de ubicación / catastro comunitario (no es plano registral SUNARP)",
+    "fecha_aprox_proyecto": "aprox. 2014 (según lecturas del bloque del proyecto)",
+    "logos_visibles": ["USAID", "CRS", "Caritas", "Alianza Cacao Perú (posible)"],
+    "simbologia": {
+      "carretera": true,
+      "hidrografia": true,
+      "predios_agricolas": true,
+      "limite_asociacion": true,
+      "concesiones_mineras": "posible (según leyenda)"
+    },
+    "hidrografia": {
+      "etiqueta": "Qda. Jayave",
+      "tipo": "quebrada / curso de agua",
+      "ubicacion_en_mapa": "borde este de las franjas verticales de Primavera Alta",
+      "cruza_o_afecta_parcelas": true,
+      "parcelas_nombres_cerca_del_cauce": [
+        "Saturnino Huanca",
+        "Alejandro Flores",
+        "Edi Aguilar",
+        "Victor Cordova",
+        "Vicente Chitre / Toribio Puclla (variantes de lectura)",
+        "Avel Villasda / Villosoa (variante de lectura)"
+      ]
+    },
+    "otros_nombres_visibles_relevantes": [
+      "Luz Marina Cutire Condori",
+      "Vicente Cutire",
+      "Leonardo Huaman / Leonardo Huaman Huanca",
+      "Bernardino Santoyo",
+      "Marco Casillas",
+      "Roly Herrera Mashu",
+      "Miriam Boluarte",
+      "Luz Uribe Herrera"
+    ],
+    "layout": {
+      "forma_parcelas": "franjas angostas alargadas (orientación predominante N-S / vertical en el mapa)",
+      "via_central": "carretera que separa/une Primavera Alta y Primavera Baja",
+      "sistema_coordenadas": "UTM (rejilla visible; este ~373000–378000; norte ~8571000–8575000 aprox.)",
+      "escala_grafica": "barra ~0–1.6 km"
+    },
+    "menciona_rio": false,
+    "menciona_quebrada": true,
+    "valor_probatorio": "Indicio cartográfico de que existe un curso de agua (Qda. Jayave) afectando el sector de Huanca; no sustituye memoria descriptiva ni plano perimétrico inscrito."
+  },
+
+  "documentos_analizados": [
+    {
+      "id": "DOC-WA-01",
+      "archivo": "WhatsApp_Image_2026-08-20_at_2.13.23_PM__1_-205fb22a-68c4-41df-b752-df9eb676c3d4.png",
+      "tipo": "Testimonio / carátula de escritura pública de compra-venta",
+      "fecha_documento": "2017-08-15",
+      "contenido_resumen": "Instrumento 962, Kardex 4243, Minuta 954; identificación de otorgantes, comprador y firmante a ruego; notaria García Medina.",
+      "menciona_rio_o_quebrada": false
+    },
+    {
+      "id": "DOC-WA-02",
+      "archivo": "WhatsApp_Image_2026-08-20_at_2.13.25_PM__1_-125afa24-2bcb-4a0f-8658-ae7ed85c0082.png",
+      "tipo": "Minuta N° 954 — cláusulas 1ª a 3ª (titularidad, objeto, ad corpus)",
+      "fecha_documento": "2017-08-14",
+      "contenido_resumen": "Parcela 19, Santa Rita Baja-II, 100 ha, partida 05007514, título citado 52576 de 08/02/1999; venta total ad corpus con servidumbres genéricas.",
+      "menciona_rio_o_quebrada": false
+    },
+    {
+      "id": "DOC-WA-03",
+      "archivo": "WhatsApp_Image_2026-08-20_at_2.13.23_PM-14d81556-d098-4df2-bab5-f0b3708b14a4.png",
+      "tipo": "Minuta — cláusulas 4ª a 10ª (posesión, precio, gravámenes, impuestos)",
+      "fecha_documento": "2017-08-14",
+      "contenido_resumen": "Posesión desde oct-2016; precio S/ 65,000 (27k efectivo + 38k depósito); libre de gravámenes; predial/alcabala/renta.",
+      "menciona_rio_o_quebrada": false
+    },
+    {
+      "id": "DOC-WA-04",
+      "archivo": "WhatsApp_Image_2026-08-20_at_2.13.24_PM__3_-7c19603f-8032-461a-97bf-ae7ff8204b10.png",
+      "tipo": "Minuta — cláusulas 11ª a 15ª, firmas y constancia de autovalúo",
+      "fecha_documento": "2017-08-14",
+      "contenido_resumen": "Competencia Tambopata; gastos a cargo del comprador; firma a ruego Percy Cancha; autovalúo 2017 pagado 08/08/2017 en Inambari-Mazuko; abogado Naquiche.",
+      "menciona_rio_o_quebrada": false
+    },
+    {
+      "id": "DOC-WA-05",
+      "archivo": "WhatsApp_Image_2026-08-20_at_2.13.25_PM-7451256b-d322-4fff-9f28-d5e9762c781d.png",
+      "tipo": "Constancias notariales de alcabala, renta y medios de pago (vouchers Caja Arequipa)",
+      "fecha_documento": "2017-08-15",
+      "contenido_resumen": "Inafectación alcabala y renta 2ª categoría; tres depósitos 27/12/2016 por 3k+17k+18k = 38k a cuenta de Saturnino Huanca.",
+      "menciona_rio_o_quebrada": false
+    },
+    {
+      "id": "DOC-WA-06",
+      "archivo": "WhatsApp_Image_2026-08-20_at_2.13.24_PM__2_-d9666cf3-c223-4481-a868-71db305e16dc.png",
+      "tipo": "Cierre de escritura / primer testimonio (biometría, firmas, concuerda)",
+      "fecha_documento": "2017-08-15",
+      "contenido_resumen": "Constancias lavado de activos y RENIEC; firmas/huellas; concuerda con matriz 962/2017, fojas 3754v–3758; primer testimonio a Richar Darwin Cutire Condori.",
+      "menciona_rio_o_quebrada": false
+    },
+    {
+      "id": "DOC-WA-07",
+      "archivo": "WhatsApp_Image_2026-08-20_at_2.13.24_PM__1_-98ee8bda-ec13-46b9-8956-f338813829c9.png",
+      "tipo": "Título de Propiedad PETT Serie A 0052578 (foto 1)",
+      "fecha_documento": "1999-02-08",
+      "contenido_resumen": "Adjudicación gratuita 100 ha, U.C. 30362, parcela 19, Santa Rita Baja-II; conviviente Zenovia; inscripción ficha 6744 asiento 01-C el 09/02/1999.",
+      "menciona_rio_o_quebrada": false
+    },
+    {
+      "id": "DOC-WA-08",
+      "archivo": "WhatsApp_Image_2026-08-20_at_2.13.24_PM-e976a413-2abd-48fe-932c-cc6437a952ea.png",
+      "tipo": "Título de Propiedad PETT Serie A 0052578 (foto 2 / misma pieza)",
+      "fecha_documento": "1999-02-08",
+      "contenido_resumen": "Segunda foto del mismo título; confirma datos de adjudicación e inscripción.",
+      "menciona_rio_o_quebrada": false,
+      "duplicado_de": "DOC-WA-07"
+    },
+    {
+      "id": "DOC-WA-09",
+      "archivo": "WhatsApp_Image_2026-08-21_at_8.07.15_AM-7603055b-4b46-41e2-87c9-b919b42fb30d.png",
+      "tipo": "Mapa APAPA Primavera Alta (ubicación actual)",
+      "fecha_documento": "aprox. 2014",
+      "contenido_resumen": "Único documento del lote que muestra hidrografía: Qda. Jayave; predio Saturnino Huanca en zona afectada/colindante al cauce.",
+      "menciona_rio_o_quebrada": true,
+      "etiqueta_hidrografia": "Qda. Jayave"
+    }
+  ],
+
+  "hallazgos_y_alertas": [
+    {
+      "nivel": "alto",
+      "tema": "hidrografia",
+      "texto": "Documentos notariales/título no mencionan río/quebrada; el mapa APAPA sí muestra Qda. Jayave sobre/junto al predio Huanca."
+    },
+    {
+      "nivel": "medio",
+      "tema": "identidad_conviviente",
+      "texto": "Título 1999: conviviente Zenovia Huaman Huillca. Escritura 2017: co-vendedora Narcisa Senobia Huaman Huillca (iletrada). Verificar en copia literal la cadena y estado civil."
+    },
+    {
+      "nivel": "medio",
+      "tema": "numeracion_titulo",
+      "texto": "Minuta cita Título N° 52576; certificado PETT muestra Serie A Nº 0052578. Conciliar con SUNARP."
+    },
+    {
+      "nivel": "bajo",
+      "tema": "alcabala",
+      "texto": "Minuta habla de sujeción a alcabala; constancia notarial declara inafectación (D.Leg. 776 / Ley 27616)."
+    },
+    {
+      "nivel": "info",
+      "tema": "alcance_transferencia_2017",
+      "texto": "La compraventa 2017 es de las 100 ha completas a Richar Darwin Cutire Condori, no de una independización de 10 ha."
+    }
+  ],
+
+  "referencias_cruzadas_expediente": {
+    "partida_usada_en_expediente_latex": "05007514",
+    "vendedor_actual_esperado": "Richar Darwin Cutire Condori",
+    "utilidad": "Esta carpeta documenta el origen de la titularidad del vendedor actual (cadena PETT 1999 → compraventa 2017) y el indicio cartográfico de la Quebrada Jayave."
+  }
+}

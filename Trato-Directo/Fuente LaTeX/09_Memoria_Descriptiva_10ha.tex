@@ -1,0 +1,65 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Memoria descriptiva del área a independizar (10,00 ha)}{DOC-09}
+
+\noindent \textbf{PREPARADA EN VERSIÓN DE TRABAJO.} Deberá rehacerse en papel membretado del profesional \IngenieroNombre, con firma, sello, CIP \IngenieroCIP\ y, si SUNARP lo exige, inscripción en el Índice de Verificadores.
+
+\section*{1. Objeto}
+Describir el polígono de \textbf{\AreaIndependizarHa\ ha} (\AreaIndependizarMetros\ m$^2$) que se desprende del predio rústico de mayor extensión inscrito a nombre de \VendedorNombreCompleto, DNI \VendedorDNI, partida \PartidaMatriz\ del Registro de Predios de \OficinaRegistral, para su independización y posterior transferencia a \CompradorNombreCompleto.
+
+\section*{2. Ubicación}
+El predio se ubica en el distrito de \Distrito, provincia de \Provincia, departamento de \Departamento, República del Perú, \UbicacionRegistral, margen \textbf{norte} de la Interoceánica Sur, al este del Puente Jayave (el puente no forma parte del lote). \CriterioRecorte\ Fundo \NombreFundo, U.C.\ \UnidadCatastral.
+
+\section*{3. Naturaleza y uso}
+Predio rústico. Uso actual declarado por las partes: \faltante{agrícola / forestal / pecuario / eriazo / otro}. El presente recorte \textbf{no} implica, por sí solo, cambio de uso ni habilitación urbana.
+
+\section*{4. Área y perímetro}
+Área: \AreaIndependizarMetros\ m$^2$ equivalente a \AreaIndependizarHa\ hectáreas (\textbf{netas} al cierre del polígono). Perímetro de trabajo: \PerimetroM\ m. Frente: \FrenteM\ m. Fondo de trabajo: \FondoM\ m. El oeste \textbf{no} se simplifica a un rectángulo si el lindero inscrito es quebrado; el este se ajusta hasta las 10 ha.
+
+\section*{5. Linderos, medidas perimétricas y colindancias}
+\renewcommand{\arraystretch}{1.28}
+\noindent\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{2.4cm} p{2.6cm} >{\raggedright\arraybackslash}X@{}}
+\toprule
+Lado & Medida & Lindero / colindancia de trabajo \\
+\midrule
+Sur & \FrenteM\ m & Interoceánica Sur, de P2 (oeste) a P1 (este). Faja de vía MTC. \\
+Oeste & (campo) & \textbf{Lindero oeste real} de la matriz (P2 a P3 y vértices intermedios). No es remanente. \\
+Norte & \FrenteM\ m & Remanente del predio matriz (P3 a P4), o lindero norte de la matriz si coincide. \\
+Este & \FondoM\ m & Remanente del predio matriz (\AreaRemanenteHa\ ha), de P4 a P1. \\
+\bottomrule
+\end{tabularx}
+
+\section*{6. Coordenadas}
+Datum WGS84. Vértices de trabajo según DOC-08. El plano definitivo se elaborará en coordenadas UTM (zona 19 Sur) con precisión de campo, indicando el origen, meridians centrales y factor de escala.
+
+\section*{7. Servidumbres y restricciones a verificar}
+\begin{itemize}[leftmargin=1.15cm]
+\item Derecho de vía y servidumbres de la carretera nacional.
+\item Eventuales concesiones mineras, forestales o derechos de agua.
+\item Unidad agrícola mínima y normas de fraccionamiento rústico aplicables en Madre de Dios.
+\item Posesión material: se entrega por el titular a los compradores mediante acta DOC-18 (trato directo). Cualquier tercero en el remanente es ajeno al LOTE A.
+\end{itemize}
+
+\section*{8. Antecedentes registrales}
+El área forma parte del predio inscrito en la partida \PartidaMatriz\ (\OficinaRegistral, \ZonaRegistral), titular \VendedorNombreCompleto, área matriz \AreaMatriz, U.C.\ \UnidadCatastral. Antecedente: \FichaAntecedente. El área remanente (\AreaRemanenteHa\ ha) se describe en el DOC-10.
+
+\section*{9. Conclusión}
+El polígono descrito es independizable en el plano técnico de trabajo, \textbf{condicionado} a que: (i) se encuentre íntegramente dentro de la partida matriz; (ii) el profesional de campo confirme área y linderos; y (iii) la autoridad catastral o SUNARP no observe el fraccionamiento.
+
+\vspace{0.5em}
+\noindent En \LugarOtorgamiento, a los \DiaOtorgamiento\ días del mes de \MesOtorgamiento\ de \AnioOtorgamiento.
+
+\vspace{0.35em}
+\noindent
+\BloqueFirmaSimple{PROFESIONAL RESPONSABLE}{\IngenieroNombre\\CIP \IngenieroCIP\\Índice verificadores: \faltante[2.4cm]{N.º}}
+\hfill
+\BloqueFirma{CONFORMIDAD DEL TITULAR}{\VendedorNombreCompleto}{\VendedorDNI}
+
+\vspace{0.55em}
+\noindent{\small Sello del profesional / visación municipal o catastral, si corresponde:}\\
+\vspace{0.2em}
+\noindent\fbox{\parbox[c][2.6cm][c]{0.96\textwidth}{\centering\color{black!45}\small espacio para sello y visación}}
+
+\end{document}

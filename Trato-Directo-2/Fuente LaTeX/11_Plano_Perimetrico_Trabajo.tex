@@ -1,0 +1,51 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Plano perimétrico de trabajo (esquema)}{DOC-11}
+
+\noindent Esquema de trabajo: \CriterioRecorte\ Norte hacia el borde superior. El \textbf{Puente Jayave} queda al oeste de la matriz, sobre el río; \textbf{no} forma parte del lote. \textbf{No sustituye} el plano UTM del profesional.
+
+\vspace{0.35em}
+\begin{center}
+\includegraphics[width=0.96\textwidth]{diagrama-10ha-puente-jayave.png}\\[0.2em]
+{\footnotesize Esquema de lectura: las 10 ha van al \textbf{oeste} de las 100 ha (\FrenteM\ m de frente). El puente es referencia, no vértice. Si el lindero oeste no es recto, el plano de campo lo sigue; este dibujo es ortogonal solo para entender.}
+\end{center}
+
+\vspace{0.35em}
+{\small\renewcommand{\arraystretch}{1.22}
+\noindent\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{1.15cm} >{\raggedright\arraybackslash}X@{}}
+\rowcolor{encabezado}
+\multicolumn{2}{l}{\textbf{Vértices --- el profesional completa en campo (DOC-08)}}\\
+P2 & Frente oeste y lindero oeste de la matriz (inicio de la franja).\\
+P1 & Frente este, a \FrenteM\ m de P2 sobre la vía.\\
+P3 & Fondo oeste, sobre el mismo lindero oeste, a \FondoM\ m hacia el interior.\\
+P4 & Fondo este, cierra el rectángulo hacia el remanente.\\
+\end{tabularx}}
+
+\vspace{0.35em}
+{\footnotesize
+\textbf{Notas}\\
+1. Frente P2--P1: \FrenteM\ m sobre la Interoceánica Sur. Fondo P2--P3: \FondoM\ m. Rectángulo \FrenteM\ $\times$ \FondoM\ m desde el \textbf{oeste} de la matriz. Faja MTC a salvo.\\
+2. Puente Jayave: referencia al oeste, sobre el río. No forma parte del área vendida.\\
+3. Colindancia oeste: lindero oeste inscrito de las 100 ha. Este y norte: remanente (\AreaRemanenteHa\ ha), salvo que el norte coincida con el lindero de la matriz.\\
+4. Hitos de campo: P1, P2, P3 y P4.}
+
+\vspace{0.25em}
+{\small\renewcommand{\arraystretch}{1.2}
+\noindent\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{4.6cm}>{\raggedright\arraybackslash}X@{}}
+Área del recorte & \AreaIndependizarMetros\ m$^2$ $=$ \AreaIndependizarHa\ ha. \\
+Perímetro & \PerimetroM\ m. \\
+Partida matriz & \PartidaMatriz. \\
+Adquirentes & \CompradorNombreCompleto. \\
+\end{tabularx}}
+
+\vspace{0.35em}
+\noindent{\small\textit{Espacio para el plano UTM definitivo del verificador:}}\\
+\vspace{0.1em}
+\noindent\fbox{\parbox[c][2.2cm][c]{0.96\textwidth}{\centering\color{black!40}pegar reducción del plano visado}}
+
+\LugarFecha
+\CuatroFirmas{TITULAR}{\VendedorNombreCompleto}{COMPRADOR 1}{\CompradorUnoNombre}{COMPRADORA 2}{\CompradorDosNombre}{PROFESIONAL}{\IngenieroNombre}
+
+\end{document}

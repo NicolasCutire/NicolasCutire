@@ -1,0 +1,49 @@
+EXPEDIENTE DE TRABAJO — PREDIO RÚSTICO 10 ha (INAMBARI, MADRE DE DIOS)
+======================================================================
+
+Fuentes LaTeX:
+  /home/nicolas/Documents/Personal Docs/Terreno Docs/Fuente LaTeX
+
+PDF finales (21):
+  /home/nicolas/Documents/Personal Docs/Terreno Docs/Final Docs List
+
+Anexos de mapa:
+  /home/nicolas/Documents/Personal Docs/Terreno Docs/Anexos
+    Mapa_trabajo_10ha_puntos.png
+    10ha_inambari.kml          (abrir en Google Earth)
+    10ha_inambari.geojson
+
+Cómo actualizar después de completar datos:
+  1. Edite: Fuente LaTeX/datos.tex
+  2. Ejecute: bash "Fuente LaTeX/compilar.sh"
+
+Naturaleza:
+  Borradores para visualización del proceso. No son escritura pública
+  ni títulos inscribibles. Deben ser revisados por abogado y notario
+  de Madre de Dios.
+
+Titular ya consignado:
+  RICHAR DARWIN CUTIRE CONDORI — DNI 42610690
+
+Orden de los PDF:
+  01 Carátula
+  02 Guía del proceso
+  03 Cuestionario de datos faltantes
+  04 Solicitud búsqueda de índices SUNARP
+  05 Solicitud copia literal y CRI
+  06 Solicitud predial / autoavalúo
+  07 Solicitud alcabala
+  08 Hoja de vértices
+  09 Memoria descriptiva 10 ha
+  10 Memoria descriptiva remanente
+  11 Plano perimétrico de trabajo
+  12 Declaración jurada de estado civil
+  13 Minuta de independización
+  14 Minuta de compraventa
+  15 Reconocimiento del pago 2018
+  16 Cesión y desistimiento del intermediario
+  17 Consentimiento de la conviviente
+  18 Acta de posesión y linderación
+  19 Proyecto de escritura pública
+  20 Solicitud de inscripción SUNARP
+  21 Checklist de cierre

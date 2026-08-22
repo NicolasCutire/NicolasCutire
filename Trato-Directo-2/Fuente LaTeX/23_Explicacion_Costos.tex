@@ -1,0 +1,59 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Qué son el predial, la alcabala, el IR, la notaría y SUNARP en \emph{este} caso}{DOC-23}
+
+\noindent No son trámites abstractos. En esta \textbf{compraventa directa} de 10 ha (Richar $\rightarrow$ Nico y Lucy) en Inambari, cada uno tiene un rol concreto.
+
+\Clausula{1. Impuesto predial (autoavalúo) atrasado}
+Es el impuesto anual municipal sobre el terreno. Lo debe quien figura como dueño al 1 de enero de cada año. Richar sigue siendo el titular registral, así que Inambari cobra sobre el fundo. En la práctica municipal suele liquidarse \textbf{solo lo no prescrito}; \textbf{no} hay que ofrecer ni pedir de oficio 2018--2026. El Código Tributario fija plazos de prescripción (por regla, 4 años si hubo declaración; 6 si no la hubo). La Municipalidad dice qué ejercicios siguen exigibles.
+
+\textbf{En este caso:} el notario suele pedir una constancia de que no hay deuda, o el pago, antes de firmar. Si Richar nunca declaró el predio, hay que empadronarlo y liquidar. El monto a pagar se completa al liquidar en Inambari: \DeudaPredialReferencia. Pacten por escrito quién pone el dinero: lo justo es que lo pague \textbf{Richar} (él fue el dueño de registro); si él no puede, Nico y Lucy pueden pagarlo para destrabar, y descontarlo o dejar constancia de adelanto.
+
+No es un impuesto ``de la compraventa''. Es la deuda vieja del fundo.
+
+\Clausula{2. Alcabala}
+Es el impuesto municipal \textbf{de la transferencia} (3\,\% sobre el mayor valor entre el precio y el autoavalúo, descontadas las primeras 10 UIT del año). Lo paga el \textbf{comprador}. En 2026 esas 10 UIT equivalen a S/\ 55\,000.
+
+\textbf{En este caso:} el precio es \MontoPago. Si el autoavalúo de las 10 ha no supera S/\ 55\,000, es probable que la liquidación salga \textbf{inafecta o en cero} (el tramo de 10 UIT cubre la base). Igual hay que \textbf{liquidar y sacar constancia}: sin ese papel el notario y SUNARP no inscriben. Si el municipio valúa las 10 ha por encima de S/\ 55\,000, Nico y Lucy pagarían el 3\,\% del exceso.
+
+No se pida liquidar como donación.
+
+\Clausula{3. Impuesto a la renta (SUNAT) --- cargo del vendedor}
+No es alcabala. Es el \textbf{5\,\% sobre la ganancia} de capital (renta de segunda categoría) de Richar, persona natural, por vender un predio rústico que no es casa-habitación y que adquirió después de 2004 (\FechaAdquisicionMatriz, \PrecioAdquisicionMatriz\ por las 100 ha).
+
+\textbf{En este caso:} precio de las 10 ha \MontoPago. Costo proporcional de trabajo: una décima de \PrecioAdquisicionMatriz\ ($\approx$ S/\ 6\,500), actualizable con el índice MEF. Ganancia ilustrativa sin índice $\approx$ S/\ 13\,500; el 5\,\% $\approx$ \textbf{S/\ 675} (el notario o SUNAT liquidan el Form.\ 1665). El notario suele \textbf{exigir} esa boleta o la comunicación de no obligado \textbf{antes} de la escritura. Si se pretendiera que el impuesto nació en 2018 y nunca se pagó, podrían existir intereses moratorios o, en su caso, prescripción: eso lo ve el contador con la fecha del papel; \textbf{no} se asuma que «ya no hay IR».
+
+El efectivo de 2018 \textbf{superó} 3 UIT de entonces. Eso es distinto del IR: es medio de pago (Ley 28194). No se deposita ahora el precio para «arreglar» 2018.
+
+\Clausula{4. Notaría}
+El notario de \textbf{Puerto Maldonado} identifica a las partes, lee la escritura, toma huellas, deja constancia de que el precio de 2018 \textbf{no se bancarizó}, protocoliza planos y minutas, y envía el parte por SID-SUNARP.
+
+\textbf{En este caso:} se paga un arancel notarial (independización + compraventa, testimonios y copias). Completen a mano el nombre del notario en cada pieza (Dr.\ seguido de la línea). Sin notario \textbf{no hay inscripción} de las 10 ha a nombre de Nico y Lucy.
+
+\Clausula{5. SUNARP (derechos registrales)}
+SUNARP cobra por calificar e inscribir: abrir partida de las 10 ha y registrar la venta a los dos compradores.
+
+\textbf{En este caso:} sin esa inscripción, Richar sigue apareciendo como dueño frente a bancos, herederos y terceros. El papel de 2018 no basta. Los derechos se calculan sobre el valor del acto (precio / autoavalúo). Es un pago distinto de la alcabala.
+
+\Clausula{Quién suele pagar, en esta familia}
+{\small\renewcommand{\arraystretch}{1.25}
+\noindent\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{4.2cm}>{\raggedright\arraybackslash}X@{}}
+Predial (ejercicios exigibles) & Richar (titular). Nico/Lucy solo si hay que adelantarlo para firmar. \\
+Alcabala 2026 & Nico y Lucy (adquirentes). Posible inafectación si la base $<$ 10 UIT. \\
+IR 5\,\% (ganancia) & Richar (vendedor). Boleta SUNAT o «no obligado» para notaría. \\
+Notaría y SUNARP & Lo habitual: los compradores, salvo que pacten mitad o que Richar asuma. Marquen el pacto en la minuta. \\
+Planos / ingeniero & Quien encargue el levantamiento (en la práctica, los compradores). \\
+\end{tabularx}}
+
+\vspace{0.35em}
+\noindent Estos ítems \textbf{no se ``legalizan'' con el voucher de efectivo de 2018}. Se pagan o se acreditan ahora, al formalizar.
+
+\LugarFecha
+\FirmasCompradores
+\vspace{0.4em}
+\noindent
+\BloqueFirma{EL VENDEDOR}{\VendedorNombreCompleto}{\VendedorDNI}
+
+\end{document}

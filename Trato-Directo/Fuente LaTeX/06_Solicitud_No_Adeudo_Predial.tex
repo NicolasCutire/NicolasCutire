@@ -1,0 +1,74 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Solicitud de constancia de no adeudo de impuesto predial y regularización de autoavalúo}{DOC-06}
+
+\noindent \textbf{SEÑOR ALCALDE / SEÑOR GERENTE DE ADMINISTRACIÓN TRIBUTARIA}\\
+\textbf{\MakeUppercase{\Municipalidad}}\\
+\textbf{Provincia de \Provincia\ --- \Departamento}
+
+\vspace{0.25em}
+\noindent \VendedorNombreCompleto, DNI \VendedorDNI, titular registral, con domicilio en \VendedorDomicilio, y \CompradorNombreCompleto, DNI \CompradorDNI, futuro adquirente, nos presentamos y \textbf{decimos}:
+
+\Clausula{Petitorio}
+Solicitamos:
+
+\begin{enumerate}[leftmargin=1.15cm]
+\item La \textbf{determinación y liquidación} del Impuesto Predial (autoavalúo) y de los arbitrios, si correspondieran, del predio rústico de nuestra referencia, \textbf{únicamente por los ejercicios no prescritos y exigibles} según el Código Tributario y la práctica de esta Municipalidad. \textbf{No se solicita} liquidar ni cobrar periodos prescritos.
+\item La expedición de \textbf{constancia de no adeudo} o, en su defecto, de \textbf{estado de cuenta} y convenio de fraccionamiento, documentos que la notaría exigirá para formalizar la transferencia.
+\item La orientación para la \textbf{declaración jurada de autoavalúo} si el predio no estuviera correctamente inscrito en el padrón municipal, y la futura inscripción a nombre del comprador una vez se inscriba la compraventa en SUNARP.
+\end{enumerate}
+
+\Clausula{Identificación del predio}
+\renewcommand{\arraystretch}{1.28}
+\noindent\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{4.6cm}>{\raggedright\arraybackslash}X@{}}
+Titular en padrón (esperado) & \VendedorNombreCompleto, DNI \VendedorDNI \\
+Código de contribuyente / predio & \faltante{código municipal, si existe} \\
+Ubicación & \UbicacionRegistral, \Distrito. \KmCarretera. \\
+Partida SUNARP & \PartidaMatriz \\
+Área matriz / área a transferir & \AreaMatriz\ / 10,00 ha \\
+Deuda / liquidación predial (S/) & \DeudaPredialReferencia \\
+\end{tabularx}
+
+\Clausula{Acuerdo interno sobre el pago (no opone a la Municipalidad)}
+Las partes declaran, para efectos internos, que los adeudos prediales hasta la fecha de la escritura serán pagados por:
+
+\vspace{0.25em}
+\noindent $\square$ el vendedor \quad $\square$ el comprador \quad $\square$ a prorrata, en estos términos: \linea[7.8cm]
+
+\vspace{0.2em}
+\noindent Este pacto no limita la facultad de cobro de la Municipalidad contra el sujeto pasivo que figure al 1 de enero de cada ejercicio.
+
+\Clausula{Fundamento}
+Textos Únicos de Procedimientos Administrativos de la entidad, Ley de Tributación Municipal (D.S.\ 156-2004-EF y normas modificatorias) y práctica notarial de acreditar el predial al formalizar transferencias.
+
+\vspace{0.3em}
+\noindent POR TANTO:\\
+Pedimos la liquidación, el cobro que corresponda y la constancia respectiva.
+
+\LugarFecha
+
+\noindent
+\BloqueFirma{EL CONTRIBUYENTE / TITULAR}{\VendedorNombreCompleto}{\VendedorDNI}
+\hfill
+\BloqueFirma{EL COMPRADOR}{\CompradorNombreCompleto}{\CompradorDNI}
+
+\vspace{0.9em}
+\noindent{\small\textit{Uso municipal}}\\
+{\small\renewcommand{\arraystretch}{1.55}
+\setlength{\tabcolsep}{5pt}
+\noindent\begin{tabular}{|p{\dimexpr0.5\linewidth-2\tabcolsep-1.5\arrayrulewidth}|
+p{\dimexpr0.5\linewidth-2\tabcolsep-1.5\arrayrulewidth}|}
+\hline
+N.º de expediente tributario:\newline\hrulefill & Deuda determinada:\newline\hrulefill \\
+\hline
+Ejercicios:\newline\hrulefill & N.º de recibo:\newline\hrulefill \\
+\hline
+\multicolumn{2}{|p{\dimexpr\linewidth-2\tabcolsep-2\arrayrulewidth}|}{%
+Constancia de no adeudo N.º \hrulefill\quad Fecha: \hrulefill\newline
+Servidor: \hrulefill}\\
+\hline
+\end{tabular}}
+
+\end{document}

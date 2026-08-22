@@ -1,0 +1,52 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Memoria descriptiva del área remanente del predio matriz}{DOC-10}
+
+\noindent Versión de trabajo. El área remanente es el predio matriz (\AreaMatrizHa\ ha) \textbf{menos} las 10,00 ha del DOC-09, es decir \textbf{\AreaRemanenteHa\ ha}. Las cargas se contrastan con el CRI.
+
+\section*{1. Objeto}
+Describir el remanente que permanecerá a nombre de \VendedorNombreCompleto, DNI \VendedorDNI, luego de independizar las 10,00 ha a transferir a \CompradorNombreCompleto.
+
+\section*{2. Predio matriz}
+\renewcommand{\arraystretch}{1.28}
+\noindent\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{4.6cm}>{\raggedright\arraybackslash}X@{}}
+Titular & \VendedorNombreCompleto, DNI \VendedorDNI \\
+Partida SUNARP & \PartidaMatriz \\
+Oficina & \OficinaRegistral \\
+Ubicación & \UbicacionRegistral, \Distrito, \Provincia, \Departamento \\
+Área inscrita de la matriz & \AreaMatriz \\
+Nombre / UC & \NombreFundo\ / \UnidadCatastral \\
+\end{tabularx}
+
+\section*{3. Operación aritmética de trabajo}
+\renewcommand{\arraystretch}{1.3}
+\noindent\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{6.4cm}>{\raggedright\arraybackslash}X@{}}
+Área matriz inscrita & \AreaMatriz \\
+$(-)$ Área a independizar & \AreaIndependizarMetros\ m$^2$ \ (\AreaIndependizarHa\ ha) \\
+$(=)$ Área remanente de trabajo & \AreaRemanenteMetros\ m$^2$ \ (\AreaRemanenteHa\ ha) \\
+\end{tabularx}
+
+\vspace{0.3em}
+\noindent Según publicidad informativa de la partida \PartidaMatriz, la matriz tiene \AreaMatrizHa\ ha. El recorte de 10,00 ha es la décima parte \textbf{en área inscrita}. El área remanente de trabajo es \textbf{\AreaRemanenteHa\ ha}. Prima la copia literal y el plano de campo si difieren.
+
+\section*{4. Linderos del remanente}
+Quedarán definidos por el plano de independización: los linderos actuales de la matriz, \textbf{salvo} el tramo oeste que pasa a ser el lado oeste del lote de 10 ha. El remanente colinda con el LOTE A por el \textbf{este} (y por el norte, si la matriz es más profunda que \FondoM\ m). Se anexará cuadro UTM del remanente.
+
+\section*{5. Cargas}
+El remanente conservará las cargas, gravámenes y afectaciones de la partida matriz, salvo las que se cancelen o se arrastren expresamente al predio independizado, según califique el registrador.
+
+\section*{6. Posesión}
+Este recorte de 10 ha \textbf{no} decide, por sí solo, la suerte jurídica del resto del área mayor (\AreaRemanenteHa\ ha), que permanece a nombre del titular. Cualquier ocupación de terceros sobre el remanente es ajena a la compraventa del LOTE A.
+
+\section*{7. Conclusión}
+El remanente es el predio que SUNARP deberá mantener o redefinir a nombre del titular \VendedorNombreCompleto\ después de abrir partida independiente para las 10,00 ha.
+
+\LugarFecha
+\noindent
+\BloqueFirma{EL TITULAR}{\VendedorNombreCompleto}{\VendedorDNI}
+\hfill
+\BloqueFirmaSimple{PROFESIONAL}{\IngenieroNombre\\CIP \IngenieroCIP}
+
+\end{document}
