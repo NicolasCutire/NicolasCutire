@@ -1,0 +1,52 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Memoria descriptiva del área remanente del predio matriz}{DOC-10}
+
+\noindent Versión de trabajo. El área remanente es el predio matriz \textbf{menos} las 10,00 ha del DOC-09. Las cifras en amarillo se completan con la copia literal.
+
+\section*{1. Objeto}
+Describir el remanente que permanecerá a nombre de \VendedorNombreCompleto, DNI \VendedorDNI, luego de independizar las 10,00 ha a transferir a \CompradorNombreCompleto.
+
+\section*{2. Predio matriz}
+\renewcommand{\arraystretch}{1.28}
+\noindent\begin{tabularx}{\textwidth}{>{\bfseries}p{5.2cm}X}
+Titular & \VendedorNombreCompleto, DNI \VendedorDNI \\
+Partida SUNARP & \PartidaMatriz \\
+Oficina & \OficinaRegistral \\
+Ubicación & \Distrito, \Provincia, \Departamento \\
+Área inscrita de la matriz & \AreaMatriz \\
+Nombre / UC & \NombreFundo\ / \UnidadCatastral \\
+\end{tabularx}
+
+\section*{3. Operación aritmética de trabajo}
+\renewcommand{\arraystretch}{1.3}
+\noindent\begin{tabularx}{\textwidth}{>{\bfseries}p{7.2cm}X}
+Área matriz inscrita & \AreaMatriz \\
+$(-)$ Área a independizar & 100\,000,00 m$^2$ \ (10,00 ha) \\
+$(=)$ Área remanente & \faltante{[matriz $-$ 100\,000,00 m$^2$]} \\
+\end{tabularx}
+
+\vspace{0.3em}
+\noindent Las partes han referido que las 10 ha representan ``aproximadamente la décima parte'' de un área grande del orden de 100 ha. \textbf{Esa cifra no se usa como área inscrita} hasta contrastarla con la partida. Si la partida contiene un área distinta, prima el registro y el plano de campo.
+
+\section*{4. Linderos del remanente}
+Quedarán definidos por el plano de independización: todos los linderos actuales de la matriz, \textbf{sustituyendo} el tramo que pasa a ser colindante con el predio de 10 ha (lados oeste, norte y este del recorte, o los que el verificador fije). Se anexará cuadro de coordenadas UTM del remanente.
+
+\section*{5. Cargas}
+El remanente conservará las cargas, gravámenes y afectaciones de la partida matriz, salvo las que se cancelen o se arrastren expresamente al predio independizado, según califique el registrador.
+
+\section*{6. Posesión}
+El intermediario \IntermediarioNombre\ declara en documentos separados el alcance de su ocupación sobre el remanente. Este recorte de 10 ha \textbf{no} decide, por sí solo, la suerte jurídica del resto del área mayor.
+
+\section*{7. Conclusión}
+El remanente es el predio que SUNARP deberá mantener o redefinir a nombre del titular \VendedorNombreCompleto\ después de abrir partida independiente para las 10,00 ha.
+
+\LugarFecha
+\noindent
+\BloqueFirma{EL TITULAR}{\VendedorNombreCompleto}{\VendedorDNI}
+\hfill
+\BloqueFirmaSimple{PROFESIONAL}{\IngenieroNombre\\CIP \IngenieroCIP}
+
+\end{document}

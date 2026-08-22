@@ -1,0 +1,86 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Checklist de cierre del expediente}{DOC-21}
+
+\noindent Marque conforme se vaya obteniendo cada pieza. Metodología: \textbf{\Metodologia}. No se presente a notaría un kárdex incompleto.
+
+\section*{A. Identidad}
+\begin{itemize}[leftmargin=0.9cm]
+\item $\square$ DNI vigente de \VendedorNombreCompleto\ (\VendedorDNI)
+\item $\square$ DNI vigente de \CompradorUnoNombre\ (\CompradorUnoDNI)
+\item $\square$ DNI vigente de \CompradorDosNombre\ (\CompradorDosDNI)
+\item $\square$ DOC-12 (DJ de estado civil del vendedor) firmado
+\item $\square$ Confirmado: compradores son \CompradorParentesco; Lucy soltera sin hijos/unión de hecho
+\end{itemize}
+
+\section*{B. Registro}
+\begin{itemize}[leftmargin=0.9cm]
+\item $\square$ Publicidad informativa SUNARP de la partida \PartidaMatriz\ (\textbf{no} sustituye copia literal)
+\item $\square$ Búsqueda de índices (DOC-04)
+\item $\square$ Copia literal completa
+\item $\square$ CRI sin gravámenes impeditivos, o con plan de levantamiento
+\item $\square$ Verificación gráfica: la franja de 10 ha (lindero oeste de la matriz, \FrenteM\ m de frente) \textbf{cae dentro} de la partida
+\end{itemize}
+
+\section*{C. Técnico}
+\begin{itemize}[leftmargin=0.9cm]
+\item $\square$ Levantamiento de campo
+\item $\square$ Plano UTM del lote y del remanente, firmado (verificador)
+\item $\square$ Memorias descriptivas definitivas
+\item $\square$ Certificado catastral o negativo de zona catastrada
+\item $\square$ Amojonamiento e hitos (DOC-18)
+\item $\square$ Revisión GEOCATMIN / faja de vía / forestal / quebrada
+\end{itemize}
+
+\section*{D. Municipal}
+\begin{itemize}[leftmargin=0.9cm]
+\item $\square$ Liquidación y pago o fraccionamiento del predial (DOC-06). Monto (S/): \DeudaPredialReferencia
+\item $\square$ Constancia de no adeudo o equivalente para notaría
+\item $\square$ Liquidación de alcabala / constancia de inafectación (DOC-07)
+\end{itemize}
+
+\section*{E. Minutas y anexos (firmas + huellas)}
+{\small\renewcommand{\arraystretch}{1.18}
+\noindent\begin{tabularx}{\linewidth}{@{}c >{\raggedright\arraybackslash}X c c c@{}}
+\toprule
+Doc. & Pieza & Vendedor & Compr.\ 1 & Compr.\ 2 \\
+\midrule
+13 & Minuta de independización & $\square$ & --- & --- \\
+14 & Minuta de compraventa (trato directo) & $\square$ & $\square$ & $\square$ \\
+15 & Reconocimiento pago 2018 & $\square$ & $\square$ & $\square$ \\
+16 & (Opcional) no oposición Lucio & --- & --- & --- \\
+17 & DJ soltería (notario) & $\square$ & --- & --- \\
+18 & Acta de posesión & $\square$ & $\square$ & $\square$ \\
+--- & Autorización de abogado & --- & --- & CAL $\square$ \\
+\bottomrule
+\end{tabularx}}
+
+\section*{F. Notaría y SUNARP}
+\begin{itemize}[leftmargin=0.9cm]
+\item $\square$ Kárdex notarial abierto
+\item $\square$ Escritura autorizada (el DOC-19 es solo proyecto)
+\item $\square$ Constancia Ley 28194 (no se usó medio de pago)
+\item $\square$ Parte SID-SUNARP presentado (DOC-20)
+\item $\square$ Título inscrito --- nueva partida a nombre de Nico y Lucy N.º\ \linea[4.2cm]
+\item $\square$ Testimonio / copias para cada parte
+\item $\square$ Predial actualizado a nombre de los compradores
+\end{itemize}
+
+\section*{G. Decisión expresa de las partes}
+\begin{itemize}[leftmargin=0.9cm]
+\item $\square$ Confirman \textbf{trato directo} Richar $\rightarrow$ Nico y Lucy (sin intermediario en el título)
+\item $\square$ Confirman que \textbf{no} recaracterizan el acto como donación
+\item $\square$ Confirman que \textbf{no} depositarán \MontoPago\ en 2026 para ``bancarizar'' 2018
+\item $\square$ Confirman el rumbo del lote: \quad $\square$ norte de la vía \quad $\square$ sur
+\item $\square$ Acuerdan quién paga predial, alcabala, notaría y SUNARP
+\end{itemize}
+
+\vspace{0.4em}
+\noindent Cierre de carpeta. Lugar y fecha: \LugarOtorgamiento, \DiaOtorgamiento\ de \MesOtorgamiento\ de \AnioOtorgamiento.
+
+\vspace{0.2em}
+\TresFirmas{VENDEDOR}{\VendedorNombreCompleto}{COMPRADOR 1}{\CompradorUnoNombre}{COMPRADORA 2}{\CompradorDosNombre}
+
+\end{document}

@@ -1,0 +1,75 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Solicitud de inscripción en el Registro de Predios --- independización y compraventa}{DOC-20}
+
+\noindent \textbf{SEÑOR REGISTRADOR PÚBLICO DEL REGISTRO DE PREDIOS}\\
+\textbf{\MakeUppercase{\OficinaRegistral} --- \MakeUppercase{\ZonaRegistral} --- SUNARP}\\
+\textbf{(Presentación preferente: SID-SUNARP, a cargo de la notaría)}
+
+\vspace{0.3em}
+\noindent El notario \NotarioNombre\ / el presentante \faltante[11.2cm]{nombre del presentante SID}, DNI \faltante[2.6cm]{DNI}, en mérito del parte notarial de la escritura pública N.º\ \linea[2.4cm]\ de fecha \linea[3.4cm], \textbf{solicita} la inscripción de los siguientes actos:
+
+\Clausula{Actos rogados}
+\begin{enumerate}[leftmargin=1.15cm]
+\item \textbf{Independización} del LOTE A de 10,00 ha del predio de la partida matriz \PartidaMatriz, con apertura de nueva partida a favor, en este mismo título, del adquirente, o a favor del titular y simultánea transferencia, según califique el asiento.
+\item \textbf{Compraventa} (transferencia de dominio) del LOTE A a favor de \CompradorNombreCompleto, DNI \CompradorDNI (\CompradorParentesco; copropiedad \PorcentajeCopropiedad), por trato directo con el titular.
+\item Anotación del área remanente a nombre de \VendedorNombreCompleto, DNI \VendedorDNI.
+\end{enumerate}
+
+\Clausula{Datos para el asiento}
+\renewcommand{\arraystretch}{1.28}
+\noindent\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{4.6cm}>{\raggedright\arraybackslash}X@{}}
+Partida matriz & \PartidaMatriz \\
+Transferente & \VendedorNombreCompleto, DNI \VendedorDNI \\
+Adquirentes (copropiedad) & \CompradorUnoNombre, DNI \CompradorUnoDNI, y \CompradorDosNombre, DNI \CompradorDosDNI \\
+Área a independizar & \AreaIndependizarMetros\ m$^2$ (10,00 ha) \\
+Ubicación & \UbicacionRegistral, \Distrito, \Provincia, \Departamento \\
+Título archivado / kárdex & Escritura N.º \linea[2cm] --- Notaría \NotarioNombre \\
+Constancia de alcabala & N.º \linea[4.5cm] \\
+\end{tabularx}
+
+\Clausula{Documentos que se presentan (checklist registral)}
+\begin{itemize}[leftmargin=1.15cm]
+\item $\square$ Parte notarial SID-SUNARP de independización y compraventa.
+\item $\square$ Plano perimétrico UTM y memoria descriptiva del área independizada y del remanente, con firma de profesional / verificador.
+\item $\square$ Certificado de información catastral \textbf{o} certificado negativo de zona catastrada.
+\item $\square$ Pago de alcabala o constancia de inafectación.
+\item $\square$ Pago de derechos registrales.
+\item $\square$ DJ de soltería del vendedor (DOC-17), si el registrador la pide.
+\item $\square$ Otros: \linea[10.5cm]
+\end{itemize}
+
+\Clausula{Rogatoria subsidiaria}
+Si el área de catastro observare coordenadas, se pide se notifique al notario y al presentante para sustituir planos, manteniendo el acto dispositivo. Si se observare la falta de medio de pago, se pide se tenga presente la constancia notarial de que el precio se pagó en efectivo en 2018, por ser hecho histórico y no obligación presente.
+
+\vspace{0.35em}
+\noindent POR TANTO:\\
+Al señor Registrador pido se inscriba lo rogado.
+
+\LugarFecha
+
+\noindent
+\BloqueFirmaSimple{NOTARIO O PRESENTANTE SID}{\NotarioNombre\\ / \faltante[8.4cm]{presentante}}
+\hfill
+\BloqueFirma{EL ADQUIRENTE}{\CompradorNombreCompleto}{\CompradorDNI}
+
+\vspace{0.8em}
+\noindent{\small\textit{Uso SUNARP}}\\
+{\small\renewcommand{\arraystretch}{1.55}
+\setlength{\tabcolsep}{5pt}
+\noindent\begin{tabular}{|p{\dimexpr0.5\linewidth-2\tabcolsep-1.5\arrayrulewidth}|
+p{\dimexpr0.5\linewidth-2\tabcolsep-1.5\arrayrulewidth}|}
+\hline
+Título N.º:\newline\hrulefill & Fecha de presentación:\newline\hrulefill \\
+\hline
+Derechos: S/\ \hrulefill & Vencimiento de calificación:\newline\hrulefill \\
+\hline
+\multicolumn{2}{|p{\dimexpr\linewidth-2\tabcolsep-2\arrayrulewidth}|}{%
+Resultado: $\square$ inscrito \quad $\square$ observado \quad $\square$ tachado\newline
+Asiento / nueva partida: \hrulefill}\\
+\hline
+\end{tabular}}
+
+\end{document}

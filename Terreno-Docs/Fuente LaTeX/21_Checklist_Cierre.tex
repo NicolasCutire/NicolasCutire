@@ -1,0 +1,88 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Checklist de cierre del expediente}{DOC-21}
+
+\noindent Marque conforme se vaya obteniendo cada pieza. No se presente a notaría un kárdex incompleto: genera observaciones y pérdida de tasas.
+
+\section*{A. Identidad}
+\begin{itemize}[leftmargin=0.9cm]
+\item $\square$ DNI vigente de \VendedorNombreCompleto\ (\VendedorDNI)
+\item $\square$ DNI vigente del comprador \CompradorNombreCompleto
+\item $\square$ DNI de la conviviente \ConvivienteNombre
+\item $\square$ DNI del intermediario \IntermediarioNombre
+\item $\square$ DNI del cónyuge del comprador, si aplica
+\item $\square$ DOC-12 (DJ de estado civil) firmado y, de ser posible, con firmas legalizadas
+\end{itemize}
+
+\section*{B. Registro}
+\begin{itemize}[leftmargin=0.9cm]
+\item $\square$ Búsqueda de índices (DOC-04) con número de partida
+\item $\square$ Copia literal completa
+\item $\square$ CRI sin gravámenes impeditivos, o con plan de levantamiento
+\item $\square$ Verificación gráfica: el polígono P1--P4 \textbf{cae dentro} de la partida
+\item $\square$ Índice negativo de unión de hecho / o partida de unión de hecho
+\end{itemize}
+
+\section*{C. Técnico}
+\begin{itemize}[leftmargin=0.9cm]
+\item $\square$ Levantamiento de campo (no solo Google)
+\item $\square$ Plano UTM del lote y del remanente, firmado
+\item $\square$ Memorias descriptivas definitivas (reemplazan DOC-09 y DOC-10)
+\item $\square$ Certificado catastral o negativo de zona catastrada
+\item $\square$ Amojonamiento e hitos (DOC-18)
+\item $\square$ Revisión GEOCATMIN / faja de vía / forestal
+\end{itemize}
+
+\section*{D. Municipal}
+\begin{itemize}[leftmargin=0.9cm]
+\item $\square$ Liquidación y pago o fraccionamiento del predial (DOC-06)
+\item $\square$ Constancia de no adeudo o equivalente para notaría
+\item $\square$ Liquidación de alcabala (DOC-07)
+\item $\square$ Constancia de pago o inafectación de alcabala
+\end{itemize}
+
+\section*{E. Minutas y anexos (firmas + huellas)}
+{\small\renewcommand{\arraystretch}{1.18}
+\noindent\begin{tabularx}{\textwidth}{c >{\raggedright\arraybackslash}p{6.8cm} c c c}
+\toprule
+Doc. & Pieza & Vendedor & Comprador & Interm./otros \\
+\midrule
+13 & Minuta de independización & $\square$ & --- & conviviente $\square$ \\
+14 & Minuta de compraventa & $\square$ & $\square$ & $\square$ \\
+15 & Reconocimiento pago 2018 & $\square$ & $\square$ & $\square$ \\
+24 & Recibo entrega directa 20k & $\square$ & $\square$ & $\square$ \\
+16 & Cesión y desistimiento & $\square$ & $\square$ & $\square$ \\
+17 & Consentimiento conviviente & $\square$ & --- & conviviente $\square$ \\
+18 & Acta de posesión & $\square$ & $\square$ & $\square$ \\
+--- & Autorización de abogado & --- & --- & CAL $\square$ \\
+\bottomrule
+\end{tabularx}}
+
+\section*{F. Notaría y SUNARP}
+\begin{itemize}[leftmargin=0.9cm]
+\item $\square$ Kárdex notarial abierto
+\item $\square$ Escritura autorizada (el DOC-19 es solo proyecto)
+\item $\square$ Constancia Ley 28194 (no se usó medio de pago)
+\item $\square$ Parte SID-SUNARP presentado (DOC-20)
+\item $\square$ Título inscrito --- nueva partida del comprador N.º\ \linea[4.2cm]
+\item $\square$ Testimonio / copias para cada parte
+\item $\square$ Predial actualizado a nombre del comprador
+\end{itemize}
+
+\section*{G. Decisión expresa de las partes sobre puntos sensibles}
+\begin{itemize}[leftmargin=0.9cm]
+\item $\square$ Confirman que \textbf{no} recaracterizan el acto como donación
+\item $\square$ Confirman que \textbf{no} depositarán S/\ 20\,000 en 2026 para ``bancarizar'' 2018
+\item $\square$ Confirman el rumbo del lote: \quad $\square$ norte de la vía (plano actual) \quad $\square$ sur
+\item $\square$ Acuerdan quién paga predial, alcabala, notaría y SUNARP
+\end{itemize}
+
+\vspace{0.4em}
+\noindent Cierre de carpeta. Lugar y fecha: \LugarOtorgamiento, \DiaOtorgamiento\ de \MesOtorgamiento\ de \AnioOtorgamiento.
+
+\vspace{0.2em}
+\TresFirmas{TITULAR}{\VendedorNombreCompleto}{COMPRADOR}{\CompradorNombreCompleto}{INTERMEDIARIO}{\IntermediarioNombre}
+
+\end{document}

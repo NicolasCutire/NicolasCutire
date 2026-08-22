@@ -1,0 +1,73 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Hoja de vértices y coordenadas --- a completar por el profesional}{DOC-08}
+
+\noindent {\small\textbf{Quién completa este documento.} El cuadro de coordenadas lo llena a mano (o en su membretado) el \textbf{ingeniero / verificador} que haga el \textbf{levantamiento en campo} de las 10,00 ha: \IngenieroNombre, CIP \IngenieroCIP.}
+
+\Clausula{Encargo al profesional}
+Se le pide amojonar el recorte según \CriterioRecorte\ Datum y proyección que exija SUNARP (referencial: WGS84 / UTM zona 19 Sur). \textbf{P1--P2} = \FrenteM\ m de frente sobre la vía. El oeste \textbf{sigue el lindero inscrito real} (puede ser quebrado: más de dos vértices entre P2 y P3). El este se mueve hasta \textbf{10 ha netas}. El cuadro P1--P4 es esquema; anote vértices intermedios si hace falta.
+
+\Clausula{Cuadro oficial --- completar en campo}
+{\small\renewcommand{\arraystretch}{1.55}
+\setlength{\tabcolsep}{4pt}
+\noindent\begin{tabular}{|c|p{2.35cm}|p{2.15cm}|p{2.15cm}|p{2.35cm}|p{2.55cm}|}
+\hline
+\textbf{Vértice} & \textbf{Rol} & \textbf{Latitud} & \textbf{Longitud} & \textbf{Este UTM} & \textbf{Norte UTM} \\
+\hline
+P1 & Frente este (fin de los 100 m) & \hrulefill & \hrulefill & \hrulefill & \hrulefill \\
+\hline
+P2 & Frente oeste (lindero oeste matriz) & \hrulefill & \hrulefill & \hrulefill & \hrulefill \\
+\hline
+P3 & Fondo oeste (lindero oeste matriz) & \hrulefill & \hrulefill & \hrulefill & \hrulefill \\
+\hline
+P4 & Fondo este (hacia el remanente) & \hrulefill & \hrulefill & \hrulefill & \hrulefill \\
+\hline
+\end{tabular}}
+
+\vspace{0.45em}
+\renewcommand{\arraystretch}{1.35}
+\noindent\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{5.2cm}>{\raggedright\arraybackslash}X@{}}
+Datum / elipsoide & \linea[8.5cm] \\
+Proyección y zona & \linea[8.5cm] \\
+Origen de red / factor de escala & \linea[8.5cm] \\
+Fecha del levantamiento & \linea[2.1cm] de \linea[2.4cm] de \linea[1.8cm] \\
+Equipo / método & \linea[8.5cm] \\
+Índice de verificadores SUNARP & \linea[5.5cm] \\
+\end{tabularx}
+
+\Clausula{Medidas objetivo (el profesional confirma o corrige)}
+\renewcommand{\arraystretch}{1.25}
+\noindent\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{5.4cm}>{\raggedright\arraybackslash}X@{}}
+P1--P2 (frente / sur) & \FrenteM\ m \quad / \quad medido: \linea[3.8cm] \\
+P2--P3 (oeste) & \FondoM\ m \quad / \quad medido: \linea[3.8cm] \\
+P3--P4 (fondo / norte) & \FrenteM\ m \quad / \quad medido: \linea[3.8cm] \\
+P4--P1 (este) & \FondoM\ m \quad / \quad medido: \linea[3.8cm] \\
+Perímetro & \PerimetroM\ m \quad / \quad medido: \linea[3.8cm] \\
+Área & \AreaIndependizarMetros\ m$^2$ $=$ \AreaIndependizarHa\ ha \quad / \quad medida: \linea[3.4cm] \\
+Sentido del polígono & P1 $\rightarrow$ P2 $\rightarrow$ P3 $\rightarrow$ P4 $\rightarrow$ P1 \\
+\end{tabularx}
+
+\Clausula{Linderos (confirmar en campo)}
+\begin{itemize}[leftmargin=1.15cm]
+\item \textbf{Por el Sur:} vía nacional Interoceánica Sur (PE-30C), frente \FrenteM\ m, de P2 (oeste) a P1 (este). El Puente Jayave queda al oeste de la matriz, sobre el río. Faja de derecho de vía a cargo del MTC.
+\item \textbf{Por el Oeste:} el lindero oeste \textbf{real} de las 100 ha (P2 hacia el fondo). Si es irregular, use varios tramos; no trace un oeste «recto» distinto del inscrito.
+\item \textbf{Por el Norte:} línea P3--P4 de \FrenteM\ m, colindante con el remanente del predio matriz (o con el propio lindero norte de la matriz, si el fundo no es más profundo).
+\item \textbf{Por el Este:} línea P4--P1 de \FondoM\ m, colindante con el \textbf{remanente} (\AreaRemanenteHa\ ha) del predio matriz.
+\end{itemize}
+
+\Clausula{Observaciones}
+El fundo queda al \textbf{norte} de la Interoceánica Sur. Hitos en las esquinas y, si el oeste es quebrado, en cada vértice intermedio. Superficie objetivo: \textbf{\AreaIndependizarMetros\ m$^2$} (si un cauce no forma parte del área útil según la partida, el este se corre hasta completar las 10 ha netas).
+
+\Clausula{Declaración de las partes}
+Las partes se obligan a aceptar el área, linderos y coordenadas del levantamiento formal, siempre que se mantenga el objeto: \textbf{diez hectáreas} en franja de \FrenteM\ m de frente desde el \textbf{lindero oeste} de la matriz hacia adentro.
+
+\LugarFecha
+\TresFirmas{EL TITULAR}{\VendedorNombreCompleto\\DNI \VendedorDNI}{COMPRADOR 1}{\CompradorUnoNombre\\DNI \CompradorUnoDNI}{COMPRADORA 2}{\CompradorDosNombre\\DNI \CompradorDosDNI}
+
+\vspace{0.7em}
+\noindent
+\BloqueFirmaSimple{PROFESIONAL QUE LEVANTA Y COMPLETA ESTE CUADRO}{\IngenieroNombre\\CIP \IngenieroCIP}
+
+\end{document}

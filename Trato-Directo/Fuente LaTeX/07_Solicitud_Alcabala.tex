@@ -1,0 +1,73 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+\InicioDocumento{Solicitud de liquidación y constancia del Impuesto de Alcabala}{DOC-07}
+
+\noindent \textbf{SEÑOR ALCALDE / GERENCIA DE RENTAS}\\
+\textbf{\MakeUppercase{\Municipalidad}} \quad (o SAT / órgano que administre el tributo en el distrito de \Distrito)
+
+\vspace{0.3em}
+\noindent \CompradorNombreCompleto, DNI \CompradorDNI, en calidad de \textbf{sujeto pasivo del Impuesto de Alcabala} por la adquisición que se formalizará, con domicilio en \CompradorDomicilio, atentamente \textbf{digo}:
+
+\Clausula{Petitorio}
+Solicito la \textbf{liquidación del Impuesto de Alcabala} y la \textbf{constancia de pago} (o de inafectación, si el tramo no gravado cubre la base imponible), para su presentación ante notario y SUNARP, respecto de la transferencia de un predio rústico de \textbf{10,00 hectáreas} que independizará y venderá el señor \VendedorNombreCompleto.
+
+\Clausula{Datos de la transferencia}
+\renewcommand{\arraystretch}{1.28}
+\noindent\begin{tabularx}{\linewidth}{@{}>{\bfseries}p{4.6cm}>{\raggedright\arraybackslash}X@{}}
+Transferente & \VendedorNombreCompleto, DNI \VendedorDNI \\
+Adquirente & \CompradorNombreCompleto, DNI \CompradorDNI \\
+Acto & Compraventa (título oneroso), no donación \\
+Fecha del documento privado (2018) & \FechaPago \\
+Fecha de formalización (escritura) & \DiaOtorgamiento\ de \MesOtorgamiento\ de \AnioOtorgamiento \\
+Precio convenido & \MontoPago\ (\MontoPagoLetras) \\
+Valor de autoavalúo & \faltante{valor de autoavalúo ajustado que determine la Municipalidad} \\
+Base imponible esperada & El \textbf{mayor} entre el valor de transferencia y el autoavalúo, conforme al art.\ 24 de la Ley de Tributación Municipal \\
+Deducción & Primeras 10 UIT del ejercicio de la transferencia \\
+Inmueble & 10,00 ha a independizar del predio de partida \PartidaMatriz, \UbicacionRegistral, \Distrito, \Provincia, \Departamento \\
+\end{tabularx}
+
+\Clausula{Fundamento}
+Arts.\ 21 a 26 del TUO de la Ley de Tributación Municipal. El alcabala grava transferencias de predios urbanos o rústicos a título oneroso o gratuito. Lo paga el comprador. El notario y el registrador requieren acreditar el pago (o la inafectación) para autorizar e inscribir.
+
+\Clausula{Declaración}
+El adquirente declara que el precio histórico fue \MontoPago\ pagado en efectivo en 2018 y que \textbf{no solicita} se liquide el acto como donación. Si la Municipalidad toma un autoavalúo superior al precio, acepta que la base sea ese mayor valor.
+
+\vspace{0.35em}
+\noindent POR TANTO:\\
+Pido la liquidación, el comprobante y la constancia para notaría.
+
+\LugarFecha
+
+\noindent
+\BloqueFirma{EL ADQUIRENTE (ALCABALA)}{\CompradorNombreCompleto}{\CompradorDNI}
+\hfill
+\BloqueFirmaSimple{ENTERADO EL TRANSFERENTE}{\VendedorNombreCompleto\\DNI \VendedorDNI}
+
+\vspace{0.9em}
+\noindent{\small\textit{Uso municipal --- liquidación}}\\
+{\small
+\begin{tabularx}{\linewidth}{|p{5.6cm}|X|}
+\hline
+Valor de transferencia declarado & \MontoPago \\
+\hline
+Autoavalúo ajustado & \linea[6cm] \\
+\hline
+Base imponible (el mayor) & \linea[6cm] \\
+\hline
+(-) 10 UIT del ejercicio & \linea[6cm] \\
+\hline
+Base neta gravada & \linea[6cm] \\
+\hline
+Impuesto 3\,\% & \linea[6cm] \\
+\hline
+Inafectación / monto a pagar & \linea[6cm] \\
+\hline
+N.º liquidación / constancia & \linea[6cm] \\
+\hline
+Fecha de pago & \linea[6cm] \\
+\hline
+\end{tabularx}}
+
+\end{document}

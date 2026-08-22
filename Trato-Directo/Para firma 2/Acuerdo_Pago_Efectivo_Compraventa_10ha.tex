@@ -1,0 +1,100 @@
+% Copia para firma: precio convenido S/ 20 000.
+% Independiente del expediente (DOC-01..23) y de «Para_Firma» (S/ 6 500).
+% Compilar solo este archivo, en esta carpeta.
+\documentclass[12pt,a4paper]{article}
+\usepackage{expediente}
+\begin{document}
+\input{datos}
+
+% Precio de esta versión (no altera datos.tex del expediente).
+\renewcommand{\MontoPago}{S/\ 20 000{,}00}
+\renewcommand{\MontoPagoLetras}{VEINTE MIL Y 00/100 SOLES}
+
+\pagestyle{empty}
+\renewcommand{\expedienteCorto}{}
+\renewcommand{\codigoDoc}{}
+
+\begin{center}
+{\color{tinta}\rule{0.88\textwidth}{1.6pt}}\\[0.75em]
+{\Large\bfseries\color{tinta}ACUERDO PRIVADO}\\[0.25em]
+{\large\bfseries\color{tinta}RECONOCIMIENTO DE PAGO EN EFECTIVO}\\[0.15em]
+{\large\bfseries\color{tinta}Y COMPRAVENTA DE DIEZ HECTÁREAS}\\[0.45em]
+{\normalsize Distrito de Inambari --- Tambopata --- Madre de Dios}\\[0.35em]
+{\small Precio convenido entre las partes: \textbf{\MontoPago}}\\[0.35em]
+{\color{tinta}\rule{0.88\textwidth}{1.6pt}}
+\end{center}
+
+\vspace{0.55em}
+\begin{center}
+\fcolorbox{aviso}{fondoaviso}{%
+\begin{minipage}{0.90\textwidth}
+\centering\small
+\textbf{Documento privado para firma de las partes.}\\[0.2em]
+No es escritura pública. No transfiere dominio por sí solo ni se presenta a SUNARP.\\
+Las partes reconocen como precio total y único \textbf{\MontoPago}.
+\end{minipage}}
+\end{center}
+
+\vspace{0.85em}
+\noindent En \textbf{\LugarOtorgamiento}, a los \DiaOtorgamiento\ días del mes de \MesOtorgamiento\ de \AnioOtorgamiento, comparecen de pleno acuerdo:
+
+\vspace{0.55em}
+\noindent\textbf{1. EL VENDEDOR}\\[0.2em]
+\textbf{\VendedorNombreCompleto}, DNI N.º\ \VendedorDNI, peruano, estado civil \VendedorEstadoCivil, con domicilio en \linea[8.2cm], titular registral del predio rústico inscrito en la partida electrónica N.º\ \textbf{\PartidaMatriz} del Registro de Predios de la \OficinaRegistral\ (\ZonaRegistral), de un área de \AreaMatriz, U.C.\ \UnidadCatastral, ubicado en \UbicacionRegistral, distrito de \Distrito, provincia de \Provincia, departamento de \Departamento.
+
+\vspace{0.55em}
+\noindent\textbf{2. LOS COMPRADORES}\\[0.2em]
+\textbf{\CompradorUnoNombre}, DNI N.º\ \CompradorUnoDNI, soltero, con domicilio en \CompradorUnoDomicilio; y \textbf{\CompradorDosNombre}, DNI N.º\ \CompradorDosDNI, soltera, con domicilio en \CompradorDosDomicilio; \textbf{\CompradorParentesco}, quienes adquieren en \textbf{copropiedad} a razón de \PorcentajeCopropiedad.
+
+\vspace{0.7em}
+\noindent Las partes \textbf{acuerdan y declaran}:
+
+\vspace{0.45em}
+\noindent\textbf{PRIMERO --- Objeto}\\[0.15em]
+EL VENDEDOR vende a LOS COMPRADORES, y estos compran, un área de \textbf{diez hectáreas exactas (10,00 ha / 100\,000,00 m$^2$)} que se independizará del predio matriz (LOTE A). Ubicación: \CriterioRecorte\ El lote queda al este del Puente Jayave (el puente, sobre el río, queda al oeste), ruta Mazuco--Puerto Maldonado, distrito de Inambari.
+
+\vspace{0.45em}
+\noindent\textbf{SEGUNDO --- Precio}\\[0.15em]
+El precio total, único y convenido de la compraventa es de \textbf{\MontoPago} (\textbf{\MontoPagoLetras}). Las partes declaran que \textbf{ese} es el monto que rige entre ellas. Cualquier otra cifra que aparezca o se lea en un papel anterior deteriorado \textbf{no} modifica este precio.
+
+\vspace{0.45em}
+\noindent\textbf{TERCERO --- Pago en efectivo}\\[0.15em]
+EL VENDEDOR declara haber recibido de LOS COMPRADORES, a su entera satisfacción, la suma de \textbf{\MontoPago} en \textbf{dinero en efectivo}, en fecha \FechaPago\ (a confirmar si se conserva el papel de entonces), \textbf{sin} depósito bancario, transferencia, giro ni otro medio de pago del sistema financiero.
+
+\vspace{0.25em}
+\noindent En consecuencia:
+\begin{itemize}[leftmargin=1.2cm,itemsep=0.25em]
+\item No existe saldo pendiente por las 10 ha.
+\item Nadie podrá exigir de nuevo ese precio ni un monto distinto.
+\item El acto es \textbf{oneroso} (compraventa) y \textbf{no} constituye donación ni adelanto de legítima.
+\end{itemize}
+
+\vspace{0.45em}
+\noindent\textbf{CUARTO --- Formalización}\\[0.15em]
+EL VENDEDOR se obliga a firmar ante notario la \textbf{independización} de las 10 ha y la \textbf{escritura de compraventa} a favor de LOS COMPRADORES, en trato \textbf{directo}, sin intermediario en el título de dominio. LOS COMPRADORES se obligan a gestionar planos, predial, alcabala (o inafectación) y gastos que las partes acuerden. El precio que se insertará en la escritura, salvo pacto notarial posterior, es el de este acuerdo (\MontoPago).
+
+\vspace{0.45em}
+\noindent\textbf{QUINTO --- Remanente}\\[0.15em]
+Este acuerdo \textbf{no} comprende las \AreaRemanenteHa\ hectáreas remanentes del predio matriz, que permanecen a nombre de EL VENDEDOR.
+
+\vspace{0.45em}
+\noindent\textbf{SEXTO --- Efectos}\\[0.15em]
+Este documento es prueba del precio (\MontoPago) y del acuerdo entre las partes. El dominio registral se transferirá solo con la escritura pública e inscripción en SUNARP.
+
+\vspace{0.85em}
+\noindent Leído el presente acuerdo, las partes lo firman de conformidad, estampando su huella dactilar del índice derecho.
+
+\vspace{1.1em}
+\noindent Lugar y fecha: \textbf{\LugarOtorgamiento}, \DiaOtorgamiento\ de \MesOtorgamiento\ de \AnioOtorgamiento.
+
+\vspace{1.35em}
+\TresFirmas{EL VENDEDOR}{\VendedorNombreCompleto\\DNI \VendedorDNI}{COMPRADOR 1}{\CompradorUnoNombre\\DNI \CompradorUnoDNI}{COMPRADORA 2}{\CompradorDosNombre\\DNI \CompradorDosDNI}
+
+\vspace{1.1em}
+\noindent{\small\textit{Testigos (opcionales)}}\\[0.35em]
+\noindent
+\BloqueFirmaSimple{TESTIGO 1}{\linea[11.2cm]}
+\hfill
+\BloqueFirmaSimple{TESTIGO 2}{\linea[11.2cm]}
+
+\end{document}
