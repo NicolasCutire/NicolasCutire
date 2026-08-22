@@ -51,3 +51,4 @@ Orden de los PDF:
   23 Explicación de costos
   24 Recibo de entrega directa del precio (trato sin intermediario)
   25 Casuística remanente Lucio (compraventa vs donación ~90 ha)
+  26 Proceso Lucio a S/ 45 000 (alcabala e IR de Richar)
